@@ -48,11 +48,12 @@ export const SEEDS = {
 };
 
 // Overhyped / bust tag. hype = (POOL_WEIGHT * pool + seed) / (POOL_WEIGHT + 1), lower = more hyped.
-// Play-In teams count as pool 5. Flag a team when its hype rank beats our model rank by BUST_GAP+ places.
+// Play-In teams count as pool 5. Hype and model score are compared on the same scale (0 = average Worlds team):
+// model beats hype by TAG_GAP+ = Underrated, hype beats model by TAG_GAP+ = Bust.
 export const HYPE = {
   POOL_WEIGHT: 2,
   PLAY_IN_POOL: 5,
-  BUST_GAP: 4, // starting value, tune once real scores exist
+  TAG_GAP: 1.0, // in standard steps; 1.0 tags 4 teams each way on current data
 };
 
 // Leaguepedia tournament name (prefix) -> lolesports league slug.
@@ -75,3 +76,19 @@ export const CACHE_PATH = 'data/cache.json';
 
 // Delay between API calls so we stay under rate limits
 export const REQUEST_DELAY_MS = 1500;
+
+// Lead @15 (gold diff + XP diff) within ± this counts as "even": left out of conversion/choke/comeback rates
+export const EVEN_ZONE = 1000;
+
+// Shrink small samples toward the Worlds-field average.
+// k = sample size where a team's own number counts half and the field average counts half.
+export const SHRINK = {
+  games: 10,
+  series: 6,
+};
+
+// Clutch / fragile tag: game rank and series rank this many places apart
+export const TAG_GAP = 4;
+
+// Where the processed team table goes (the app reads this)
+export const OUTPUT_PATH = 'src/data/teams.json';

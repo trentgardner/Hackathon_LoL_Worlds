@@ -1,0 +1,3353 @@
+{
+  "meta": {
+    "generatedAt": "2026-10-14T20:44:17.641Z",
+    "windowStart": "2026-06-28",
+    "games": 665,
+    "lines": {
+      "game": 0,
+      "series": 0
+    },
+    "fieldAverage": {
+      "lead15Adjusted": 1203,
+      "conversionRate": 78.8,
+      "seriesStrength": 0.5
+    }
+  },
+  "teams": [
+    {
+      "name": "Gen.G",
+      "short": "GEN",
+      "region": "Korea",
+      "stage": "Main Event",
+      "seed": 1,
+      "pool": 1,
+      "archetype": "Powerhouse",
+      "tags": {
+        "clutch": null,
+        "bust": false,
+        "underrated": false,
+        "grit": false
+      },
+      "scores": {
+        "game": 1.1,
+        "series": 1.79,
+        "overall": 1.45,
+        "consistency": -0.04
+      },
+      "ranks": {
+        "model": 1,
+        "game": 3,
+        "series": 2,
+        "hype": 1
+      },
+      "game": {
+        "games": 53,
+        "winRate": 60.4,
+        "lead15Raw": -9,
+        "lead15Adjusted": 3335,
+        "goldDiff15": 0,
+        "xpDiff15": -8,
+        "conversionRate": 86.4,
+        "chokeRate": 13.6,
+        "comebackRate": 38.9,
+        "ceiling": 15184,
+        "swingSpread": 9043
+      },
+      "series": {
+        "series": 17,
+        "winRate": 64,
+        "strength": 1.22,
+        "sweepRate": 52.7,
+        "closeSeriesWinRate": 48.5,
+        "reverseSweeps": 0
+      },
+      "matches": [
+        {
+          "opponent": "Karmine Corp",
+          "score": "1-0",
+          "won": true,
+          "tournament": "Esports World Cup 2026",
+          "date": "2026-07-15"
+        },
+        {
+          "opponent": "Sentinels",
+          "score": "1-0",
+          "won": true,
+          "tournament": "Esports World Cup 2026",
+          "date": "2026-07-16"
+        },
+        {
+          "opponent": "JD Gaming",
+          "score": "2-0",
+          "won": true,
+          "tournament": "Esports World Cup 2026",
+          "date": "2026-07-17"
+        },
+        {
+          "opponent": "Dplus Kia",
+          "score": "1-2",
+          "won": false,
+          "tournament": "Esports World Cup 2026",
+          "date": "2026-07-18"
+        },
+        {
+          "opponent": "T1",
+          "score": "2-1",
+          "won": true,
+          "tournament": "Esports World Cup 2026",
+          "date": "2026-07-19"
+        },
+        {
+          "opponent": "Hanwha Life Esports",
+          "score": "0-1",
+          "won": false,
+          "tournament": "KeSPA Cup 2026",
+          "date": "2026-07-21"
+        },
+        {
+          "opponent": "T1",
+          "score": "0-1",
+          "won": false,
+          "tournament": "KeSPA Cup 2026",
+          "date": "2026-07-21"
+        },
+        {
+          "opponent": "HANJIN BRION",
+          "score": "0-1",
+          "won": false,
+          "tournament": "KeSPA Cup 2026",
+          "date": "2026-07-21"
+        },
+        {
+          "opponent": "BNK FEARX",
+          "score": "1-0",
+          "won": true,
+          "tournament": "KeSPA Cup 2026",
+          "date": "2026-07-27"
+        },
+        {
+          "opponent": "KT Rolster",
+          "score": "1-0",
+          "won": true,
+          "tournament": "KeSPA Cup 2026",
+          "date": "2026-07-27"
+        },
+        {
+          "opponent": "T1",
+          "score": "0-2",
+          "won": false,
+          "tournament": "LCK 2026 Rounds 3-4",
+          "date": "2026-07-31"
+        },
+        {
+          "opponent": "Dplus Kia",
+          "score": "0-1",
+          "won": false,
+          "tournament": "LCK 2026 Rounds 3-4",
+          "date": "2026-08-01"
+        },
+        {
+          "opponent": "Hanwha Life Esports",
+          "score": "0-2",
+          "won": false,
+          "tournament": "KeSPA Cup 2026",
+          "date": "2026-08-03"
+        },
+        {
+          "opponent": "DN SOOPers",
+          "score": "2-0",
+          "won": true,
+          "tournament": "KeSPA Cup 2026",
+          "date": "2026-08-04"
+        },
+        {
+          "opponent": "Hanwha Life Esports",
+          "score": "2-1",
+          "won": true,
+          "tournament": "LCK 2026 Rounds 3-4",
+          "date": "2026-08-05"
+        },
+        {
+          "opponent": "KT Rolster",
+          "score": "2-0",
+          "won": true,
+          "tournament": "LCK 2026 Rounds 3-4",
+          "date": "2026-08-07"
+        },
+        {
+          "opponent": "Hanwha Life Esports",
+          "score": "1-2",
+          "won": false,
+          "tournament": "KeSPA Cup 2026",
+          "date": "2026-08-10"
+        },
+        {
+          "opponent": "DN SOOPers",
+          "score": "0-2",
+          "won": false,
+          "tournament": "KeSPA Cup 2026",
+          "date": "2026-08-10"
+        },
+        {
+          "opponent": "Hanwha Life Esports",
+          "score": "2-0",
+          "won": true,
+          "tournament": "LCK 2026 Rounds 3-4",
+          "date": "2026-08-13"
+        },
+        {
+          "opponent": "T1",
+          "score": "2-0",
+          "won": true,
+          "tournament": "LCK 2026 Rounds 3-4",
+          "date": "2026-08-16"
+        },
+        {
+          "opponent": "KT Rolster",
+          "score": "2-1",
+          "won": true,
+          "tournament": "LCK 2026 Rounds 3-4",
+          "date": "2026-08-19"
+        },
+        {
+          "opponent": "Dplus Kia",
+          "score": "1-2",
+          "won": false,
+          "tournament": "LCK 2026 Rounds 3-4",
+          "date": "2026-08-22"
+        },
+        {
+          "opponent": "KT Rolster",
+          "score": "3-0",
+          "won": true,
+          "tournament": "LCK 2026 Season Playoffs",
+          "date": "2026-09-01"
+        },
+        {
+          "opponent": "Hanwha Life Esports",
+          "score": "3-1",
+          "won": true,
+          "tournament": "LCK 2026 Season Playoffs",
+          "date": "2026-09-05"
+        },
+        {
+          "opponent": "Hanwha Life Esports",
+          "score": "3-1",
+          "won": true,
+          "tournament": "LCK 2026 Season Playoffs",
+          "date": "2026-09-13"
+        }
+      ],
+      "report": null
+    },
+    {
+      "name": "Hanwha Life Esports",
+      "short": "HLE",
+      "region": "Korea",
+      "stage": "Main Event",
+      "seed": 2,
+      "pool": 2,
+      "archetype": "Powerhouse",
+      "tags": {
+        "clutch": null,
+        "bust": false,
+        "underrated": false,
+        "grit": true
+      },
+      "scores": {
+        "game": 1.11,
+        "series": 1.45,
+        "overall": 1.28,
+        "consistency": -0.01
+      },
+      "ranks": {
+        "model": 2,
+        "game": 2,
+        "series": 3,
+        "hype": 7
+      },
+      "game": {
+        "games": 78,
+        "winRate": 56.7,
+        "lead15Raw": 1363,
+        "lead15Adjusted": 4052,
+        "goldDiff15": 783,
+        "xpDiff15": 580,
+        "conversionRate": 79.4,
+        "chokeRate": 20.6,
+        "comebackRate": 21.6,
+        "ceiling": 15607,
+        "swingSpread": 9027
+      },
+      "series": {
+        "series": 22,
+        "winRate": 57.3,
+        "strength": 1.04,
+        "sweepRate": 43.7,
+        "closeSeriesWinRate": 64.8,
+        "reverseSweeps": 1
+      },
+      "matches": [
+        {
+          "opponent": "Team Secret Whales",
+          "score": "3-0",
+          "won": true,
+          "tournament": "MSI 2026",
+          "date": "2026-07-03"
+        },
+        {
+          "opponent": "G2 Esports",
+          "score": "3-0",
+          "won": true,
+          "tournament": "MSI 2026",
+          "date": "2026-07-05"
+        },
+        {
+          "opponent": "Bilibili Gaming",
+          "score": "1-3",
+          "won": false,
+          "tournament": "MSI 2026",
+          "date": "2026-07-09"
+        },
+        {
+          "opponent": "LYON (2024 American Team)",
+          "score": "3-2",
+          "won": true,
+          "tournament": "MSI 2026",
+          "date": "2026-07-11"
+        },
+        {
+          "opponent": "Bilibili Gaming",
+          "score": "3-2",
+          "won": true,
+          "tournament": "MSI 2026",
+          "date": "2026-07-12"
+        },
+        {
+          "opponent": "MIBR.LOS",
+          "score": "1-0",
+          "won": true,
+          "tournament": "Esports World Cup 2026",
+          "date": "2026-07-15"
+        },
+        {
+          "opponent": "JD Gaming",
+          "score": "1-0",
+          "won": true,
+          "tournament": "Esports World Cup 2026",
+          "date": "2026-07-16"
+        },
+        {
+          "opponent": "T1",
+          "score": "0-2",
+          "won": false,
+          "tournament": "Esports World Cup 2026",
+          "date": "2026-07-17"
+        },
+        {
+          "opponent": "Gen.G",
+          "score": "1-0",
+          "won": true,
+          "tournament": "KeSPA Cup 2026",
+          "date": "2026-07-21"
+        },
+        {
+          "opponent": "Nongshim RedForce",
+          "score": "1-0",
+          "won": true,
+          "tournament": "KeSPA Cup 2026",
+          "date": "2026-07-21"
+        },
+        {
+          "opponent": "DN SOOPers",
+          "score": "0-1",
+          "won": false,
+          "tournament": "KeSPA Cup 2026",
+          "date": "2026-07-21"
+        },
+        {
+          "opponent": "Dplus Kia",
+          "score": "1-0",
+          "won": true,
+          "tournament": "KeSPA Cup 2026",
+          "date": "2026-07-27"
+        },
+        {
+          "opponent": "Kiwoom DRX",
+          "score": "1-0",
+          "won": true,
+          "tournament": "KeSPA Cup 2026",
+          "date": "2026-07-27"
+        },
+        {
+          "opponent": "Dplus Kia",
+          "score": "1-2",
+          "won": false,
+          "tournament": "LCK 2026 Rounds 3-4",
+          "date": "2026-07-30"
+        },
+        {
+          "opponent": "KT Rolster",
+          "score": "1-2",
+          "won": false,
+          "tournament": "LCK 2026 Rounds 3-4",
+          "date": "2026-08-02"
+        },
+        {
+          "opponent": "Gen.G",
+          "score": "2-0",
+          "won": true,
+          "tournament": "KeSPA Cup 2026",
+          "date": "2026-08-03"
+        },
+        {
+          "opponent": "T1",
+          "score": "1-2",
+          "won": false,
+          "tournament": "KeSPA Cup 2026",
+          "date": "2026-08-04"
+        },
+        {
+          "opponent": "Gen.G",
+          "score": "1-2",
+          "won": false,
+          "tournament": "LCK 2026 Rounds 3-4",
+          "date": "2026-08-05"
+        },
+        {
+          "opponent": "T1",
+          "score": "2-1",
+          "won": true,
+          "tournament": "LCK 2026 Rounds 3-4",
+          "date": "2026-08-08"
+        },
+        {
+          "opponent": "Gen.G",
+          "score": "2-1",
+          "won": true,
+          "tournament": "KeSPA Cup 2026",
+          "date": "2026-08-10"
+        },
+        {
+          "opponent": "DN SOOPers",
+          "score": "0-3",
+          "won": false,
+          "tournament": "KeSPA Cup 2026",
+          "date": "2026-08-11"
+        },
+        {
+          "opponent": "Gen.G",
+          "score": "0-2",
+          "won": false,
+          "tournament": "LCK 2026 Rounds 3-4",
+          "date": "2026-08-13"
+        },
+        {
+          "opponent": "KT Rolster",
+          "score": "2-1",
+          "won": true,
+          "tournament": "LCK 2026 Rounds 3-4",
+          "date": "2026-08-15"
+        },
+        {
+          "opponent": "Dplus Kia",
+          "score": "2-0",
+          "won": true,
+          "tournament": "LCK 2026 Rounds 3-4",
+          "date": "2026-08-20"
+        },
+        {
+          "opponent": "T1",
+          "score": "2-0",
+          "won": true,
+          "tournament": "LCK 2026 Rounds 3-4",
+          "date": "2026-08-23"
+        },
+        {
+          "opponent": "T1",
+          "score": "3-2",
+          "won": true,
+          "tournament": "LCK 2026 Season Playoffs",
+          "date": "2026-09-02"
+        },
+        {
+          "opponent": "Gen.G",
+          "score": "1-3",
+          "won": false,
+          "tournament": "LCK 2026 Season Playoffs",
+          "date": "2026-09-05"
+        },
+        {
+          "opponent": "T1",
+          "score": "3-1",
+          "won": true,
+          "tournament": "LCK 2026 Season Playoffs",
+          "date": "2026-09-12"
+        },
+        {
+          "opponent": "Gen.G",
+          "score": "1-3",
+          "won": false,
+          "tournament": "LCK 2026 Season Playoffs",
+          "date": "2026-09-13"
+        }
+      ],
+      "report": null
+    },
+    {
+      "name": "Bilibili Gaming",
+      "short": "BLG",
+      "region": "China",
+      "stage": "Main Event",
+      "seed": 2,
+      "pool": 2,
+      "archetype": "Powerhouse",
+      "tags": {
+        "clutch": null,
+        "bust": false,
+        "underrated": false,
+        "grit": false
+      },
+      "scores": {
+        "game": 1.33,
+        "series": 1.01,
+        "overall": 1.17,
+        "consistency": 1.21
+      },
+      "ranks": {
+        "model": 3,
+        "game": 1,
+        "series": 4,
+        "hype": 7
+      },
+      "game": {
+        "games": 68,
+        "winRate": 66.4,
+        "lead15Raw": 1627,
+        "lead15Adjusted": 3625,
+        "goldDiff15": 936,
+        "xpDiff15": 690,
+        "conversionRate": 90.7,
+        "chokeRate": 9.3,
+        "comebackRate": 29.2,
+        "ceiling": 14505,
+        "swingSpread": 8272
+      },
+      "series": {
+        "series": 22,
+        "winRate": 74.3,
+        "strength": 0.88,
+        "sweepRate": 45.2,
+        "closeSeriesWinRate": 64.2,
+        "reverseSweeps": 0
+      },
+      "matches": [
+        {
+          "opponent": "T1",
+          "score": "3-2",
+          "won": true,
+          "tournament": "MSI 2026",
+          "date": "2026-07-04"
+        },
+        {
+          "opponent": "LYON (2024 American Team)",
+          "score": "3-0",
+          "won": true,
+          "tournament": "MSI 2026",
+          "date": "2026-07-06"
+        },
+        {
+          "opponent": "Hanwha Life Esports",
+          "score": "3-1",
+          "won": true,
+          "tournament": "MSI 2026",
+          "date": "2026-07-09"
+        },
+        {
+          "opponent": "Hanwha Life Esports",
+          "score": "2-3",
+          "won": false,
+          "tournament": "MSI 2026",
+          "date": "2026-07-12"
+        },
+        {
+          "opponent": "Movistar KOI",
+          "score": "1-0",
+          "won": true,
+          "tournament": "Esports World Cup 2026",
+          "date": "2026-07-15"
+        },
+        {
+          "opponent": "T1",
+          "score": "1-0",
+          "won": true,
+          "tournament": "Esports World Cup 2026",
+          "date": "2026-07-16"
+        },
+        {
+          "opponent": "Dplus Kia",
+          "score": "1-2",
+          "won": false,
+          "tournament": "Esports World Cup 2026",
+          "date": "2026-07-17"
+        },
+        {
+          "opponent": "ThunderTalk Gaming",
+          "score": "2-1",
+          "won": true,
+          "tournament": "LPL 2026 Split 3",
+          "date": "2026-07-23"
+        },
+        {
+          "opponent": "EDward Gaming",
+          "score": "2-1",
+          "won": true,
+          "tournament": "LPL 2026 Split 3",
+          "date": "2026-07-24"
+        },
+        {
+          "opponent": "Anyone's Legend",
+          "score": "2-1",
+          "won": true,
+          "tournament": "LPL 2026 Split 3",
+          "date": "2026-07-26"
+        },
+        {
+          "opponent": "LGD Gaming",
+          "score": "2-1",
+          "won": true,
+          "tournament": "LPL 2026 Split 3",
+          "date": "2026-07-29"
+        },
+        {
+          "opponent": "Team WE",
+          "score": "2-0",
+          "won": true,
+          "tournament": "LPL 2026 Split 3",
+          "date": "2026-07-31"
+        },
+        {
+          "opponent": "JD Gaming",
+          "score": "2-0",
+          "won": true,
+          "tournament": "LPL 2026 Split 3",
+          "date": "2026-08-01"
+        },
+        {
+          "opponent": "Top Esports",
+          "score": "0-2",
+          "won": false,
+          "tournament": "LPL 2026 Split 3",
+          "date": "2026-08-07"
+        },
+        {
+          "opponent": "EDward Gaming",
+          "score": "2-0",
+          "won": true,
+          "tournament": "LPL 2026 Split 3",
+          "date": "2026-08-08"
+        },
+        {
+          "opponent": "JD Gaming",
+          "score": "1-2",
+          "won": false,
+          "tournament": "LPL 2026 Split 3",
+          "date": "2026-08-12"
+        },
+        {
+          "opponent": "ThunderTalk Gaming",
+          "score": "2-0",
+          "won": true,
+          "tournament": "LPL 2026 Split 3",
+          "date": "2026-08-13"
+        },
+        {
+          "opponent": "Team WE",
+          "score": "2-0",
+          "won": true,
+          "tournament": "LPL 2026 Split 3",
+          "date": "2026-08-15"
+        },
+        {
+          "opponent": "LGD Gaming",
+          "score": "2-1",
+          "won": true,
+          "tournament": "LPL 2026 Split 3",
+          "date": "2026-08-20"
+        },
+        {
+          "opponent": "Top Esports",
+          "score": "2-0",
+          "won": true,
+          "tournament": "LPL 2026 Split 3",
+          "date": "2026-08-21"
+        },
+        {
+          "opponent": "Anyone's Legend",
+          "score": "2-1",
+          "won": true,
+          "tournament": "LPL 2026 Split 3",
+          "date": "2026-08-23"
+        },
+        {
+          "opponent": "Team WE",
+          "score": "3-1",
+          "won": true,
+          "tournament": "LPL 2026 Grand Finals",
+          "date": "2026-09-03"
+        },
+        {
+          "opponent": "Anyone's Legend",
+          "score": "3-0",
+          "won": true,
+          "tournament": "LPL 2026 Grand Finals",
+          "date": "2026-09-07"
+        },
+        {
+          "opponent": "Anyone's Legend",
+          "score": "1-3",
+          "won": false,
+          "tournament": "LPL 2026 Grand Finals",
+          "date": "2026-09-13"
+        }
+      ],
+      "report": null
+    },
+    {
+      "name": "Dplus Kia",
+      "short": "DK",
+      "region": "Korea",
+      "stage": "Main Event",
+      "seed": 4,
+      "pool": 4,
+      "archetype": "Powerhouse",
+      "tags": {
+        "clutch": "Clutch",
+        "bust": false,
+        "underrated": true,
+        "grit": true
+      },
+      "scores": {
+        "game": 0.46,
+        "series": 1.8,
+        "overall": 1.13,
+        "consistency": -0.02
+      },
+      "ranks": {
+        "model": 4,
+        "game": 6,
+        "series": 1,
+        "hype": 14
+      },
+      "game": {
+        "games": 54,
+        "winRate": 56.5,
+        "lead15Raw": 951,
+        "lead15Adjusted": 3417,
+        "goldDiff15": 282,
+        "xpDiff15": 669,
+        "conversionRate": 69.4,
+        "chokeRate": 30.6,
+        "comebackRate": 34.5,
+        "ceiling": 14267,
+        "swingSpread": 9032
+      },
+      "series": {
+        "series": 16,
+        "winRate": 77.6,
+        "strength": 1.23,
+        "sweepRate": 37.9,
+        "closeSeriesWinRate": 100,
+        "reverseSweeps": 1
+      },
+      "matches": [
+        {
+          "opponent": "AG.AL",
+          "score": "0-1",
+          "won": false,
+          "tournament": "Esports World Cup 2026",
+          "date": "2026-07-15"
+        },
+        {
+          "opponent": "FURIA",
+          "score": "2-0",
+          "won": true,
+          "tournament": "Esports World Cup 2026",
+          "date": "2026-07-15"
+        },
+        {
+          "opponent": "G2 Esports",
+          "score": "2-0",
+          "won": true,
+          "tournament": "Esports World Cup 2026",
+          "date": "2026-07-16"
+        },
+        {
+          "opponent": "Bilibili Gaming",
+          "score": "2-1",
+          "won": true,
+          "tournament": "Esports World Cup 2026",
+          "date": "2026-07-17"
+        },
+        {
+          "opponent": "Gen.G",
+          "score": "2-1",
+          "won": true,
+          "tournament": "Esports World Cup 2026",
+          "date": "2026-07-18"
+        },
+        {
+          "opponent": "Karmine Corp",
+          "score": "3-0",
+          "won": true,
+          "tournament": "Esports World Cup 2026",
+          "date": "2026-07-19"
+        },
+        {
+          "opponent": "BNK FEARX",
+          "score": "0-1",
+          "won": false,
+          "tournament": "KeSPA Cup 2026",
+          "date": "2026-07-21"
+        },
+        {
+          "opponent": "KT Rolster",
+          "score": "0-1",
+          "won": false,
+          "tournament": "KeSPA Cup 2026",
+          "date": "2026-07-21"
+        },
+        {
+          "opponent": "Hanwha Life Esports",
+          "score": "0-1",
+          "won": false,
+          "tournament": "KeSPA Cup 2026",
+          "date": "2026-07-27"
+        },
+        {
+          "opponent": "T1",
+          "score": "0-1",
+          "won": false,
+          "tournament": "KeSPA Cup 2026",
+          "date": "2026-07-27"
+        },
+        {
+          "opponent": "HANJIN BRION",
+          "score": "0-1",
+          "won": false,
+          "tournament": "KeSPA Cup 2026",
+          "date": "2026-07-27"
+        },
+        {
+          "opponent": "Hanwha Life Esports",
+          "score": "2-1",
+          "won": true,
+          "tournament": "LCK 2026 Rounds 3-4",
+          "date": "2026-07-30"
+        },
+        {
+          "opponent": "Gen.G",
+          "score": "1-0",
+          "won": true,
+          "tournament": "LCK 2026 Rounds 3-4",
+          "date": "2026-08-01"
+        },
+        {
+          "opponent": "T1",
+          "score": "0-2",
+          "won": false,
+          "tournament": "LCK 2026 Rounds 3-4",
+          "date": "2026-08-06"
+        },
+        {
+          "opponent": "KT Rolster",
+          "score": "2-1",
+          "won": true,
+          "tournament": "LCK 2026 Rounds 3-4",
+          "date": "2026-08-09"
+        },
+        {
+          "opponent": "KT Rolster",
+          "score": "2-0",
+          "won": true,
+          "tournament": "LCK 2026 Rounds 3-4",
+          "date": "2026-08-12"
+        },
+        {
+          "opponent": "T1",
+          "score": "2-1",
+          "won": true,
+          "tournament": "LCK 2026 Rounds 3-4",
+          "date": "2026-08-14"
+        },
+        {
+          "opponent": "Hanwha Life Esports",
+          "score": "0-2",
+          "won": false,
+          "tournament": "LCK 2026 Rounds 3-4",
+          "date": "2026-08-20"
+        },
+        {
+          "opponent": "Gen.G",
+          "score": "2-1",
+          "won": true,
+          "tournament": "LCK 2026 Rounds 3-4",
+          "date": "2026-08-22"
+        },
+        {
+          "opponent": "KT Rolster",
+          "score": "0-3",
+          "won": false,
+          "tournament": "LCK 2026 Season Playoffs",
+          "date": "2026-08-30"
+        },
+        {
+          "opponent": "BNK FEARX",
+          "score": "3-2",
+          "won": true,
+          "tournament": "LCK 2026 Season Playoffs",
+          "date": "2026-09-03"
+        },
+        {
+          "opponent": "KT Rolster",
+          "score": "3-1",
+          "won": true,
+          "tournament": "LCK 2026 Season Playoffs",
+          "date": "2026-09-04"
+        },
+        {
+          "opponent": "T1",
+          "score": "1-3",
+          "won": false,
+          "tournament": "LCK 2026 Season Playoffs",
+          "date": "2026-09-06"
+        }
+      ],
+      "report": null
+    },
+    {
+      "name": "T1",
+      "short": "T1",
+      "region": "Korea",
+      "stage": "Main Event",
+      "seed": 3,
+      "pool": 3,
+      "archetype": "Powerhouse",
+      "tags": {
+        "clutch": null,
+        "bust": false,
+        "underrated": false,
+        "grit": false
+      },
+      "scores": {
+        "game": 0.5,
+        "series": 0.77,
+        "overall": 0.63,
+        "consistency": 0.77
+      },
+      "ranks": {
+        "model": 5,
+        "game": 5,
+        "series": 5,
+        "hype": 11
+      },
+      "game": {
+        "games": 85,
+        "winRate": 57.9,
+        "lead15Raw": 1062,
+        "lead15Adjusted": 3218,
+        "goldDiff15": 514,
+        "xpDiff15": 548,
+        "conversionRate": 69,
+        "chokeRate": 31,
+        "comebackRate": 34.8,
+        "ceiling": 15201,
+        "swingSpread": 8539
+      },
+      "series": {
+        "series": 25,
+        "winRate": 50.7,
+        "strength": 0.78,
+        "sweepRate": 75.7,
+        "closeSeriesWinRate": 24.1,
+        "reverseSweeps": 0
+      },
+      "matches": [
+        {
+          "opponent": "Team Liquid",
+          "score": "3-0",
+          "won": true,
+          "tournament": "MSI 2026",
+          "date": "2026-06-28"
+        },
+        {
+          "opponent": "Karmine Corp",
+          "score": "3-0",
+          "won": true,
+          "tournament": "MSI 2026",
+          "date": "2026-06-29"
+        },
+        {
+          "opponent": "Team Liquid",
+          "score": "3-0",
+          "won": true,
+          "tournament": "MSI 2026",
+          "date": "2026-07-01"
+        },
+        {
+          "opponent": "Bilibili Gaming",
+          "score": "2-3",
+          "won": false,
+          "tournament": "MSI 2026",
+          "date": "2026-07-04"
+        },
+        {
+          "opponent": "FURIA",
+          "score": "3-0",
+          "won": true,
+          "tournament": "MSI 2026",
+          "date": "2026-07-06"
+        },
+        {
+          "opponent": "G2 Esports",
+          "score": "1-3",
+          "won": false,
+          "tournament": "MSI 2026",
+          "date": "2026-07-08"
+        },
+        {
+          "opponent": "GAM Esports",
+          "score": "1-0",
+          "won": true,
+          "tournament": "Esports World Cup 2026",
+          "date": "2026-07-15"
+        },
+        {
+          "opponent": "Bilibili Gaming",
+          "score": "0-1",
+          "won": false,
+          "tournament": "Esports World Cup 2026",
+          "date": "2026-07-16"
+        },
+        {
+          "opponent": "GAM Esports",
+          "score": "2-0",
+          "won": true,
+          "tournament": "Esports World Cup 2026",
+          "date": "2026-07-16"
+        },
+        {
+          "opponent": "Hanwha Life Esports",
+          "score": "2-0",
+          "won": true,
+          "tournament": "Esports World Cup 2026",
+          "date": "2026-07-17"
+        },
+        {
+          "opponent": "Karmine Corp",
+          "score": "1-2",
+          "won": false,
+          "tournament": "Esports World Cup 2026",
+          "date": "2026-07-18"
+        },
+        {
+          "opponent": "Gen.G",
+          "score": "1-2",
+          "won": false,
+          "tournament": "Esports World Cup 2026",
+          "date": "2026-07-19"
+        },
+        {
+          "opponent": "Gen.G",
+          "score": "1-0",
+          "won": true,
+          "tournament": "KeSPA Cup 2026",
+          "date": "2026-07-21"
+        },
+        {
+          "opponent": "Kiwoom DRX",
+          "score": "1-0",
+          "won": true,
+          "tournament": "KeSPA Cup 2026",
+          "date": "2026-07-21"
+        },
+        {
+          "opponent": "Dplus Kia",
+          "score": "1-0",
+          "won": true,
+          "tournament": "KeSPA Cup 2026",
+          "date": "2026-07-27"
+        },
+        {
+          "opponent": "Nongshim RedForce",
+          "score": "0-1",
+          "won": false,
+          "tournament": "KeSPA Cup 2026",
+          "date": "2026-07-27"
+        },
+        {
+          "opponent": "DN SOOPers",
+          "score": "1-0",
+          "won": true,
+          "tournament": "KeSPA Cup 2026",
+          "date": "2026-07-27"
+        },
+        {
+          "opponent": "KT Rolster",
+          "score": "0-2",
+          "won": false,
+          "tournament": "LCK 2026 Rounds 3-4",
+          "date": "2026-07-29"
+        },
+        {
+          "opponent": "Gen.G",
+          "score": "2-0",
+          "won": true,
+          "tournament": "LCK 2026 Rounds 3-4",
+          "date": "2026-07-31"
+        },
+        {
+          "opponent": "Nongshim RedForce",
+          "score": "1-2",
+          "won": false,
+          "tournament": "KeSPA Cup 2026",
+          "date": "2026-08-03"
+        },
+        {
+          "opponent": "Hanwha Life Esports",
+          "score": "2-1",
+          "won": true,
+          "tournament": "KeSPA Cup 2026",
+          "date": "2026-08-04"
+        },
+        {
+          "opponent": "Dplus Kia",
+          "score": "2-0",
+          "won": true,
+          "tournament": "LCK 2026 Rounds 3-4",
+          "date": "2026-08-06"
+        },
+        {
+          "opponent": "Hanwha Life Esports",
+          "score": "1-2",
+          "won": false,
+          "tournament": "LCK 2026 Rounds 3-4",
+          "date": "2026-08-08"
+        },
+        {
+          "opponent": "Dplus Kia",
+          "score": "1-2",
+          "won": false,
+          "tournament": "LCK 2026 Rounds 3-4",
+          "date": "2026-08-14"
+        },
+        {
+          "opponent": "Gen.G",
+          "score": "0-2",
+          "won": false,
+          "tournament": "LCK 2026 Rounds 3-4",
+          "date": "2026-08-16"
+        },
+        {
+          "opponent": "DN SOOPers",
+          "score": "1-3",
+          "won": false,
+          "tournament": "KeSPA Cup 2026",
+          "date": "2026-08-17"
+        },
+        {
+          "opponent": "KT Rolster",
+          "score": "2-1",
+          "won": true,
+          "tournament": "LCK 2026 Rounds 3-4",
+          "date": "2026-08-21"
+        },
+        {
+          "opponent": "Hanwha Life Esports",
+          "score": "0-2",
+          "won": false,
+          "tournament": "LCK 2026 Rounds 3-4",
+          "date": "2026-08-23"
+        },
+        {
+          "opponent": "BNK FEARX",
+          "score": "3-2",
+          "won": true,
+          "tournament": "LCK 2026 Season Playoffs",
+          "date": "2026-08-29"
+        },
+        {
+          "opponent": "Hanwha Life Esports",
+          "score": "2-3",
+          "won": false,
+          "tournament": "LCK 2026 Season Playoffs",
+          "date": "2026-09-02"
+        },
+        {
+          "opponent": "Dplus Kia",
+          "score": "3-1",
+          "won": true,
+          "tournament": "LCK 2026 Season Playoffs",
+          "date": "2026-09-06"
+        },
+        {
+          "opponent": "Hanwha Life Esports",
+          "score": "1-3",
+          "won": false,
+          "tournament": "LCK 2026 Season Playoffs",
+          "date": "2026-09-12"
+        }
+      ],
+      "report": null
+    },
+    {
+      "name": "Anyone's Legend",
+      "short": "AL",
+      "region": "China",
+      "stage": "Main Event",
+      "seed": 1,
+      "pool": 1,
+      "archetype": "Powerhouse",
+      "tags": {
+        "clutch": "Fragile",
+        "bust": false,
+        "underrated": false,
+        "grit": false
+      },
+      "scores": {
+        "game": 0.82,
+        "series": 0.01,
+        "overall": 0.42,
+        "consistency": 1.04
+      },
+      "ranks": {
+        "model": 6,
+        "game": 4,
+        "series": 9,
+        "hype": 1
+      },
+      "game": {
+        "games": 52,
+        "winRate": 58.4,
+        "lead15Raw": 926,
+        "lead15Adjusted": 2400,
+        "goldDiff15": 510,
+        "xpDiff15": 416,
+        "conversionRate": 89.7,
+        "chokeRate": 10.3,
+        "comebackRate": 25.7,
+        "ceiling": 12696,
+        "swingSpread": 8372
+      },
+      "series": {
+        "series": 18,
+        "winRate": 64.6,
+        "strength": 0.5,
+        "sweepRate": 41.2,
+        "closeSeriesWinRate": 52.5,
+        "reverseSweeps": 0
+      },
+      "matches": [
+        {
+          "opponent": "JD Gaming",
+          "score": "2-1",
+          "won": true,
+          "tournament": "LPL 2026 Split 3",
+          "date": "2026-07-23"
+        },
+        {
+          "opponent": "LGD Gaming",
+          "score": "2-0",
+          "won": true,
+          "tournament": "LPL 2026 Split 3",
+          "date": "2026-07-24"
+        },
+        {
+          "opponent": "Bilibili Gaming",
+          "score": "1-2",
+          "won": false,
+          "tournament": "LPL 2026 Split 3",
+          "date": "2026-07-26"
+        },
+        {
+          "opponent": "Top Esports",
+          "score": "2-0",
+          "won": true,
+          "tournament": "LPL 2026 Split 3",
+          "date": "2026-07-29"
+        },
+        {
+          "opponent": "EDward Gaming",
+          "score": "2-0",
+          "won": true,
+          "tournament": "LPL 2026 Split 3",
+          "date": "2026-07-31"
+        },
+        {
+          "opponent": "ThunderTalk Gaming",
+          "score": "2-0",
+          "won": true,
+          "tournament": "LPL 2026 Split 3",
+          "date": "2026-08-01"
+        },
+        {
+          "opponent": "Team WE",
+          "score": "0-2",
+          "won": false,
+          "tournament": "LPL 2026 Split 3",
+          "date": "2026-08-06"
+        },
+        {
+          "opponent": "LGD Gaming",
+          "score": "2-0",
+          "won": true,
+          "tournament": "LPL 2026 Split 3",
+          "date": "2026-08-08"
+        },
+        {
+          "opponent": "EDward Gaming",
+          "score": "2-1",
+          "won": true,
+          "tournament": "LPL 2026 Split 3",
+          "date": "2026-08-12"
+        },
+        {
+          "opponent": "JD Gaming",
+          "score": "2-1",
+          "won": true,
+          "tournament": "LPL 2026 Split 3",
+          "date": "2026-08-14"
+        },
+        {
+          "opponent": "ThunderTalk Gaming",
+          "score": "2-1",
+          "won": true,
+          "tournament": "LPL 2026 Split 3",
+          "date": "2026-08-15"
+        },
+        {
+          "opponent": "Top Esports",
+          "score": "1-2",
+          "won": false,
+          "tournament": "LPL 2026 Split 3",
+          "date": "2026-08-19"
+        },
+        {
+          "opponent": "Team WE",
+          "score": "1-2",
+          "won": false,
+          "tournament": "LPL 2026 Split 3",
+          "date": "2026-08-21"
+        },
+        {
+          "opponent": "Bilibili Gaming",
+          "score": "1-2",
+          "won": false,
+          "tournament": "LPL 2026 Split 3",
+          "date": "2026-08-23"
+        },
+        {
+          "opponent": "LGD Gaming",
+          "score": "3-1",
+          "won": true,
+          "tournament": "LPL 2026 Grand Finals",
+          "date": "2026-09-04"
+        },
+        {
+          "opponent": "Bilibili Gaming",
+          "score": "0-3",
+          "won": false,
+          "tournament": "LPL 2026 Grand Finals",
+          "date": "2026-09-07"
+        },
+        {
+          "opponent": "Invictus Gaming",
+          "score": "3-2",
+          "won": true,
+          "tournament": "LPL 2026 Grand Finals",
+          "date": "2026-09-12"
+        },
+        {
+          "opponent": "Bilibili Gaming",
+          "score": "3-1",
+          "won": true,
+          "tournament": "LPL 2026 Grand Finals",
+          "date": "2026-09-13"
+        }
+      ],
+      "report": null
+    },
+    {
+      "name": "Invictus Gaming",
+      "short": "iG",
+      "region": "China",
+      "stage": "Main Event",
+      "seed": 4,
+      "pool": 4,
+      "archetype": "Dark horse",
+      "tags": {
+        "clutch": null,
+        "bust": false,
+        "underrated": true,
+        "grit": false
+      },
+      "scores": {
+        "game": 0.42,
+        "series": -0.04,
+        "overall": 0.19,
+        "consistency": 0.09
+      },
+      "ranks": {
+        "model": 7,
+        "game": 7,
+        "series": 10,
+        "hype": 14
+      },
+      "game": {
+        "games": 43,
+        "winRate": 61.3,
+        "lead15Raw": 1091,
+        "lead15Adjusted": 1900,
+        "goldDiff15": 581,
+        "xpDiff15": 510,
+        "conversionRate": 82.9,
+        "chokeRate": 17.1,
+        "comebackRate": 46.3,
+        "ceiling": 12420,
+        "swingSpread": 8962
+      },
+      "series": {
+        "series": 13,
+        "winRate": 67.3,
+        "strength": 0.48,
+        "sweepRate": 43.2,
+        "closeSeriesWinRate": 59.1,
+        "reverseSweeps": 0
+      },
+      "matches": [
+        {
+          "opponent": "Weibo Gaming",
+          "score": "2-1",
+          "won": true,
+          "tournament": "LPL 2026 Split 3",
+          "date": "2026-07-25"
+        },
+        {
+          "opponent": "LNG Esports",
+          "score": "2-0",
+          "won": true,
+          "tournament": "LPL 2026 Split 3",
+          "date": "2026-08-02"
+        },
+        {
+          "opponent": "Ninjas in Pyjamas.CN",
+          "score": "1-2",
+          "won": false,
+          "tournament": "LPL 2026 Split 3",
+          "date": "2026-08-06"
+        },
+        {
+          "opponent": "LNG Esports",
+          "score": "2-0",
+          "won": true,
+          "tournament": "LPL 2026 Split 3",
+          "date": "2026-08-09"
+        },
+        {
+          "opponent": "Weibo Gaming",
+          "score": "2-1",
+          "won": true,
+          "tournament": "LPL 2026 Split 3",
+          "date": "2026-08-16"
+        },
+        {
+          "opponent": "Ninjas in Pyjamas.CN",
+          "score": "0-2",
+          "won": false,
+          "tournament": "LPL 2026 Split 3",
+          "date": "2026-08-22"
+        },
+        {
+          "opponent": "ThunderTalk Gaming",
+          "score": "3-0",
+          "won": true,
+          "tournament": "LPL 2026 Grand Finals",
+          "date": "2026-08-28"
+        },
+        {
+          "opponent": "Top Esports",
+          "score": "3-2",
+          "won": true,
+          "tournament": "LPL 2026 Grand Finals",
+          "date": "2026-09-05"
+        },
+        {
+          "opponent": "Team WE",
+          "score": "3-1",
+          "won": true,
+          "tournament": "LPL 2026 Grand Finals",
+          "date": "2026-09-06"
+        },
+        {
+          "opponent": "LGD Gaming",
+          "score": "3-0",
+          "won": true,
+          "tournament": "LPL 2026 Grand Finals",
+          "date": "2026-09-08"
+        },
+        {
+          "opponent": "Anyone's Legend",
+          "score": "2-3",
+          "won": false,
+          "tournament": "LPL 2026 Grand Finals",
+          "date": "2026-09-12"
+        },
+        {
+          "opponent": "Top Esports",
+          "score": "1-3",
+          "won": false,
+          "tournament": "LPL 2026 Regional Finals",
+          "date": "2026-09-17"
+        },
+        {
+          "opponent": "JD Gaming",
+          "score": "3-1",
+          "won": true,
+          "tournament": "LPL 2026 Regional Finals",
+          "date": "2026-09-19"
+        }
+      ],
+      "report": null
+    },
+    {
+      "name": "Team Secret Whales",
+      "short": "TSW",
+      "region": "Asia Pacific",
+      "stage": "Main Event",
+      "seed": 1,
+      "pool": 2,
+      "archetype": "Powerhouse",
+      "tags": {
+        "clutch": "Clutch",
+        "bust": false,
+        "underrated": false,
+        "grit": false
+      },
+      "scores": {
+        "game": 0.02,
+        "series": 0.25,
+        "overall": 0.14,
+        "consistency": -1.52
+      },
+      "ranks": {
+        "model": 8,
+        "game": 10,
+        "series": 6,
+        "hype": 5
+      },
+      "game": {
+        "games": 32,
+        "winRate": 59.2,
+        "lead15Raw": 67,
+        "lead15Adjusted": 34,
+        "goldDiff15": 180,
+        "xpDiff15": -112,
+        "conversionRate": 86.7,
+        "chokeRate": 13.3,
+        "comebackRate": 14.1,
+        "ceiling": 10505,
+        "swingSpread": 9961
+      },
+      "series": {
+        "series": 10,
+        "winRate": 63.2,
+        "strength": 0.62,
+        "sweepRate": 66.7,
+        "closeSeriesWinRate": 0,
+        "reverseSweeps": 0
+      },
+      "matches": [
+        {
+          "opponent": "Hanwha Life Esports",
+          "score": "0-3",
+          "won": false,
+          "tournament": "MSI 2026",
+          "date": "2026-07-03"
+        },
+        {
+          "opponent": "Top Esports",
+          "score": "3-1",
+          "won": true,
+          "tournament": "MSI 2026",
+          "date": "2026-07-05"
+        },
+        {
+          "opponent": "LYON (2024 American Team)",
+          "score": "0-3",
+          "won": false,
+          "tournament": "MSI 2026",
+          "date": "2026-07-08"
+        },
+        {
+          "opponent": "Fukuoka SoftBank HAWKS gaming",
+          "score": "2-0",
+          "won": true,
+          "tournament": "LCP 2026 Split 3",
+          "date": "2026-07-25"
+        },
+        {
+          "opponent": "MVK Esports",
+          "score": "2-0",
+          "won": true,
+          "tournament": "LCP 2026 Split 3",
+          "date": "2026-07-31"
+        },
+        {
+          "opponent": "CTBC Flying Oyster",
+          "score": "3-0",
+          "won": true,
+          "tournament": "LCP 2026 Split 3",
+          "date": "2026-08-02"
+        },
+        {
+          "opponent": "CTBC Flying Oyster",
+          "score": "2-3",
+          "won": false,
+          "tournament": "LCP 2026 Split 3",
+          "date": "2026-08-16"
+        },
+        {
+          "opponent": "GAM Esports",
+          "score": "3-1",
+          "won": true,
+          "tournament": "LCP 2026 Split 3",
+          "date": "2026-08-21"
+        },
+        {
+          "opponent": "CTBC Flying Oyster",
+          "score": "3-0",
+          "won": true,
+          "tournament": "LCP 2026 Split 3",
+          "date": "2026-08-23"
+        },
+        {
+          "opponent": "CTBC Flying Oyster",
+          "score": "3-0",
+          "won": true,
+          "tournament": "LCP 2026 Split 3",
+          "date": "2026-08-30"
+        }
+      ],
+      "report": null
+    },
+    {
+      "name": "Team Liquid",
+      "short": "TL",
+      "region": "North America",
+      "stage": "Main Event",
+      "seed": 1,
+      "pool": 1,
+      "archetype": "Clutch / grinder",
+      "tags": {
+        "clutch": null,
+        "bust": true,
+        "underrated": false,
+        "grit": false
+      },
+      "scores": {
+        "game": -0.01,
+        "series": 0.04,
+        "overall": 0.02,
+        "consistency": 1.19
+      },
+      "ranks": {
+        "model": 9,
+        "game": 11,
+        "series": 8,
+        "hype": 1
+      },
+      "game": {
+        "games": 38,
+        "winRate": 66,
+        "lead15Raw": 798,
+        "lead15Adjusted": 789,
+        "goldDiff15": 402,
+        "xpDiff15": 396,
+        "conversionRate": 84.3,
+        "chokeRate": 15.7,
+        "comebackRate": 20,
+        "ceiling": 9398,
+        "swingSpread": 8281
+      },
+      "series": {
+        "series": 14,
+        "winRate": 72.4,
+        "strength": 0.52,
+        "sweepRate": 74.5,
+        "closeSeriesWinRate": 100,
+        "reverseSweeps": 0
+      },
+      "matches": [
+        {
+          "opponent": "T1",
+          "score": "0-3",
+          "won": false,
+          "tournament": "MSI 2026",
+          "date": "2026-06-28"
+        },
+        {
+          "opponent": "Deep Cross Gaming",
+          "score": "3-0",
+          "won": true,
+          "tournament": "MSI 2026",
+          "date": "2026-06-29"
+        },
+        {
+          "opponent": "Karmine Corp",
+          "score": "3-0",
+          "won": true,
+          "tournament": "MSI 2026",
+          "date": "2026-06-30"
+        },
+        {
+          "opponent": "T1",
+          "score": "0-3",
+          "won": false,
+          "tournament": "MSI 2026",
+          "date": "2026-07-01"
+        },
+        {
+          "opponent": "Cloud9",
+          "score": "2-0",
+          "won": true,
+          "tournament": "LCS 2026 Summer",
+          "date": "2026-07-26"
+        },
+        {
+          "opponent": "Sentinels",
+          "score": "2-0",
+          "won": true,
+          "tournament": "LCS 2026 Summer",
+          "date": "2026-08-02"
+        },
+        {
+          "opponent": "FlyQuest",
+          "score": "2-0",
+          "won": true,
+          "tournament": "LCS 2026 Summer",
+          "date": "2026-08-09"
+        },
+        {
+          "opponent": "Disguised",
+          "score": "2-0",
+          "won": true,
+          "tournament": "LCS 2026 Summer",
+          "date": "2026-08-15"
+        },
+        {
+          "opponent": "Shopify Rebellion",
+          "score": "2-1",
+          "won": true,
+          "tournament": "LCS 2026 Summer",
+          "date": "2026-08-29"
+        },
+        {
+          "opponent": "LYON (2024 American Team)",
+          "score": "0-2",
+          "won": false,
+          "tournament": "LCS 2026 Summer",
+          "date": "2026-08-30"
+        },
+        {
+          "opponent": "Dignitas",
+          "score": "2-0",
+          "won": true,
+          "tournament": "LCS 2026 Summer",
+          "date": "2026-09-05"
+        },
+        {
+          "opponent": "FlyQuest",
+          "score": "3-0",
+          "won": true,
+          "tournament": "LCS 2026 Summer Playoffs",
+          "date": "2026-09-20"
+        },
+        {
+          "opponent": "Cloud9",
+          "score": "3-1",
+          "won": true,
+          "tournament": "LCS 2026 Summer Playoffs",
+          "date": "2026-09-27"
+        },
+        {
+          "opponent": "LYON (2024 American Team)",
+          "score": "3-1",
+          "won": true,
+          "tournament": "LCS 2026 Summer Playoffs",
+          "date": "2026-10-04"
+        }
+      ],
+      "report": null
+    },
+    {
+      "name": "LYON (2024 American Team)",
+      "short": "LYON",
+      "region": "North America",
+      "stage": "Main Event",
+      "seed": 2,
+      "pool": 3,
+      "archetype": "Clutch / grinder",
+      "tags": {
+        "clutch": "Clutch",
+        "bust": false,
+        "underrated": false,
+        "grit": false
+      },
+      "scores": {
+        "game": -0.04,
+        "series": 0.06,
+        "overall": 0.01,
+        "consistency": 0.68
+      },
+      "ranks": {
+        "model": 10,
+        "game": 12,
+        "series": 7,
+        "hype": 9
+      },
+      "game": {
+        "games": 51,
+        "winRate": 60.9,
+        "lead15Raw": 465,
+        "lead15Adjusted": 1060,
+        "goldDiff15": 268,
+        "xpDiff15": 198,
+        "conversionRate": 80.9,
+        "chokeRate": 19.1,
+        "comebackRate": 36.8,
+        "ceiling": 9711,
+        "swingSpread": 8596
+      },
+      "series": {
+        "series": 17,
+        "winRate": 61.5,
+        "strength": 0.52,
+        "sweepRate": 84.7,
+        "closeSeriesWinRate": 0,
+        "reverseSweeps": 0
+      },
+      "matches": [
+        {
+          "opponent": "FURIA",
+          "score": "3-0",
+          "won": true,
+          "tournament": "MSI 2026",
+          "date": "2026-07-04"
+        },
+        {
+          "opponent": "Bilibili Gaming",
+          "score": "0-3",
+          "won": false,
+          "tournament": "MSI 2026",
+          "date": "2026-07-06"
+        },
+        {
+          "opponent": "Team Secret Whales",
+          "score": "3-0",
+          "won": true,
+          "tournament": "MSI 2026",
+          "date": "2026-07-08"
+        },
+        {
+          "opponent": "G2 Esports",
+          "score": "3-0",
+          "won": true,
+          "tournament": "MSI 2026",
+          "date": "2026-07-10"
+        },
+        {
+          "opponent": "Hanwha Life Esports",
+          "score": "2-3",
+          "won": false,
+          "tournament": "MSI 2026",
+          "date": "2026-07-11"
+        },
+        {
+          "opponent": "JD Gaming",
+          "score": "0-1",
+          "won": false,
+          "tournament": "Esports World Cup 2026",
+          "date": "2026-07-15"
+        },
+        {
+          "opponent": "MIBR.LOS",
+          "score": "0-2",
+          "won": false,
+          "tournament": "Esports World Cup 2026",
+          "date": "2026-07-15"
+        },
+        {
+          "opponent": "FlyQuest",
+          "score": "2-0",
+          "won": true,
+          "tournament": "LCS 2026 Summer",
+          "date": "2026-07-25"
+        },
+        {
+          "opponent": "Shopify Rebellion",
+          "score": "2-0",
+          "won": true,
+          "tournament": "LCS 2026 Summer",
+          "date": "2026-08-02"
+        },
+        {
+          "opponent": "Dignitas",
+          "score": "2-0",
+          "won": true,
+          "tournament": "LCS 2026 Summer",
+          "date": "2026-08-09"
+        },
+        {
+          "opponent": "Sentinels",
+          "score": "1-2",
+          "won": false,
+          "tournament": "LCS 2026 Summer",
+          "date": "2026-08-16"
+        },
+        {
+          "opponent": "Cloud9",
+          "score": "2-0",
+          "won": true,
+          "tournament": "LCS 2026 Summer",
+          "date": "2026-08-29"
+        },
+        {
+          "opponent": "Team Liquid",
+          "score": "2-0",
+          "won": true,
+          "tournament": "LCS 2026 Summer",
+          "date": "2026-08-30"
+        },
+        {
+          "opponent": "Disguised",
+          "score": "2-0",
+          "won": true,
+          "tournament": "LCS 2026 Summer",
+          "date": "2026-09-06"
+        },
+        {
+          "opponent": "Cloud9",
+          "score": "1-3",
+          "won": false,
+          "tournament": "LCS 2026 Summer Playoffs",
+          "date": "2026-09-19"
+        },
+        {
+          "opponent": "Shopify Rebellion",
+          "score": "3-1",
+          "won": true,
+          "tournament": "LCS 2026 Summer Playoffs",
+          "date": "2026-09-26"
+        },
+        {
+          "opponent": "Cloud9",
+          "score": "3-1",
+          "won": true,
+          "tournament": "LCS 2026 Summer Playoffs",
+          "date": "2026-10-03"
+        },
+        {
+          "opponent": "Team Liquid",
+          "score": "1-3",
+          "won": false,
+          "tournament": "LCS 2026 Summer Playoffs",
+          "date": "2026-10-04"
+        }
+      ],
+      "report": null
+    },
+    {
+      "name": "G2 Esports",
+      "short": "G2",
+      "region": "EMEA",
+      "stage": "Main Event",
+      "seed": 1,
+      "pool": 1,
+      "archetype": "Dark horse",
+      "tags": {
+        "clutch": "Fragile",
+        "bust": true,
+        "underrated": false,
+        "grit": true
+      },
+      "scores": {
+        "game": 0.04,
+        "series": -0.32,
+        "overall": -0.14,
+        "consistency": 0.41
+      },
+      "ranks": {
+        "model": 11,
+        "game": 9,
+        "series": 13,
+        "hype": 1
+      },
+      "game": {
+        "games": 50,
+        "winRate": 54.7,
+        "lead15Raw": -306,
+        "lead15Adjusted": 460,
+        "goldDiff15": -82,
+        "xpDiff15": -224,
+        "conversionRate": 86.4,
+        "chokeRate": 13.6,
+        "comebackRate": 35.8,
+        "ceiling": 9847,
+        "swingSpread": 8768
+      },
+      "series": {
+        "series": 17,
+        "winRate": 60.4,
+        "strength": 0.37,
+        "sweepRate": 52.7,
+        "closeSeriesWinRate": 59.1,
+        "reverseSweeps": 1
+      },
+      "matches": [
+        {
+          "opponent": "Top Esports",
+          "score": "3-2",
+          "won": true,
+          "tournament": "MSI 2026",
+          "date": "2026-07-03"
+        },
+        {
+          "opponent": "Hanwha Life Esports",
+          "score": "0-3",
+          "won": false,
+          "tournament": "MSI 2026",
+          "date": "2026-07-05"
+        },
+        {
+          "opponent": "T1",
+          "score": "3-1",
+          "won": true,
+          "tournament": "MSI 2026",
+          "date": "2026-07-08"
+        },
+        {
+          "opponent": "LYON (2024 American Team)",
+          "score": "0-3",
+          "won": false,
+          "tournament": "MSI 2026",
+          "date": "2026-07-10"
+        },
+        {
+          "opponent": "FURIA",
+          "score": "1-0",
+          "won": true,
+          "tournament": "Esports World Cup 2026",
+          "date": "2026-07-15"
+        },
+        {
+          "opponent": "AG.AL",
+          "score": "0-1",
+          "won": false,
+          "tournament": "Esports World Cup 2026",
+          "date": "2026-07-16"
+        },
+        {
+          "opponent": "Dplus Kia",
+          "score": "0-2",
+          "won": false,
+          "tournament": "Esports World Cup 2026",
+          "date": "2026-07-16"
+        },
+        {
+          "opponent": "Movistar KOI",
+          "score": "2-1",
+          "won": true,
+          "tournament": "LEC 2026 Summer",
+          "date": "2026-07-24"
+        },
+        {
+          "opponent": "Team Vitality",
+          "score": "2-0",
+          "won": true,
+          "tournament": "LEC 2026 Summer",
+          "date": "2026-07-25"
+        },
+        {
+          "opponent": "Karmine Corp",
+          "score": "1-2",
+          "won": false,
+          "tournament": "LEC 2026 Summer",
+          "date": "2026-07-26"
+        },
+        {
+          "opponent": "SK Gaming",
+          "score": "2-0",
+          "won": true,
+          "tournament": "LEC 2026 Summer",
+          "date": "2026-08-02"
+        },
+        {
+          "opponent": "Team Heretics",
+          "score": "2-0",
+          "won": true,
+          "tournament": "LEC 2026 Summer",
+          "date": "2026-08-09"
+        },
+        {
+          "opponent": "Natus Vincere",
+          "score": "2-0",
+          "won": true,
+          "tournament": "LEC 2026 Summer",
+          "date": "2026-08-10"
+        },
+        {
+          "opponent": "Shifters",
+          "score": "2-0",
+          "won": true,
+          "tournament": "LEC 2026 Summer",
+          "date": "2026-08-15"
+        },
+        {
+          "opponent": "Fnatic",
+          "score": "0-2",
+          "won": false,
+          "tournament": "LEC 2026 Summer",
+          "date": "2026-08-16"
+        },
+        {
+          "opponent": "GIANTX",
+          "score": "1-2",
+          "won": false,
+          "tournament": "LEC 2026 Summer",
+          "date": "2026-08-24"
+        },
+        {
+          "opponent": "Team Vitality",
+          "score": "3-0",
+          "won": true,
+          "tournament": "LEC 2026 Summer Playoffs",
+          "date": "2026-09-05"
+        },
+        {
+          "opponent": "Karmine Corp",
+          "score": "3-1",
+          "won": true,
+          "tournament": "LEC 2026 Summer Playoffs",
+          "date": "2026-09-06"
+        },
+        {
+          "opponent": "Movistar KOI",
+          "score": "3-0",
+          "won": true,
+          "tournament": "LEC 2026 Summer Playoffs",
+          "date": "2026-09-20"
+        }
+      ],
+      "report": null
+    },
+    {
+      "name": "Karmine Corp",
+      "short": "KC",
+      "region": "EMEA",
+      "stage": "Play-In",
+      "seed": 3,
+      "pool": null,
+      "archetype": "Bottom of the barrel",
+      "tags": {
+        "clutch": null,
+        "bust": false,
+        "underrated": true,
+        "grit": false
+      },
+      "scores": {
+        "game": -0.21,
+        "series": -0.28,
+        "overall": -0.25,
+        "consistency": -0.85
+      },
+      "ranks": {
+        "model": 12,
+        "game": 14,
+        "series": 12,
+        "hype": 17
+      },
+      "game": {
+        "games": 54,
+        "winRate": 56.5,
+        "lead15Raw": 655,
+        "lead15Adjusted": 980,
+        "goldDiff15": 416,
+        "xpDiff15": 239,
+        "conversionRate": 75.3,
+        "chokeRate": 24.7,
+        "comebackRate": 22.1,
+        "ceiling": 10109,
+        "swingSpread": 9545
+      },
+      "series": {
+        "series": 20,
+        "winRate": 70.3,
+        "strength": 0.39,
+        "sweepRate": 65.4,
+        "closeSeriesWinRate": 100,
+        "reverseSweeps": 0
+      },
+      "matches": [
+        {
+          "opponent": "Deep Cross Gaming",
+          "score": "3-0",
+          "won": true,
+          "tournament": "MSI 2026",
+          "date": "2026-06-28"
+        },
+        {
+          "opponent": "T1",
+          "score": "0-3",
+          "won": false,
+          "tournament": "MSI 2026",
+          "date": "2026-06-29"
+        },
+        {
+          "opponent": "Team Liquid",
+          "score": "0-3",
+          "won": false,
+          "tournament": "MSI 2026",
+          "date": "2026-06-30"
+        },
+        {
+          "opponent": "Gen.G",
+          "score": "0-1",
+          "won": false,
+          "tournament": "Esports World Cup 2026",
+          "date": "2026-07-15"
+        },
+        {
+          "opponent": "Team Secret (Vietnamese Team)",
+          "score": "2-1",
+          "won": true,
+          "tournament": "Esports World Cup 2026",
+          "date": "2026-07-15"
+        },
+        {
+          "opponent": "Sentinels",
+          "score": "2-0",
+          "won": true,
+          "tournament": "Esports World Cup 2026",
+          "date": "2026-07-16"
+        },
+        {
+          "opponent": "AG.AL",
+          "score": "2-0",
+          "won": true,
+          "tournament": "Esports World Cup 2026",
+          "date": "2026-07-17"
+        },
+        {
+          "opponent": "T1",
+          "score": "2-1",
+          "won": true,
+          "tournament": "Esports World Cup 2026",
+          "date": "2026-07-18"
+        },
+        {
+          "opponent": "Dplus Kia",
+          "score": "0-3",
+          "won": false,
+          "tournament": "Esports World Cup 2026",
+          "date": "2026-07-19"
+        },
+        {
+          "opponent": "Team Vitality",
+          "score": "2-0",
+          "won": true,
+          "tournament": "LEC 2026 Summer",
+          "date": "2026-07-24"
+        },
+        {
+          "opponent": "Movistar KOI",
+          "score": "2-0",
+          "won": true,
+          "tournament": "LEC 2026 Summer",
+          "date": "2026-07-25"
+        },
+        {
+          "opponent": "G2 Esports",
+          "score": "2-1",
+          "won": true,
+          "tournament": "LEC 2026 Summer",
+          "date": "2026-07-26"
+        },
+        {
+          "opponent": "Natus Vincere",
+          "score": "2-0",
+          "won": true,
+          "tournament": "LEC 2026 Summer",
+          "date": "2026-08-01"
+        },
+        {
+          "opponent": "Team Heretics",
+          "score": "2-0",
+          "won": true,
+          "tournament": "LEC 2026 Summer",
+          "date": "2026-08-03"
+        },
+        {
+          "opponent": "Fnatic",
+          "score": "2-0",
+          "won": true,
+          "tournament": "LEC 2026 Summer",
+          "date": "2026-08-09"
+        },
+        {
+          "opponent": "GIANTX",
+          "score": "2-0",
+          "won": true,
+          "tournament": "LEC 2026 Summer",
+          "date": "2026-08-17"
+        },
+        {
+          "opponent": "Shifters",
+          "score": "2-1",
+          "won": true,
+          "tournament": "LEC 2026 Summer",
+          "date": "2026-08-23"
+        },
+        {
+          "opponent": "SK Gaming",
+          "score": "2-0",
+          "won": true,
+          "tournament": "LEC 2026 Summer",
+          "date": "2026-08-29"
+        },
+        {
+          "opponent": "GIANTX",
+          "score": "3-1",
+          "won": true,
+          "tournament": "LEC 2026 Summer Playoffs",
+          "date": "2026-09-05"
+        },
+        {
+          "opponent": "G2 Esports",
+          "score": "1-3",
+          "won": false,
+          "tournament": "LEC 2026 Summer Playoffs",
+          "date": "2026-09-06"
+        },
+        {
+          "opponent": "Movistar KOI",
+          "score": "0-3",
+          "won": false,
+          "tournament": "LEC 2026 Summer Playoffs",
+          "date": "2026-09-19"
+        }
+      ],
+      "report": null
+    },
+    {
+      "name": "LØS",
+      "short": "LOS",
+      "region": "Brazil",
+      "stage": "Main Event",
+      "seed": 1,
+      "pool": 2,
+      "archetype": "Bottom of the barrel",
+      "tags": {
+        "clutch": null,
+        "bust": true,
+        "underrated": false,
+        "grit": false
+      },
+      "scores": {
+        "game": -0.13,
+        "series": -0.4,
+        "overall": -0.27,
+        "consistency": 1.05
+      },
+      "ranks": {
+        "model": 13,
+        "game": 13,
+        "series": 14,
+        "hype": 5
+      },
+      "game": {
+        "games": 39,
+        "winRate": 76.6,
+        "lead15Raw": 1895,
+        "lead15Adjusted": 633,
+        "goldDiff15": 1000,
+        "xpDiff15": 896,
+        "conversionRate": 88.6,
+        "chokeRate": 11.4,
+        "comebackRate": 53.8,
+        "ceiling": 6572,
+        "swingSpread": 8371
+      },
+      "series": {
+        "series": 13,
+        "winRate": 92.7,
+        "strength": 0.33,
+        "sweepRate": 56.9,
+        "closeSeriesWinRate": 100,
+        "reverseSweeps": 0
+      },
+      "matches": [
+        {
+          "opponent": "FURIA",
+          "score": "2-0",
+          "won": true,
+          "tournament": "CBLOL 2026 Split 2",
+          "date": "2026-07-25"
+        },
+        {
+          "opponent": "RED Canids",
+          "score": "2-0",
+          "won": true,
+          "tournament": "CBLOL 2026 Split 2",
+          "date": "2026-08-02"
+        },
+        {
+          "opponent": "Leviatan",
+          "score": "2-0",
+          "won": true,
+          "tournament": "CBLOL 2026 Split 2",
+          "date": "2026-08-08"
+        },
+        {
+          "opponent": "paiN Gaming",
+          "score": "2-0",
+          "won": true,
+          "tournament": "CBLOL 2026 Split 2",
+          "date": "2026-08-10"
+        },
+        {
+          "opponent": "Vivo Keyd Stars",
+          "score": "2-0",
+          "won": true,
+          "tournament": "CBLOL 2026 Split 2",
+          "date": "2026-08-15"
+        },
+        {
+          "opponent": "LOUD",
+          "score": "0-2",
+          "won": false,
+          "tournament": "CBLOL 2026 Split 2",
+          "date": "2026-08-23"
+        },
+        {
+          "opponent": "Fluxo W7M",
+          "score": "2-1",
+          "won": true,
+          "tournament": "CBLOL 2026 Split 2",
+          "date": "2026-08-29"
+        },
+        {
+          "opponent": "FURIA",
+          "score": "3-1",
+          "won": true,
+          "tournament": "CBLOL 2026 Split 2 Playoffs",
+          "date": "2026-09-12"
+        },
+        {
+          "opponent": "LOUD",
+          "score": "3-2",
+          "won": true,
+          "tournament": "CBLOL 2026 Split 2 Playoffs",
+          "date": "2026-09-27"
+        },
+        {
+          "opponent": "KaBuM! Ilha das Lendas",
+          "score": "3-0",
+          "won": true,
+          "tournament": "CBLOL 2027 Promotion",
+          "date": "2026-09-30"
+        },
+        {
+          "opponent": "Estral Esports",
+          "score": "3-0",
+          "won": true,
+          "tournament": "CBLOL 2027 Promotion",
+          "date": "2026-10-01"
+        },
+        {
+          "opponent": "FURIA",
+          "score": "3-2",
+          "won": true,
+          "tournament": "CBLOL 2026 Split 2 Playoffs",
+          "date": "2026-10-10"
+        },
+        {
+          "opponent": "KaBuM! Ilha das Lendas",
+          "score": "3-1",
+          "won": true,
+          "tournament": "CBLOL 2027 Promotion",
+          "date": "2026-10-12"
+        }
+      ],
+      "report": null
+    },
+    {
+      "name": "Top Esports",
+      "short": "TES",
+      "region": "China",
+      "stage": "Main Event",
+      "seed": 3,
+      "pool": 3,
+      "archetype": "Dark horse",
+      "tags": {
+        "clutch": "Fragile",
+        "bust": false,
+        "underrated": false,
+        "grit": false
+      },
+      "scores": {
+        "game": 0.06,
+        "series": -0.79,
+        "overall": -0.36,
+        "consistency": -0.03
+      },
+      "ranks": {
+        "model": 14,
+        "game": 8,
+        "series": 16,
+        "hype": 11
+      },
+      "game": {
+        "games": 54,
+        "winRate": 49.3,
+        "lead15Raw": -384,
+        "lead15Adjusted": 586,
+        "goldDiff15": -249,
+        "xpDiff15": -135,
+        "conversionRate": 81.4,
+        "chokeRate": 18.6,
+        "comebackRate": 16.5,
+        "ceiling": 11612,
+        "swingSpread": 9037
+      },
+      "series": {
+        "series": 19,
+        "winRate": 47.8,
+        "strength": 0.19,
+        "sweepRate": 58.1,
+        "closeSeriesWinRate": 43.3,
+        "reverseSweeps": 0
+      },
+      "matches": [
+        {
+          "opponent": "G2 Esports",
+          "score": "2-3",
+          "won": false,
+          "tournament": "MSI 2026",
+          "date": "2026-07-03"
+        },
+        {
+          "opponent": "Team Secret Whales",
+          "score": "1-3",
+          "won": false,
+          "tournament": "MSI 2026",
+          "date": "2026-07-05"
+        },
+        {
+          "opponent": "Team WE",
+          "score": "2-0",
+          "won": true,
+          "tournament": "LPL 2026 Split 3",
+          "date": "2026-07-22"
+        },
+        {
+          "opponent": "ThunderTalk Gaming",
+          "score": "2-1",
+          "won": true,
+          "tournament": "LPL 2026 Split 3",
+          "date": "2026-07-25"
+        },
+        {
+          "opponent": "Anyone's Legend",
+          "score": "0-2",
+          "won": false,
+          "tournament": "LPL 2026 Split 3",
+          "date": "2026-07-29"
+        },
+        {
+          "opponent": "LGD Gaming",
+          "score": "2-1",
+          "won": true,
+          "tournament": "LPL 2026 Split 3",
+          "date": "2026-08-01"
+        },
+        {
+          "opponent": "JD Gaming",
+          "score": "2-0",
+          "won": true,
+          "tournament": "LPL 2026 Split 3",
+          "date": "2026-08-02"
+        },
+        {
+          "opponent": "EDward Gaming",
+          "score": "2-0",
+          "won": true,
+          "tournament": "LPL 2026 Split 3",
+          "date": "2026-08-05"
+        },
+        {
+          "opponent": "Bilibili Gaming",
+          "score": "2-0",
+          "won": true,
+          "tournament": "LPL 2026 Split 3",
+          "date": "2026-08-07"
+        },
+        {
+          "opponent": "ThunderTalk Gaming",
+          "score": "2-0",
+          "won": true,
+          "tournament": "LPL 2026 Split 3",
+          "date": "2026-08-09"
+        },
+        {
+          "opponent": "LGD Gaming",
+          "score": "0-2",
+          "won": false,
+          "tournament": "LPL 2026 Split 3",
+          "date": "2026-08-13"
+        },
+        {
+          "opponent": "Team WE",
+          "score": "0-2",
+          "won": false,
+          "tournament": "LPL 2026 Split 3",
+          "date": "2026-08-14"
+        },
+        {
+          "opponent": "EDward Gaming",
+          "score": "2-0",
+          "won": true,
+          "tournament": "LPL 2026 Split 3",
+          "date": "2026-08-16"
+        },
+        {
+          "opponent": "Anyone's Legend",
+          "score": "2-1",
+          "won": true,
+          "tournament": "LPL 2026 Split 3",
+          "date": "2026-08-19"
+        },
+        {
+          "opponent": "Bilibili Gaming",
+          "score": "0-2",
+          "won": false,
+          "tournament": "LPL 2026 Split 3",
+          "date": "2026-08-21"
+        },
+        {
+          "opponent": "JD Gaming",
+          "score": "0-2",
+          "won": false,
+          "tournament": "LPL 2026 Split 3",
+          "date": "2026-08-22"
+        },
+        {
+          "opponent": "LGD Gaming",
+          "score": "2-3",
+          "won": false,
+          "tournament": "LPL 2026 Grand Finals",
+          "date": "2026-08-29"
+        },
+        {
+          "opponent": "Invictus Gaming",
+          "score": "2-3",
+          "won": false,
+          "tournament": "LPL 2026 Grand Finals",
+          "date": "2026-09-05"
+        },
+        {
+          "opponent": "Invictus Gaming",
+          "score": "3-1",
+          "won": true,
+          "tournament": "LPL 2026 Regional Finals",
+          "date": "2026-09-17"
+        }
+      ],
+      "report": null
+    },
+    {
+      "name": "CTBC Flying Oyster",
+      "short": "CFO",
+      "region": "Asia Pacific",
+      "stage": "Main Event",
+      "seed": 2,
+      "pool": 4,
+      "archetype": "Bottom of the barrel",
+      "tags": {
+        "clutch": "Clutch",
+        "bust": false,
+        "underrated": false,
+        "grit": true
+      },
+      "scores": {
+        "game": -1.05,
+        "series": -0.08,
+        "overall": -0.57,
+        "consistency": -2.3
+      },
+      "ranks": {
+        "model": 15,
+        "game": 17,
+        "series": 11,
+        "hype": 13
+      },
+      "game": {
+        "games": 35,
+        "winRate": 53,
+        "lead15Raw": 317,
+        "lead15Adjusted": -1317,
+        "goldDiff15": 158,
+        "xpDiff15": 159,
+        "conversionRate": 70.5,
+        "chokeRate": 29.5,
+        "comebackRate": 34.8,
+        "ceiling": 6730,
+        "swingSpread": 10443
+      },
+      "series": {
+        "series": 10,
+        "winRate": 68.1,
+        "strength": 0.46,
+        "sweepRate": 28.1,
+        "closeSeriesWinRate": 100,
+        "reverseSweeps": 1
+      },
+      "matches": [
+        {
+          "opponent": "Deep Cross Gaming",
+          "score": "2-0",
+          "won": true,
+          "tournament": "LCP 2026 Split 3",
+          "date": "2026-07-26"
+        },
+        {
+          "opponent": "GAM Esports",
+          "score": "2-1",
+          "won": true,
+          "tournament": "LCP 2026 Split 3",
+          "date": "2026-07-31"
+        },
+        {
+          "opponent": "Team Secret Whales",
+          "score": "0-3",
+          "won": false,
+          "tournament": "LCP 2026 Split 3",
+          "date": "2026-08-02"
+        },
+        {
+          "opponent": "Ground Zero Gaming",
+          "score": "3-1",
+          "won": true,
+          "tournament": "LCP 2026 Split 3",
+          "date": "2026-08-09"
+        },
+        {
+          "opponent": "MVK Esports",
+          "score": "3-2",
+          "won": true,
+          "tournament": "LCP 2026 Split 3",
+          "date": "2026-08-14"
+        },
+        {
+          "opponent": "Team Secret Whales",
+          "score": "3-2",
+          "won": true,
+          "tournament": "LCP 2026 Split 3",
+          "date": "2026-08-16"
+        },
+        {
+          "opponent": "MVK Esports",
+          "score": "3-0",
+          "won": true,
+          "tournament": "LCP 2026 Split 3",
+          "date": "2026-08-20"
+        },
+        {
+          "opponent": "Team Secret Whales",
+          "score": "0-3",
+          "won": false,
+          "tournament": "LCP 2026 Split 3",
+          "date": "2026-08-23"
+        },
+        {
+          "opponent": "MVK Esports",
+          "score": "3-1",
+          "won": true,
+          "tournament": "LCP 2026 Split 3",
+          "date": "2026-08-29"
+        },
+        {
+          "opponent": "Team Secret Whales",
+          "score": "0-3",
+          "won": false,
+          "tournament": "LCP 2026 Split 3",
+          "date": "2026-08-30"
+        }
+      ],
+      "report": null
+    },
+    {
+      "name": "Cloud9",
+      "short": "C9",
+      "region": "North America",
+      "stage": "Play-In",
+      "seed": 3,
+      "pool": null,
+      "archetype": "Bottom of the barrel",
+      "tags": {
+        "clutch": null,
+        "bust": false,
+        "underrated": false,
+        "grit": false
+      },
+      "scores": {
+        "game": -0.5,
+        "series": -0.68,
+        "overall": -0.59,
+        "consistency": 1.15
+      },
+      "ranks": {
+        "model": 16,
+        "game": 15,
+        "series": 15,
+        "hype": 17
+      },
+      "game": {
+        "games": 32,
+        "winRate": 53.5,
+        "lead15Raw": 657,
+        "lead15Adjusted": 89,
+        "goldDiff15": 522,
+        "xpDiff15": 135,
+        "conversionRate": 77.1,
+        "chokeRate": 22.9,
+        "comebackRate": 20.9,
+        "ceiling": 7682,
+        "swingSpread": 8305
+      },
+      "series": {
+        "series": 11,
+        "winRate": 59.2,
+        "strength": 0.19,
+        "sweepRate": 41.4,
+        "closeSeriesWinRate": 100,
+        "reverseSweeps": 0
+      },
+      "matches": [
+        {
+          "opponent": "Team Liquid",
+          "score": "0-2",
+          "won": false,
+          "tournament": "LCS 2026 Summer",
+          "date": "2026-07-26"
+        },
+        {
+          "opponent": "Dignitas",
+          "score": "2-1",
+          "won": true,
+          "tournament": "LCS 2026 Summer",
+          "date": "2026-08-01"
+        },
+        {
+          "opponent": "Disguised",
+          "score": "2-1",
+          "won": true,
+          "tournament": "LCS 2026 Summer",
+          "date": "2026-08-08"
+        },
+        {
+          "opponent": "FlyQuest",
+          "score": "2-0",
+          "won": true,
+          "tournament": "LCS 2026 Summer",
+          "date": "2026-08-16"
+        },
+        {
+          "opponent": "LYON (2024 American Team)",
+          "score": "0-2",
+          "won": false,
+          "tournament": "LCS 2026 Summer",
+          "date": "2026-08-29"
+        },
+        {
+          "opponent": "Shopify Rebellion",
+          "score": "2-1",
+          "won": true,
+          "tournament": "LCS 2026 Summer",
+          "date": "2026-08-30"
+        },
+        {
+          "opponent": "Sentinels",
+          "score": "2-0",
+          "won": true,
+          "tournament": "LCS 2026 Summer",
+          "date": "2026-09-05"
+        },
+        {
+          "opponent": "Shopify Rebellion",
+          "score": "3-0",
+          "won": true,
+          "tournament": "LCS 2026 Summer Playoffs",
+          "date": "2026-09-12"
+        },
+        {
+          "opponent": "LYON (2024 American Team)",
+          "score": "3-1",
+          "won": true,
+          "tournament": "LCS 2026 Summer Playoffs",
+          "date": "2026-09-19"
+        },
+        {
+          "opponent": "Team Liquid",
+          "score": "1-3",
+          "won": false,
+          "tournament": "LCS 2026 Summer Playoffs",
+          "date": "2026-09-27"
+        },
+        {
+          "opponent": "LYON (2024 American Team)",
+          "score": "1-3",
+          "won": false,
+          "tournament": "LCS 2026 Summer Playoffs",
+          "date": "2026-10-03"
+        }
+      ],
+      "report": null
+    },
+    {
+      "name": "FURIA",
+      "short": "FUR",
+      "region": "Brazil",
+      "stage": "Play-In",
+      "seed": 2,
+      "pool": null,
+      "archetype": "Bottom of the barrel",
+      "tags": {
+        "clutch": null,
+        "bust": false,
+        "underrated": false,
+        "grit": false
+      },
+      "scores": {
+        "game": -0.81,
+        "series": -1.63,
+        "overall": -1.22,
+        "consistency": -1.33
+      },
+      "ranks": {
+        "model": 17,
+        "game": 16,
+        "series": 18,
+        "hype": 14
+      },
+      "game": {
+        "games": 44,
+        "winRate": 41.4,
+        "lead15Raw": -1214,
+        "lead15Adjusted": -1115,
+        "goldDiff15": -541,
+        "xpDiff15": -674,
+        "conversionRate": 85.7,
+        "chokeRate": 14.3,
+        "comebackRate": 18.9,
+        "ceiling": 4410,
+        "swingSpread": 9846
+      },
+      "series": {
+        "series": 15,
+        "winRate": 43.2,
+        "strength": -0.17,
+        "sweepRate": 75,
+        "closeSeriesWinRate": 61.5,
+        "reverseSweeps": 0
+      },
+      "matches": [
+        {
+          "opponent": "LYON (2024 American Team)",
+          "score": "0-3",
+          "won": false,
+          "tournament": "MSI 2026",
+          "date": "2026-07-04"
+        },
+        {
+          "opponent": "T1",
+          "score": "0-3",
+          "won": false,
+          "tournament": "MSI 2026",
+          "date": "2026-07-06"
+        },
+        {
+          "opponent": "G2 Esports",
+          "score": "0-1",
+          "won": false,
+          "tournament": "Esports World Cup 2026",
+          "date": "2026-07-15"
+        },
+        {
+          "opponent": "Dplus Kia",
+          "score": "0-2",
+          "won": false,
+          "tournament": "Esports World Cup 2026",
+          "date": "2026-07-15"
+        },
+        {
+          "opponent": "LØS",
+          "score": "0-2",
+          "won": false,
+          "tournament": "CBLOL 2026 Split 2",
+          "date": "2026-07-25"
+        },
+        {
+          "opponent": "Vivo Keyd Stars",
+          "score": "0-2",
+          "won": false,
+          "tournament": "CBLOL 2026 Split 2",
+          "date": "2026-08-01"
+        },
+        {
+          "opponent": "LOUD",
+          "score": "2-0",
+          "won": true,
+          "tournament": "CBLOL 2026 Split 2",
+          "date": "2026-08-07"
+        },
+        {
+          "opponent": "Fluxo W7M",
+          "score": "2-0",
+          "won": true,
+          "tournament": "CBLOL 2026 Split 2",
+          "date": "2026-08-09"
+        },
+        {
+          "opponent": "RED Canids",
+          "score": "2-1",
+          "won": true,
+          "tournament": "CBLOL 2026 Split 2",
+          "date": "2026-08-15"
+        },
+        {
+          "opponent": "paiN Gaming",
+          "score": "2-0",
+          "won": true,
+          "tournament": "CBLOL 2026 Split 2",
+          "date": "2026-08-22"
+        },
+        {
+          "opponent": "Leviatan",
+          "score": "2-0",
+          "won": true,
+          "tournament": "CBLOL 2026 Split 2",
+          "date": "2026-08-30"
+        },
+        {
+          "opponent": "RED Canids",
+          "score": "3-0",
+          "won": true,
+          "tournament": "CBLOL 2026 Split 2 Playoffs",
+          "date": "2026-09-06"
+        },
+        {
+          "opponent": "LØS",
+          "score": "1-3",
+          "won": false,
+          "tournament": "CBLOL 2026 Split 2 Playoffs",
+          "date": "2026-09-12"
+        },
+        {
+          "opponent": "RED Canids",
+          "score": "3-2",
+          "won": true,
+          "tournament": "CBLOL 2026 Split 2 Playoffs",
+          "date": "2026-09-26"
+        },
+        {
+          "opponent": "LOUD",
+          "score": "3-0",
+          "won": true,
+          "tournament": "CBLOL 2026 Split 2 Playoffs",
+          "date": "2026-10-03"
+        },
+        {
+          "opponent": "LØS",
+          "score": "2-3",
+          "won": false,
+          "tournament": "CBLOL 2026 Split 2 Playoffs",
+          "date": "2026-10-10"
+        }
+      ],
+      "report": null
+    },
+    {
+      "name": "MVK Esports",
+      "short": "MVK",
+      "region": "Asia Pacific",
+      "stage": "Play-In",
+      "seed": 3,
+      "pool": null,
+      "archetype": "Bottom of the barrel",
+      "tags": {
+        "clutch": null,
+        "bust": false,
+        "underrated": false,
+        "grit": false
+      },
+      "scores": {
+        "game": -1.75,
+        "series": -1.08,
+        "overall": -1.42,
+        "consistency": -1.04
+      },
+      "ranks": {
+        "model": 18,
+        "game": 19,
+        "series": 17,
+        "hype": 17
+      },
+      "game": {
+        "games": 28,
+        "winRate": 43.7,
+        "lead15Raw": -586,
+        "lead15Adjusted": -2411,
+        "goldDiff15": -488,
+        "xpDiff15": -98,
+        "conversionRate": 57.9,
+        "chokeRate": 42.1,
+        "comebackRate": 30,
+        "ceiling": 3875,
+        "swingSpread": 9667
+      },
+      "series": {
+        "series": 8,
+        "winRate": 44.4,
+        "strength": -0.05,
+        "sweepRate": 50,
+        "closeSeriesWinRate": 61.5,
+        "reverseSweeps": 0
+      },
+      "matches": [
+        {
+          "opponent": "Ground Zero Gaming",
+          "score": "2-0",
+          "won": true,
+          "tournament": "LCP 2026 Split 3",
+          "date": "2026-07-25"
+        },
+        {
+          "opponent": "Team Secret Whales",
+          "score": "0-2",
+          "won": false,
+          "tournament": "LCP 2026 Split 3",
+          "date": "2026-07-31"
+        },
+        {
+          "opponent": "GAM Esports",
+          "score": "2-0",
+          "won": true,
+          "tournament": "LCP 2026 Split 3",
+          "date": "2026-08-01"
+        },
+        {
+          "opponent": "Deep Cross Gaming",
+          "score": "3-2",
+          "won": true,
+          "tournament": "LCP 2026 Split 3",
+          "date": "2026-08-08"
+        },
+        {
+          "opponent": "CTBC Flying Oyster",
+          "score": "2-3",
+          "won": false,
+          "tournament": "LCP 2026 Split 3",
+          "date": "2026-08-14"
+        },
+        {
+          "opponent": "CTBC Flying Oyster",
+          "score": "0-3",
+          "won": false,
+          "tournament": "LCP 2026 Split 3",
+          "date": "2026-08-20"
+        },
+        {
+          "opponent": "GAM Esports",
+          "score": "3-2",
+          "won": true,
+          "tournament": "LCP 2026 Split 3",
+          "date": "2026-08-22"
+        },
+        {
+          "opponent": "CTBC Flying Oyster",
+          "score": "1-3",
+          "won": false,
+          "tournament": "LCP 2026 Split 3",
+          "date": "2026-08-29"
+        }
+      ],
+      "report": null
+    },
+    {
+      "name": "Movistar KOI",
+      "short": "MKOI",
+      "region": "EMEA",
+      "stage": "Main Event",
+      "seed": 2,
+      "pool": 3,
+      "archetype": "Bottom of the barrel",
+      "tags": {
+        "clutch": null,
+        "bust": true,
+        "underrated": false,
+        "grit": false
+      },
+      "scores": {
+        "game": -1.35,
+        "series": -1.87,
+        "overall": -1.61,
+        "consistency": -0.45
+      },
+      "ranks": {
+        "model": 19,
+        "game": 18,
+        "series": 19,
+        "hype": 9
+      },
+      "game": {
+        "games": 41,
+        "winRate": 46.5,
+        "lead15Raw": 555,
+        "lead15Adjusted": -14,
+        "goldDiff15": 346,
+        "xpDiff15": 210,
+        "conversionRate": 52.9,
+        "chokeRate": 47.1,
+        "comebackRate": 35.4,
+        "ceiling": 7397,
+        "swingSpread": 9300
+      },
+      "series": {
+        "series": 14,
+        "winRate": 46,
+        "strength": -0.29,
+        "sweepRate": 44.8,
+        "closeSeriesWinRate": 42.9,
+        "reverseSweeps": 0
+      },
+      "matches": [
+        {
+          "opponent": "Bilibili Gaming",
+          "score": "0-1",
+          "won": false,
+          "tournament": "Esports World Cup 2026",
+          "date": "2026-07-15"
+        },
+        {
+          "opponent": "GAM Esports",
+          "score": "1-2",
+          "won": false,
+          "tournament": "Esports World Cup 2026",
+          "date": "2026-07-15"
+        },
+        {
+          "opponent": "G2 Esports",
+          "score": "1-2",
+          "won": false,
+          "tournament": "LEC 2026 Summer",
+          "date": "2026-07-24"
+        },
+        {
+          "opponent": "Karmine Corp",
+          "score": "0-2",
+          "won": false,
+          "tournament": "LEC 2026 Summer",
+          "date": "2026-07-25"
+        },
+        {
+          "opponent": "Team Vitality",
+          "score": "1-2",
+          "won": false,
+          "tournament": "LEC 2026 Summer",
+          "date": "2026-07-26"
+        },
+        {
+          "opponent": "Shifters",
+          "score": "2-1",
+          "won": true,
+          "tournament": "LEC 2026 Summer",
+          "date": "2026-07-31"
+        },
+        {
+          "opponent": "Fnatic",
+          "score": "2-1",
+          "won": true,
+          "tournament": "LEC 2026 Summer",
+          "date": "2026-08-02"
+        },
+        {
+          "opponent": "GIANTX",
+          "score": "0-2",
+          "won": false,
+          "tournament": "LEC 2026 Summer",
+          "date": "2026-08-08"
+        },
+        {
+          "opponent": "Natus Vincere",
+          "score": "2-0",
+          "won": true,
+          "tournament": "LEC 2026 Summer",
+          "date": "2026-08-16"
+        },
+        {
+          "opponent": "SK Gaming",
+          "score": "0-2",
+          "won": false,
+          "tournament": "LEC 2026 Summer",
+          "date": "2026-08-22"
+        },
+        {
+          "opponent": "Team Heretics",
+          "score": "2-0",
+          "won": true,
+          "tournament": "LEC 2026 Summer",
+          "date": "2026-08-30"
+        },
+        {
+          "opponent": "Team Vitality",
+          "score": "3-2",
+          "won": true,
+          "tournament": "LEC 2026 Summer Playoffs",
+          "date": "2026-09-12"
+        },
+        {
+          "opponent": "Natus Vincere",
+          "score": "3-1",
+          "won": true,
+          "tournament": "LEC 2026 Summer Playoffs",
+          "date": "2026-09-18"
+        },
+        {
+          "opponent": "Karmine Corp",
+          "score": "3-0",
+          "won": true,
+          "tournament": "LEC 2026 Summer Playoffs",
+          "date": "2026-09-19"
+        },
+        {
+          "opponent": "G2 Esports",
+          "score": "0-3",
+          "won": false,
+          "tournament": "LEC 2026 Summer Playoffs",
+          "date": "2026-09-20"
+        }
+      ],
+      "report": null
+    }
+  ]
+}
