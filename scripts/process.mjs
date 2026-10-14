@@ -293,7 +293,7 @@ const hypeGap = Object.fromEntries(teamNames.map((t) => [t, modelZ[t] - hypeScor
 
 function archetypeOf(x, y) {
   if (x >= 0 && y >= 0) return 'Powerhouse';
-  if (x < 0 && y >= 0) return 'Clutch / grinder';
+  if (x < 0 && y >= 0) return 'Scrappy';
   if (x >= 0 && y < 0) return 'Dark horse';
   return 'Bottom of the barrel';
 }

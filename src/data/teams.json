@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generatedAt": "2026-10-14T20:44:17.641Z",
+    "generatedAt": "2026-10-14T20:52:51.016Z",
     "windowStart": "2026-06-28",
     "games": 665,
     "lines": {
@@ -1647,7 +1647,7 @@
       "stage": "Main Event",
       "seed": 1,
       "pool": 1,
-      "archetype": "Clutch / grinder",
+      "archetype": "Scrappy",
       "tags": {
         "clutch": null,
         "bust": true,
@@ -1796,7 +1796,7 @@
       "stage": "Main Event",
       "seed": 2,
       "pool": 3,
-      "archetype": "Clutch / grinder",
+      "archetype": "Scrappy",
       "tags": {
         "clutch": "Clutch",
         "bust": false,
