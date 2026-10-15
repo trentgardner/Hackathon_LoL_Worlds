@@ -117,7 +117,7 @@ export default function QuadrantMap({ teams, selected, onSelect }) {
 
       {/* Axis titles */}
       <text className="axis-label" x={W / 2} y={H - 18} textAnchor="middle">
-        GAME TIER →  early leads · ceiling · converting leads
+        GAME TIER (MODEL RATING) →  early leads · ceiling · converting leads
       </text>
       <text className="axis-label" transform={`translate(20 ${H / 2}) rotate(-90)`} textAnchor="middle">
         SERIES TIER →  winning series

@@ -1,19 +1,362 @@
 {
   "meta": {
-    "generatedAt": "2026-10-14T20:52:51.016Z",
+    "generatedAt": "2026-10-15T00:51:20.107Z",
     "windowStart": "2026-06-28",
-    "games": 665,
+    "games": 666,
     "lines": {
       "game": 0,
       "series": 0
     },
     "fieldAverage": {
-      "lead15Adjusted": 1203,
-      "conversionRate": 78.8,
-      "seriesStrength": 0.5
+      "lead15Adjusted": 1265,
+      "conversionRate": 79.1,
+      "seriesStrength": 0.47
     }
   },
   "teams": [
+    {
+      "name": "Bilibili Gaming",
+      "short": "BLG",
+      "region": "China",
+      "stage": "Main Event",
+      "seed": 2,
+      "pool": 2,
+      "archetype": "Powerhouse",
+      "tags": {
+        "clutch": null,
+        "bust": false,
+        "underrated": true,
+        "grit": false
+      },
+      "scores": {
+        "game": 1.37,
+        "series": 0.99,
+        "overall": 1.37,
+        "consistency": 1.25
+      },
+      "ranks": {
+        "model": 1,
+        "game": 1,
+        "series": 4,
+        "hype": 7
+      },
+      "game": {
+        "games": 68,
+        "winRate": 66.4,
+        "lead15Raw": 1566,
+        "lead15Adjusted": 3792,
+        "goldDiff15": 907,
+        "xpDiff15": 659,
+        "conversionRate": 92.6,
+        "chokeRate": 7.4,
+        "comebackRate": 28,
+        "ceiling": 14600,
+        "swingSpread": 8212
+      },
+      "series": {
+        "series": 22,
+        "winRate": 74.3,
+        "strength": 0.85,
+        "sweepRate": 45.2,
+        "closeSeriesWinRate": 64.2,
+        "reverseSweeps": 0
+      },
+      "playstyle": {
+        "tempo": "Early game",
+        "tempoScore": 0.68,
+        "avgGameMinutes": 32.6
+      },
+      "draft": {
+        "pool": 77,
+        "top5Share": 18.2,
+        "signature": [
+          {
+            "champion": "Naafiri",
+            "games": 14,
+            "wins": 9
+          },
+          {
+            "champion": "Camille",
+            "games": 13,
+            "wins": 10
+          },
+          {
+            "champion": "Ezreal",
+            "games": 12,
+            "wins": 10
+          },
+          {
+            "champion": "Jarvan IV",
+            "games": 12,
+            "wins": 8
+          },
+          {
+            "champion": "Ambessa",
+            "games": 11,
+            "wins": 8
+          }
+        ],
+        "topPicks": [
+          {
+            "champion": "Naafiri",
+            "games": 14
+          },
+          {
+            "champion": "Camille",
+            "games": 13
+          },
+          {
+            "champion": "Ezreal",
+            "games": 12
+          },
+          {
+            "champion": "Jarvan IV",
+            "games": 12
+          },
+          {
+            "champion": "Ambessa",
+            "games": 11
+          },
+          {
+            "champion": "Ryze",
+            "games": 10
+          },
+          {
+            "champion": "Jayce",
+            "games": 10
+          },
+          {
+            "champion": "Cassiopeia",
+            "games": 9
+          },
+          {
+            "champion": "Lee Sin",
+            "games": 9
+          },
+          {
+            "champion": "K'Sante",
+            "games": 9
+          }
+        ],
+        "bans": [
+          {
+            "champion": "Vi",
+            "count": 26
+          },
+          {
+            "champion": "Orianna",
+            "count": 22
+          },
+          {
+            "champion": "Lucian",
+            "count": 22
+          },
+          {
+            "champion": "Vayne",
+            "count": 20
+          },
+          {
+            "champion": "Nocturne",
+            "count": 17
+          }
+        ],
+        "bannedAgainst": [
+          {
+            "champion": "Orianna",
+            "count": 27
+          },
+          {
+            "champion": "Poppy",
+            "count": 23
+          },
+          {
+            "champion": "Cassiopeia",
+            "count": 20
+          },
+          {
+            "champion": "Camille",
+            "count": 18
+          },
+          {
+            "champion": "Syndra",
+            "count": 18
+          }
+        ],
+        "tempo": "Early-game drafts",
+        "tempoScore": 1.09
+      },
+      "matches": [
+        {
+          "opponent": "T1",
+          "score": "3-2",
+          "won": true,
+          "tournament": "MSI 2026",
+          "date": "2026-07-04"
+        },
+        {
+          "opponent": "LYON (2024 American Team)",
+          "score": "3-0",
+          "won": true,
+          "tournament": "MSI 2026",
+          "date": "2026-07-06"
+        },
+        {
+          "opponent": "Hanwha Life Esports",
+          "score": "3-1",
+          "won": true,
+          "tournament": "MSI 2026",
+          "date": "2026-07-09"
+        },
+        {
+          "opponent": "Hanwha Life Esports",
+          "score": "2-3",
+          "won": false,
+          "tournament": "MSI 2026",
+          "date": "2026-07-12"
+        },
+        {
+          "opponent": "Movistar KOI",
+          "score": "1-0",
+          "won": true,
+          "tournament": "Esports World Cup 2026",
+          "date": "2026-07-15"
+        },
+        {
+          "opponent": "T1",
+          "score": "1-0",
+          "won": true,
+          "tournament": "Esports World Cup 2026",
+          "date": "2026-07-16"
+        },
+        {
+          "opponent": "Dplus Kia",
+          "score": "1-2",
+          "won": false,
+          "tournament": "Esports World Cup 2026",
+          "date": "2026-07-17"
+        },
+        {
+          "opponent": "ThunderTalk Gaming",
+          "score": "2-1",
+          "won": true,
+          "tournament": "LPL 2026 Split 3",
+          "date": "2026-07-23"
+        },
+        {
+          "opponent": "EDward Gaming",
+          "score": "2-1",
+          "won": true,
+          "tournament": "LPL 2026 Split 3",
+          "date": "2026-07-24"
+        },
+        {
+          "opponent": "Anyone's Legend",
+          "score": "2-1",
+          "won": true,
+          "tournament": "LPL 2026 Split 3",
+          "date": "2026-07-26"
+        },
+        {
+          "opponent": "LGD Gaming",
+          "score": "2-1",
+          "won": true,
+          "tournament": "LPL 2026 Split 3",
+          "date": "2026-07-29"
+        },
+        {
+          "opponent": "Team WE",
+          "score": "2-0",
+          "won": true,
+          "tournament": "LPL 2026 Split 3",
+          "date": "2026-07-31"
+        },
+        {
+          "opponent": "JD Gaming",
+          "score": "2-0",
+          "won": true,
+          "tournament": "LPL 2026 Split 3",
+          "date": "2026-08-01"
+        },
+        {
+          "opponent": "Top Esports",
+          "score": "0-2",
+          "won": false,
+          "tournament": "LPL 2026 Split 3",
+          "date": "2026-08-07"
+        },
+        {
+          "opponent": "EDward Gaming",
+          "score": "2-0",
+          "won": true,
+          "tournament": "LPL 2026 Split 3",
+          "date": "2026-08-08"
+        },
+        {
+          "opponent": "JD Gaming",
+          "score": "1-2",
+          "won": false,
+          "tournament": "LPL 2026 Split 3",
+          "date": "2026-08-12"
+        },
+        {
+          "opponent": "ThunderTalk Gaming",
+          "score": "2-0",
+          "won": true,
+          "tournament": "LPL 2026 Split 3",
+          "date": "2026-08-13"
+        },
+        {
+          "opponent": "Team WE",
+          "score": "2-0",
+          "won": true,
+          "tournament": "LPL 2026 Split 3",
+          "date": "2026-08-15"
+        },
+        {
+          "opponent": "LGD Gaming",
+          "score": "2-1",
+          "won": true,
+          "tournament": "LPL 2026 Split 3",
+          "date": "2026-08-20"
+        },
+        {
+          "opponent": "Top Esports",
+          "score": "2-0",
+          "won": true,
+          "tournament": "LPL 2026 Split 3",
+          "date": "2026-08-21"
+        },
+        {
+          "opponent": "Anyone's Legend",
+          "score": "2-1",
+          "won": true,
+          "tournament": "LPL 2026 Split 3",
+          "date": "2026-08-23"
+        },
+        {
+          "opponent": "Team WE",
+          "score": "3-1",
+          "won": true,
+          "tournament": "LPL 2026 Grand Finals",
+          "date": "2026-09-03"
+        },
+        {
+          "opponent": "Anyone's Legend",
+          "score": "3-0",
+          "won": true,
+          "tournament": "LPL 2026 Grand Finals",
+          "date": "2026-09-07"
+        },
+        {
+          "opponent": "Anyone's Legend",
+          "score": "1-3",
+          "won": false,
+          "tournament": "LPL 2026 Grand Finals",
+          "date": "2026-09-13"
+        }
+      ],
+      "report": null
+    },
     {
       "name": "Gen.G",
       "short": "GEN",
@@ -29,37 +372,161 @@
         "grit": false
       },
       "scores": {
-        "game": 1.1,
-        "series": 1.79,
-        "overall": 1.45,
-        "consistency": -0.04
+        "game": 1.08,
+        "series": 1.71,
+        "overall": 1.08,
+        "consistency": -0.1
       },
       "ranks": {
-        "model": 1,
-        "game": 3,
+        "model": 2,
+        "game": 2,
         "series": 2,
         "hype": 1
       },
       "game": {
         "games": 53,
         "winRate": 60.4,
-        "lead15Raw": -9,
-        "lead15Adjusted": 3335,
-        "goldDiff15": 0,
-        "xpDiff15": -8,
-        "conversionRate": 86.4,
-        "chokeRate": 13.6,
+        "lead15Raw": 42,
+        "lead15Adjusted": 3651,
+        "goldDiff15": 22,
+        "xpDiff15": 20,
+        "conversionRate": 85.7,
+        "chokeRate": 14.3,
         "comebackRate": 38.9,
-        "ceiling": 15184,
-        "swingSpread": 9043
+        "ceiling": 15434,
+        "swingSpread": 9037
       },
       "series": {
-        "series": 17,
-        "winRate": 64,
-        "strength": 1.22,
+        "series": 18,
+        "winRate": 60.4,
+        "strength": 1.15,
         "sweepRate": 52.7,
         "closeSeriesWinRate": 48.5,
         "reverseSweeps": 0
+      },
+      "playstyle": {
+        "tempo": "Early game",
+        "tempoScore": 0.76,
+        "avgGameMinutes": 32.3
+      },
+      "draft": {
+        "pool": 79,
+        "top5Share": 20,
+        "signature": [
+          {
+            "champion": "Shen",
+            "games": 13,
+            "wins": 8
+          },
+          {
+            "champion": "Lee Sin",
+            "games": 11,
+            "wins": 10
+          },
+          {
+            "champion": "Ambessa",
+            "games": 10,
+            "wins": 6
+          },
+          {
+            "champion": "Ryze",
+            "games": 10,
+            "wins": 6
+          },
+          {
+            "champion": "Syndra",
+            "games": 9,
+            "wins": 6
+          }
+        ],
+        "topPicks": [
+          {
+            "champion": "Shen",
+            "games": 13
+          },
+          {
+            "champion": "Lee Sin",
+            "games": 11
+          },
+          {
+            "champion": "Ambessa",
+            "games": 10
+          },
+          {
+            "champion": "Ryze",
+            "games": 10
+          },
+          {
+            "champion": "Syndra",
+            "games": 9
+          },
+          {
+            "champion": "Ezreal",
+            "games": 9
+          },
+          {
+            "champion": "Galio",
+            "games": 8
+          },
+          {
+            "champion": "Jarvan IV",
+            "games": 8
+          },
+          {
+            "champion": "Olaf",
+            "games": 7
+          },
+          {
+            "champion": "Seraphine",
+            "games": 7
+          }
+        ],
+        "bans": [
+          {
+            "champion": "Poppy",
+            "count": 20
+          },
+          {
+            "champion": "Vi",
+            "count": 19
+          },
+          {
+            "champion": "Jayce",
+            "count": 16
+          },
+          {
+            "champion": "Orianna",
+            "count": 15
+          },
+          {
+            "champion": "Nocturne",
+            "count": 12
+          }
+        ],
+        "bannedAgainst": [
+          {
+            "champion": "Poppy",
+            "count": 19
+          },
+          {
+            "champion": "Cassiopeia",
+            "count": 19
+          },
+          {
+            "champion": "Ezreal",
+            "count": 16
+          },
+          {
+            "champion": "Jayce",
+            "count": 16
+          },
+          {
+            "champion": "Nocturne",
+            "count": 14
+          }
+        ],
+        "tempo": null,
+        "tempoScore": 0.16
       },
       "matches": [
         {
@@ -141,7 +608,7 @@
         },
         {
           "opponent": "Dplus Kia",
-          "score": "0-1",
+          "score": "0-2",
           "won": false,
           "tournament": "LCK 2026 Rounds 3-4",
           "date": "2026-08-01"
@@ -255,37 +722,161 @@
         "grit": true
       },
       "scores": {
-        "game": 1.11,
-        "series": 1.45,
-        "overall": 1.28,
-        "consistency": -0.01
+        "game": 1.07,
+        "series": 1.43,
+        "overall": 1.07,
+        "consistency": 0.04
       },
       "ranks": {
-        "model": 2,
-        "game": 2,
+        "model": 3,
+        "game": 3,
         "series": 3,
         "hype": 7
       },
       "game": {
         "games": 78,
         "winRate": 56.7,
-        "lead15Raw": 1363,
-        "lead15Adjusted": 4052,
-        "goldDiff15": 783,
-        "xpDiff15": 580,
-        "conversionRate": 79.4,
-        "chokeRate": 20.6,
-        "comebackRate": 21.6,
-        "ceiling": 15607,
-        "swingSpread": 9027
+        "lead15Raw": 1492,
+        "lead15Adjusted": 4344,
+        "goldDiff15": 869,
+        "xpDiff15": 623,
+        "conversionRate": 79.7,
+        "chokeRate": 20.3,
+        "comebackRate": 20.1,
+        "ceiling": 15701,
+        "swingSpread": 8952
       },
       "series": {
         "series": 22,
         "winRate": 57.3,
-        "strength": 1.04,
+        "strength": 1.02,
         "sweepRate": 43.7,
         "closeSeriesWinRate": 64.8,
         "reverseSweeps": 1
+      },
+      "playstyle": {
+        "tempo": "Early game",
+        "tempoScore": 1.39,
+        "avgGameMinutes": 31.6
+      },
+      "draft": {
+        "pool": 83,
+        "top5Share": 16.4,
+        "signature": [
+          {
+            "champion": "Camille",
+            "games": 14,
+            "wins": 8
+          },
+          {
+            "champion": "Jarvan IV",
+            "games": 14,
+            "wins": 5
+          },
+          {
+            "champion": "Ambessa",
+            "games": 13,
+            "wins": 9
+          },
+          {
+            "champion": "Ziggs",
+            "games": 12,
+            "wins": 8
+          },
+          {
+            "champion": "Gnar",
+            "games": 11,
+            "wins": 5
+          }
+        ],
+        "topPicks": [
+          {
+            "champion": "Camille",
+            "games": 14
+          },
+          {
+            "champion": "Jarvan IV",
+            "games": 14
+          },
+          {
+            "champion": "Ambessa",
+            "games": 13
+          },
+          {
+            "champion": "Ziggs",
+            "games": 12
+          },
+          {
+            "champion": "Gnar",
+            "games": 11
+          },
+          {
+            "champion": "Shen",
+            "games": 10
+          },
+          {
+            "champion": "Jhin",
+            "games": 10
+          },
+          {
+            "champion": "Orianna",
+            "games": 9
+          },
+          {
+            "champion": "Karma",
+            "games": 9
+          },
+          {
+            "champion": "Ryze",
+            "games": 9
+          }
+        ],
+        "bans": [
+          {
+            "champion": "Poppy",
+            "count": 29
+          },
+          {
+            "champion": "Bard",
+            "count": 28
+          },
+          {
+            "champion": "Vayne",
+            "count": 24
+          },
+          {
+            "champion": "Jayce",
+            "count": 21
+          },
+          {
+            "champion": "Cassiopeia",
+            "count": 19
+          }
+        ],
+        "bannedAgainst": [
+          {
+            "champion": "Jayce",
+            "count": 30
+          },
+          {
+            "champion": "Vi",
+            "count": 26
+          },
+          {
+            "champion": "Orianna",
+            "count": 24
+          },
+          {
+            "champion": "Camille",
+            "count": 22
+          },
+          {
+            "champion": "Vayne",
+            "count": 19
+          }
+        ],
+        "tempo": null,
+        "tempoScore": 0.07
       },
       "matches": [
         {
@@ -495,218 +1086,300 @@
       "report": null
     },
     {
-      "name": "Bilibili Gaming",
-      "short": "BLG",
+      "name": "Anyone's Legend",
+      "short": "AL",
       "region": "China",
       "stage": "Main Event",
-      "seed": 2,
-      "pool": 2,
-      "archetype": "Powerhouse",
+      "seed": 1,
+      "pool": 1,
+      "archetype": "Dark horse",
       "tags": {
-        "clutch": null,
+        "clutch": "Fragile",
         "bust": false,
         "underrated": false,
         "grit": false
       },
       "scores": {
-        "game": 1.33,
-        "series": 1.01,
-        "overall": 1.17,
-        "consistency": 1.21
+        "game": 0.84,
+        "series": -0.03,
+        "overall": 0.84,
+        "consistency": 1.16
       },
       "ranks": {
-        "model": 3,
-        "game": 1,
-        "series": 4,
-        "hype": 7
+        "model": 4,
+        "game": 4,
+        "series": 9,
+        "hype": 1
       },
       "game": {
-        "games": 68,
-        "winRate": 66.4,
-        "lead15Raw": 1627,
-        "lead15Adjusted": 3625,
-        "goldDiff15": 936,
-        "xpDiff15": 690,
-        "conversionRate": 90.7,
-        "chokeRate": 9.3,
-        "comebackRate": 29.2,
-        "ceiling": 14505,
-        "swingSpread": 8272
+        "games": 52,
+        "winRate": 58.4,
+        "lead15Raw": 1030,
+        "lead15Adjusted": 2699,
+        "goldDiff15": 562,
+        "xpDiff15": 468,
+        "conversionRate": 89.7,
+        "chokeRate": 10.3,
+        "comebackRate": 25.7,
+        "ceiling": 12742,
+        "swingSpread": 8266
       },
       "series": {
-        "series": 22,
-        "winRate": 74.3,
-        "strength": 0.88,
-        "sweepRate": 45.2,
-        "closeSeriesWinRate": 64.2,
+        "series": 18,
+        "winRate": 64.6,
+        "strength": 0.47,
+        "sweepRate": 41.2,
+        "closeSeriesWinRate": 52.5,
         "reverseSweeps": 0
+      },
+      "playstyle": {
+        "tempo": "Flexible",
+        "tempoScore": -0.05,
+        "avgGameMinutes": 33.4
+      },
+      "draft": {
+        "pool": 66,
+        "top5Share": 16.5,
+        "signature": [
+          {
+            "champion": "Gnar",
+            "games": 11,
+            "wins": 7
+          },
+          {
+            "champion": "Naafiri",
+            "games": 9,
+            "wins": 5
+          },
+          {
+            "champion": "K'Sante",
+            "games": 8,
+            "wins": 6
+          },
+          {
+            "champion": "Ambessa",
+            "games": 8,
+            "wins": 4
+          },
+          {
+            "champion": "Ziggs",
+            "games": 7,
+            "wins": 5
+          }
+        ],
+        "topPicks": [
+          {
+            "champion": "Gnar",
+            "games": 11
+          },
+          {
+            "champion": "Naafiri",
+            "games": 9
+          },
+          {
+            "champion": "K'Sante",
+            "games": 8
+          },
+          {
+            "champion": "Ambessa",
+            "games": 8
+          },
+          {
+            "champion": "Ziggs",
+            "games": 7
+          },
+          {
+            "champion": "Varus",
+            "games": 7
+          },
+          {
+            "champion": "Rell",
+            "games": 7
+          },
+          {
+            "champion": "Camille",
+            "games": 7
+          },
+          {
+            "champion": "Annie",
+            "games": 6
+          },
+          {
+            "champion": "Yorick",
+            "games": 6
+          }
+        ],
+        "bans": [
+          {
+            "champion": "Vi",
+            "count": 18
+          },
+          {
+            "champion": "Cassiopeia",
+            "count": 17
+          },
+          {
+            "champion": "Vayne",
+            "count": 14
+          },
+          {
+            "champion": "Poppy",
+            "count": 13
+          },
+          {
+            "champion": "Olaf",
+            "count": 11
+          }
+        ],
+        "bannedAgainst": [
+          {
+            "champion": "Akali",
+            "count": 19
+          },
+          {
+            "champion": "Cassiopeia",
+            "count": 19
+          },
+          {
+            "champion": "Vi",
+            "count": 14
+          },
+          {
+            "champion": "Ezreal",
+            "count": 13
+          },
+          {
+            "champion": "Poppy",
+            "count": 13
+          }
+        ],
+        "tempo": null,
+        "tempoScore": 0.57
       },
       "matches": [
         {
-          "opponent": "T1",
-          "score": "3-2",
-          "won": true,
-          "tournament": "MSI 2026",
-          "date": "2026-07-04"
-        },
-        {
-          "opponent": "LYON (2024 American Team)",
-          "score": "3-0",
-          "won": true,
-          "tournament": "MSI 2026",
-          "date": "2026-07-06"
-        },
-        {
-          "opponent": "Hanwha Life Esports",
-          "score": "3-1",
-          "won": true,
-          "tournament": "MSI 2026",
-          "date": "2026-07-09"
-        },
-        {
-          "opponent": "Hanwha Life Esports",
-          "score": "2-3",
-          "won": false,
-          "tournament": "MSI 2026",
-          "date": "2026-07-12"
-        },
-        {
-          "opponent": "Movistar KOI",
-          "score": "1-0",
-          "won": true,
-          "tournament": "Esports World Cup 2026",
-          "date": "2026-07-15"
-        },
-        {
-          "opponent": "T1",
-          "score": "1-0",
-          "won": true,
-          "tournament": "Esports World Cup 2026",
-          "date": "2026-07-16"
-        },
-        {
-          "opponent": "Dplus Kia",
-          "score": "1-2",
-          "won": false,
-          "tournament": "Esports World Cup 2026",
-          "date": "2026-07-17"
-        },
-        {
-          "opponent": "ThunderTalk Gaming",
+          "opponent": "JD Gaming",
           "score": "2-1",
           "won": true,
           "tournament": "LPL 2026 Split 3",
           "date": "2026-07-23"
         },
         {
-          "opponent": "EDward Gaming",
-          "score": "2-1",
+          "opponent": "LGD Gaming",
+          "score": "2-0",
           "won": true,
           "tournament": "LPL 2026 Split 3",
           "date": "2026-07-24"
         },
         {
-          "opponent": "Anyone's Legend",
-          "score": "2-1",
-          "won": true,
+          "opponent": "Bilibili Gaming",
+          "score": "1-2",
+          "won": false,
           "tournament": "LPL 2026 Split 3",
           "date": "2026-07-26"
         },
         {
-          "opponent": "LGD Gaming",
-          "score": "2-1",
+          "opponent": "Top Esports",
+          "score": "2-0",
           "won": true,
           "tournament": "LPL 2026 Split 3",
           "date": "2026-07-29"
         },
         {
-          "opponent": "Team WE",
+          "opponent": "EDward Gaming",
           "score": "2-0",
           "won": true,
           "tournament": "LPL 2026 Split 3",
           "date": "2026-07-31"
         },
         {
-          "opponent": "JD Gaming",
+          "opponent": "ThunderTalk Gaming",
           "score": "2-0",
           "won": true,
           "tournament": "LPL 2026 Split 3",
           "date": "2026-08-01"
         },
         {
-          "opponent": "Top Esports",
+          "opponent": "Team WE",
           "score": "0-2",
           "won": false,
           "tournament": "LPL 2026 Split 3",
-          "date": "2026-08-07"
+          "date": "2026-08-06"
         },
         {
-          "opponent": "EDward Gaming",
+          "opponent": "LGD Gaming",
           "score": "2-0",
           "won": true,
           "tournament": "LPL 2026 Split 3",
           "date": "2026-08-08"
         },
         {
-          "opponent": "JD Gaming",
-          "score": "1-2",
-          "won": false,
+          "opponent": "EDward Gaming",
+          "score": "2-1",
+          "won": true,
           "tournament": "LPL 2026 Split 3",
           "date": "2026-08-12"
         },
         {
-          "opponent": "ThunderTalk Gaming",
-          "score": "2-0",
+          "opponent": "JD Gaming",
+          "score": "2-1",
           "won": true,
           "tournament": "LPL 2026 Split 3",
-          "date": "2026-08-13"
+          "date": "2026-08-14"
         },
         {
-          "opponent": "Team WE",
-          "score": "2-0",
+          "opponent": "ThunderTalk Gaming",
+          "score": "2-1",
           "won": true,
           "tournament": "LPL 2026 Split 3",
           "date": "2026-08-15"
         },
         {
-          "opponent": "LGD Gaming",
-          "score": "2-1",
-          "won": true,
+          "opponent": "Top Esports",
+          "score": "1-2",
+          "won": false,
           "tournament": "LPL 2026 Split 3",
-          "date": "2026-08-20"
+          "date": "2026-08-19"
         },
         {
-          "opponent": "Top Esports",
-          "score": "2-0",
-          "won": true,
+          "opponent": "Team WE",
+          "score": "1-2",
+          "won": false,
           "tournament": "LPL 2026 Split 3",
           "date": "2026-08-21"
         },
         {
-          "opponent": "Anyone's Legend",
-          "score": "2-1",
-          "won": true,
+          "opponent": "Bilibili Gaming",
+          "score": "1-2",
+          "won": false,
           "tournament": "LPL 2026 Split 3",
           "date": "2026-08-23"
         },
         {
-          "opponent": "Team WE",
+          "opponent": "LGD Gaming",
           "score": "3-1",
           "won": true,
           "tournament": "LPL 2026 Grand Finals",
-          "date": "2026-09-03"
+          "date": "2026-09-04"
         },
         {
-          "opponent": "Anyone's Legend",
-          "score": "3-0",
-          "won": true,
+          "opponent": "Bilibili Gaming",
+          "score": "0-3",
+          "won": false,
           "tournament": "LPL 2026 Grand Finals",
           "date": "2026-09-07"
         },
         {
-          "opponent": "Anyone's Legend",
-          "score": "1-3",
-          "won": false,
+          "opponent": "Invictus Gaming",
+          "score": "3-2",
+          "won": true,
+          "tournament": "LPL 2026 Grand Finals",
+          "date": "2026-09-12"
+        },
+        {
+          "opponent": "Bilibili Gaming",
+          "score": "3-1",
+          "won": true,
           "tournament": "LPL 2026 Grand Finals",
           "date": "2026-09-13"
         }
@@ -728,37 +1401,161 @@
         "grit": true
       },
       "scores": {
-        "game": 0.46,
-        "series": 1.8,
-        "overall": 1.13,
-        "consistency": -0.02
+        "game": 0.49,
+        "series": 2,
+        "overall": 0.49,
+        "consistency": -0.12
       },
       "ranks": {
-        "model": 4,
-        "game": 6,
+        "model": 5,
+        "game": 5,
         "series": 1,
         "hype": 14
       },
       "game": {
         "games": 54,
         "winRate": 56.5,
-        "lead15Raw": 951,
-        "lead15Adjusted": 3417,
-        "goldDiff15": 282,
-        "xpDiff15": 669,
-        "conversionRate": 69.4,
-        "chokeRate": 30.6,
-        "comebackRate": 34.5,
-        "ceiling": 14267,
-        "swingSpread": 9032
+        "lead15Raw": 1128,
+        "lead15Adjusted": 3803,
+        "goldDiff15": 330,
+        "xpDiff15": 798,
+        "conversionRate": 71,
+        "chokeRate": 29,
+        "comebackRate": 28.8,
+        "ceiling": 14513,
+        "swingSpread": 9050
       },
       "series": {
-        "series": 16,
-        "winRate": 77.6,
-        "strength": 1.23,
-        "sweepRate": 37.9,
+        "series": 17,
+        "winRate": 78.9,
+        "strength": 1.28,
+        "sweepRate": 42.3,
         "closeSeriesWinRate": 100,
         "reverseSweeps": 1
+      },
+      "playstyle": {
+        "tempo": "Flexible",
+        "tempoScore": -0.13,
+        "avgGameMinutes": 34
+      },
+      "draft": {
+        "pool": 71,
+        "top5Share": 20,
+        "signature": [
+          {
+            "champion": "Jarvan IV",
+            "games": 13,
+            "wins": 6
+          },
+          {
+            "champion": "Xin Zhao",
+            "games": 11,
+            "wins": 7
+          },
+          {
+            "champion": "Viktor",
+            "games": 11,
+            "wins": 7
+          },
+          {
+            "champion": "K'Sante",
+            "games": 10,
+            "wins": 8
+          },
+          {
+            "champion": "Taliyah",
+            "games": 9,
+            "wins": 5
+          }
+        ],
+        "topPicks": [
+          {
+            "champion": "Jarvan IV",
+            "games": 13
+          },
+          {
+            "champion": "Xin Zhao",
+            "games": 11
+          },
+          {
+            "champion": "Viktor",
+            "games": 11
+          },
+          {
+            "champion": "K'Sante",
+            "games": 10
+          },
+          {
+            "champion": "Taliyah",
+            "games": 9
+          },
+          {
+            "champion": "Jayce",
+            "games": 9
+          },
+          {
+            "champion": "Vi",
+            "games": 9
+          },
+          {
+            "champion": "Syndra",
+            "games": 8
+          },
+          {
+            "champion": "Shen",
+            "games": 7
+          },
+          {
+            "champion": "Cassiopeia",
+            "games": 7
+          }
+        ],
+        "bans": [
+          {
+            "champion": "Nocturne",
+            "count": 45
+          },
+          {
+            "champion": "Poppy",
+            "count": 24
+          },
+          {
+            "champion": "Orianna",
+            "count": 19
+          },
+          {
+            "champion": "Akali",
+            "count": 9
+          },
+          {
+            "champion": "Cassiopeia",
+            "count": 9
+          }
+        ],
+        "bannedAgainst": [
+          {
+            "champion": "Cassiopeia",
+            "count": 19
+          },
+          {
+            "champion": "Vi",
+            "count": 19
+          },
+          {
+            "champion": "Orianna",
+            "count": 18
+          },
+          {
+            "champion": "Syndra",
+            "count": 16
+          },
+          {
+            "champion": "Poppy",
+            "count": 15
+          }
+        ],
+        "tempo": "Early-game drafts",
+        "tempoScore": 1.17
       },
       "matches": [
         {
@@ -847,7 +1644,7 @@
         },
         {
           "opponent": "Gen.G",
-          "score": "1-0",
+          "score": "2-0",
           "won": true,
           "tournament": "LCK 2026 Rounds 3-4",
           "date": "2026-08-01"
@@ -926,6 +1723,272 @@
       "report": null
     },
     {
+      "name": "Invictus Gaming",
+      "short": "iG",
+      "region": "China",
+      "stage": "Main Event",
+      "seed": 4,
+      "pool": 4,
+      "archetype": "Dark horse",
+      "tags": {
+        "clutch": "Fragile",
+        "bust": false,
+        "underrated": true,
+        "grit": false
+      },
+      "scores": {
+        "game": 0.47,
+        "series": -0.09,
+        "overall": 0.47,
+        "consistency": 0.12
+      },
+      "ranks": {
+        "model": 6,
+        "game": 6,
+        "series": 10,
+        "hype": 14
+      },
+      "game": {
+        "games": 43,
+        "winRate": 61.3,
+        "lead15Raw": 1212,
+        "lead15Adjusted": 2267,
+        "goldDiff15": 649,
+        "xpDiff15": 563,
+        "conversionRate": 82.9,
+        "chokeRate": 17.1,
+        "comebackRate": 46.3,
+        "ceiling": 12692,
+        "swingSpread": 8905
+      },
+      "series": {
+        "series": 13,
+        "winRate": 67.3,
+        "strength": 0.44,
+        "sweepRate": 43.2,
+        "closeSeriesWinRate": 59.1,
+        "reverseSweeps": 0
+      },
+      "playstyle": {
+        "tempo": "Early game",
+        "tempoScore": 0.8,
+        "avgGameMinutes": 31.6
+      },
+      "draft": {
+        "pool": 74,
+        "top5Share": 15.8,
+        "signature": [
+          {
+            "champion": "Naafiri",
+            "games": 8,
+            "wins": 4
+          },
+          {
+            "champion": "Orianna",
+            "games": 7,
+            "wins": 6
+          },
+          {
+            "champion": "Seraphine",
+            "games": 7,
+            "wins": 4
+          },
+          {
+            "champion": "Lulu",
+            "games": 6,
+            "wins": 6
+          },
+          {
+            "champion": "Trundle",
+            "games": 6,
+            "wins": 5
+          }
+        ],
+        "topPicks": [
+          {
+            "champion": "Naafiri",
+            "games": 8
+          },
+          {
+            "champion": "Orianna",
+            "games": 7
+          },
+          {
+            "champion": "Seraphine",
+            "games": 7
+          },
+          {
+            "champion": "Lulu",
+            "games": 6
+          },
+          {
+            "champion": "Trundle",
+            "games": 6
+          },
+          {
+            "champion": "Rumble",
+            "games": 6
+          },
+          {
+            "champion": "Ezreal",
+            "games": 6
+          },
+          {
+            "champion": "Jhin",
+            "games": 6
+          },
+          {
+            "champion": "Yunara",
+            "games": 5
+          },
+          {
+            "champion": "Syndra",
+            "games": 5
+          }
+        ],
+        "bans": [
+          {
+            "champion": "Vi",
+            "count": 19
+          },
+          {
+            "champion": "Cassiopeia",
+            "count": 13
+          },
+          {
+            "champion": "Ezreal",
+            "count": 11
+          },
+          {
+            "champion": "Nocturne",
+            "count": 10
+          },
+          {
+            "champion": "Vayne",
+            "count": 10
+          }
+        ],
+        "bannedAgainst": [
+          {
+            "champion": "Cassiopeia",
+            "count": 20
+          },
+          {
+            "champion": "Nocturne",
+            "count": 18
+          },
+          {
+            "champion": "Jarvan IV",
+            "count": 14
+          },
+          {
+            "champion": "Orianna",
+            "count": 11
+          },
+          {
+            "champion": "Lucian",
+            "count": 11
+          }
+        ],
+        "tempo": "Scaling drafts",
+        "tempoScore": -2.41
+      },
+      "matches": [
+        {
+          "opponent": "Weibo Gaming",
+          "score": "2-1",
+          "won": true,
+          "tournament": "LPL 2026 Split 3",
+          "date": "2026-07-25"
+        },
+        {
+          "opponent": "LNG Esports",
+          "score": "2-0",
+          "won": true,
+          "tournament": "LPL 2026 Split 3",
+          "date": "2026-08-02"
+        },
+        {
+          "opponent": "Ninjas in Pyjamas.CN",
+          "score": "1-2",
+          "won": false,
+          "tournament": "LPL 2026 Split 3",
+          "date": "2026-08-06"
+        },
+        {
+          "opponent": "LNG Esports",
+          "score": "2-0",
+          "won": true,
+          "tournament": "LPL 2026 Split 3",
+          "date": "2026-08-09"
+        },
+        {
+          "opponent": "Weibo Gaming",
+          "score": "2-1",
+          "won": true,
+          "tournament": "LPL 2026 Split 3",
+          "date": "2026-08-16"
+        },
+        {
+          "opponent": "Ninjas in Pyjamas.CN",
+          "score": "0-2",
+          "won": false,
+          "tournament": "LPL 2026 Split 3",
+          "date": "2026-08-22"
+        },
+        {
+          "opponent": "ThunderTalk Gaming",
+          "score": "3-0",
+          "won": true,
+          "tournament": "LPL 2026 Grand Finals",
+          "date": "2026-08-28"
+        },
+        {
+          "opponent": "Top Esports",
+          "score": "3-2",
+          "won": true,
+          "tournament": "LPL 2026 Grand Finals",
+          "date": "2026-09-05"
+        },
+        {
+          "opponent": "Team WE",
+          "score": "3-1",
+          "won": true,
+          "tournament": "LPL 2026 Grand Finals",
+          "date": "2026-09-06"
+        },
+        {
+          "opponent": "LGD Gaming",
+          "score": "3-0",
+          "won": true,
+          "tournament": "LPL 2026 Grand Finals",
+          "date": "2026-09-08"
+        },
+        {
+          "opponent": "Anyone's Legend",
+          "score": "2-3",
+          "won": false,
+          "tournament": "LPL 2026 Grand Finals",
+          "date": "2026-09-12"
+        },
+        {
+          "opponent": "Top Esports",
+          "score": "1-3",
+          "won": false,
+          "tournament": "LPL 2026 Regional Finals",
+          "date": "2026-09-17"
+        },
+        {
+          "opponent": "JD Gaming",
+          "score": "3-1",
+          "won": true,
+          "tournament": "LPL 2026 Regional Finals",
+          "date": "2026-09-19"
+        }
+      ],
+      "report": null
+    },
+    {
       "name": "T1",
       "short": "T1",
       "region": "Korea",
@@ -940,29 +2003,29 @@
         "grit": false
       },
       "scores": {
-        "game": 0.5,
-        "series": 0.77,
-        "overall": 0.63,
-        "consistency": 0.77
+        "game": 0.46,
+        "series": 0.82,
+        "overall": 0.46,
+        "consistency": 0.83
       },
       "ranks": {
-        "model": 5,
-        "game": 5,
+        "model": 7,
+        "game": 7,
         "series": 5,
         "hype": 11
       },
       "game": {
         "games": 85,
         "winRate": 57.9,
-        "lead15Raw": 1062,
-        "lead15Adjusted": 3218,
-        "goldDiff15": 514,
-        "xpDiff15": 548,
-        "conversionRate": 69,
-        "chokeRate": 31,
-        "comebackRate": 34.8,
-        "ceiling": 15201,
-        "swingSpread": 8539
+        "lead15Raw": 1093,
+        "lead15Adjusted": 3347,
+        "goldDiff15": 564,
+        "xpDiff15": 529,
+        "conversionRate": 70.1,
+        "chokeRate": 29.9,
+        "comebackRate": 35.8,
+        "ceiling": 15305,
+        "swingSpread": 8470
       },
       "series": {
         "series": 25,
@@ -971,6 +2034,130 @@
         "sweepRate": 75.7,
         "closeSeriesWinRate": 24.1,
         "reverseSweeps": 0
+      },
+      "playstyle": {
+        "tempo": "Flexible",
+        "tempoScore": 0.55,
+        "avgGameMinutes": 32.6
+      },
+      "draft": {
+        "pool": 85,
+        "top5Share": 15.3,
+        "signature": [
+          {
+            "champion": "Vi",
+            "games": 15,
+            "wins": 14
+          },
+          {
+            "champion": "Jayce",
+            "games": 13,
+            "wins": 10
+          },
+          {
+            "champion": "Ambessa",
+            "games": 13,
+            "wins": 6
+          },
+          {
+            "champion": "Cassiopeia",
+            "games": 12,
+            "wins": 8
+          },
+          {
+            "champion": "Lee Sin",
+            "games": 12,
+            "wins": 7
+          }
+        ],
+        "topPicks": [
+          {
+            "champion": "Vi",
+            "games": 15
+          },
+          {
+            "champion": "Jayce",
+            "games": 13
+          },
+          {
+            "champion": "Ambessa",
+            "games": 13
+          },
+          {
+            "champion": "Cassiopeia",
+            "games": 12
+          },
+          {
+            "champion": "Lee Sin",
+            "games": 12
+          },
+          {
+            "champion": "Orianna",
+            "games": 12
+          },
+          {
+            "champion": "Camille",
+            "games": 12
+          },
+          {
+            "champion": "Ryze",
+            "games": 12
+          },
+          {
+            "champion": "Taliyah",
+            "games": 10
+          },
+          {
+            "champion": "Gnar",
+            "games": 10
+          }
+        ],
+        "bans": [
+          {
+            "champion": "Poppy",
+            "count": 31
+          },
+          {
+            "champion": "Orianna",
+            "count": 27
+          },
+          {
+            "champion": "Akali",
+            "count": 21
+          },
+          {
+            "champion": "Vayne",
+            "count": 20
+          },
+          {
+            "champion": "Nautilus",
+            "count": 20
+          }
+        ],
+        "bannedAgainst": [
+          {
+            "champion": "Bard",
+            "count": 43
+          },
+          {
+            "champion": "Nocturne",
+            "count": 40
+          },
+          {
+            "champion": "Lucian",
+            "count": 24
+          },
+          {
+            "champion": "Orianna",
+            "count": 23
+          },
+          {
+            "champion": "Poppy",
+            "count": 21
+          }
+        ],
+        "tempo": null,
+        "tempoScore": -0.11
       },
       "matches": [
         {
@@ -1201,1296 +2388,6 @@
       "report": null
     },
     {
-      "name": "Anyone's Legend",
-      "short": "AL",
-      "region": "China",
-      "stage": "Main Event",
-      "seed": 1,
-      "pool": 1,
-      "archetype": "Powerhouse",
-      "tags": {
-        "clutch": "Fragile",
-        "bust": false,
-        "underrated": false,
-        "grit": false
-      },
-      "scores": {
-        "game": 0.82,
-        "series": 0.01,
-        "overall": 0.42,
-        "consistency": 1.04
-      },
-      "ranks": {
-        "model": 6,
-        "game": 4,
-        "series": 9,
-        "hype": 1
-      },
-      "game": {
-        "games": 52,
-        "winRate": 58.4,
-        "lead15Raw": 926,
-        "lead15Adjusted": 2400,
-        "goldDiff15": 510,
-        "xpDiff15": 416,
-        "conversionRate": 89.7,
-        "chokeRate": 10.3,
-        "comebackRate": 25.7,
-        "ceiling": 12696,
-        "swingSpread": 8372
-      },
-      "series": {
-        "series": 18,
-        "winRate": 64.6,
-        "strength": 0.5,
-        "sweepRate": 41.2,
-        "closeSeriesWinRate": 52.5,
-        "reverseSweeps": 0
-      },
-      "matches": [
-        {
-          "opponent": "JD Gaming",
-          "score": "2-1",
-          "won": true,
-          "tournament": "LPL 2026 Split 3",
-          "date": "2026-07-23"
-        },
-        {
-          "opponent": "LGD Gaming",
-          "score": "2-0",
-          "won": true,
-          "tournament": "LPL 2026 Split 3",
-          "date": "2026-07-24"
-        },
-        {
-          "opponent": "Bilibili Gaming",
-          "score": "1-2",
-          "won": false,
-          "tournament": "LPL 2026 Split 3",
-          "date": "2026-07-26"
-        },
-        {
-          "opponent": "Top Esports",
-          "score": "2-0",
-          "won": true,
-          "tournament": "LPL 2026 Split 3",
-          "date": "2026-07-29"
-        },
-        {
-          "opponent": "EDward Gaming",
-          "score": "2-0",
-          "won": true,
-          "tournament": "LPL 2026 Split 3",
-          "date": "2026-07-31"
-        },
-        {
-          "opponent": "ThunderTalk Gaming",
-          "score": "2-0",
-          "won": true,
-          "tournament": "LPL 2026 Split 3",
-          "date": "2026-08-01"
-        },
-        {
-          "opponent": "Team WE",
-          "score": "0-2",
-          "won": false,
-          "tournament": "LPL 2026 Split 3",
-          "date": "2026-08-06"
-        },
-        {
-          "opponent": "LGD Gaming",
-          "score": "2-0",
-          "won": true,
-          "tournament": "LPL 2026 Split 3",
-          "date": "2026-08-08"
-        },
-        {
-          "opponent": "EDward Gaming",
-          "score": "2-1",
-          "won": true,
-          "tournament": "LPL 2026 Split 3",
-          "date": "2026-08-12"
-        },
-        {
-          "opponent": "JD Gaming",
-          "score": "2-1",
-          "won": true,
-          "tournament": "LPL 2026 Split 3",
-          "date": "2026-08-14"
-        },
-        {
-          "opponent": "ThunderTalk Gaming",
-          "score": "2-1",
-          "won": true,
-          "tournament": "LPL 2026 Split 3",
-          "date": "2026-08-15"
-        },
-        {
-          "opponent": "Top Esports",
-          "score": "1-2",
-          "won": false,
-          "tournament": "LPL 2026 Split 3",
-          "date": "2026-08-19"
-        },
-        {
-          "opponent": "Team WE",
-          "score": "1-2",
-          "won": false,
-          "tournament": "LPL 2026 Split 3",
-          "date": "2026-08-21"
-        },
-        {
-          "opponent": "Bilibili Gaming",
-          "score": "1-2",
-          "won": false,
-          "tournament": "LPL 2026 Split 3",
-          "date": "2026-08-23"
-        },
-        {
-          "opponent": "LGD Gaming",
-          "score": "3-1",
-          "won": true,
-          "tournament": "LPL 2026 Grand Finals",
-          "date": "2026-09-04"
-        },
-        {
-          "opponent": "Bilibili Gaming",
-          "score": "0-3",
-          "won": false,
-          "tournament": "LPL 2026 Grand Finals",
-          "date": "2026-09-07"
-        },
-        {
-          "opponent": "Invictus Gaming",
-          "score": "3-2",
-          "won": true,
-          "tournament": "LPL 2026 Grand Finals",
-          "date": "2026-09-12"
-        },
-        {
-          "opponent": "Bilibili Gaming",
-          "score": "3-1",
-          "won": true,
-          "tournament": "LPL 2026 Grand Finals",
-          "date": "2026-09-13"
-        }
-      ],
-      "report": null
-    },
-    {
-      "name": "Invictus Gaming",
-      "short": "iG",
-      "region": "China",
-      "stage": "Main Event",
-      "seed": 4,
-      "pool": 4,
-      "archetype": "Dark horse",
-      "tags": {
-        "clutch": null,
-        "bust": false,
-        "underrated": true,
-        "grit": false
-      },
-      "scores": {
-        "game": 0.42,
-        "series": -0.04,
-        "overall": 0.19,
-        "consistency": 0.09
-      },
-      "ranks": {
-        "model": 7,
-        "game": 7,
-        "series": 10,
-        "hype": 14
-      },
-      "game": {
-        "games": 43,
-        "winRate": 61.3,
-        "lead15Raw": 1091,
-        "lead15Adjusted": 1900,
-        "goldDiff15": 581,
-        "xpDiff15": 510,
-        "conversionRate": 82.9,
-        "chokeRate": 17.1,
-        "comebackRate": 46.3,
-        "ceiling": 12420,
-        "swingSpread": 8962
-      },
-      "series": {
-        "series": 13,
-        "winRate": 67.3,
-        "strength": 0.48,
-        "sweepRate": 43.2,
-        "closeSeriesWinRate": 59.1,
-        "reverseSweeps": 0
-      },
-      "matches": [
-        {
-          "opponent": "Weibo Gaming",
-          "score": "2-1",
-          "won": true,
-          "tournament": "LPL 2026 Split 3",
-          "date": "2026-07-25"
-        },
-        {
-          "opponent": "LNG Esports",
-          "score": "2-0",
-          "won": true,
-          "tournament": "LPL 2026 Split 3",
-          "date": "2026-08-02"
-        },
-        {
-          "opponent": "Ninjas in Pyjamas.CN",
-          "score": "1-2",
-          "won": false,
-          "tournament": "LPL 2026 Split 3",
-          "date": "2026-08-06"
-        },
-        {
-          "opponent": "LNG Esports",
-          "score": "2-0",
-          "won": true,
-          "tournament": "LPL 2026 Split 3",
-          "date": "2026-08-09"
-        },
-        {
-          "opponent": "Weibo Gaming",
-          "score": "2-1",
-          "won": true,
-          "tournament": "LPL 2026 Split 3",
-          "date": "2026-08-16"
-        },
-        {
-          "opponent": "Ninjas in Pyjamas.CN",
-          "score": "0-2",
-          "won": false,
-          "tournament": "LPL 2026 Split 3",
-          "date": "2026-08-22"
-        },
-        {
-          "opponent": "ThunderTalk Gaming",
-          "score": "3-0",
-          "won": true,
-          "tournament": "LPL 2026 Grand Finals",
-          "date": "2026-08-28"
-        },
-        {
-          "opponent": "Top Esports",
-          "score": "3-2",
-          "won": true,
-          "tournament": "LPL 2026 Grand Finals",
-          "date": "2026-09-05"
-        },
-        {
-          "opponent": "Team WE",
-          "score": "3-1",
-          "won": true,
-          "tournament": "LPL 2026 Grand Finals",
-          "date": "2026-09-06"
-        },
-        {
-          "opponent": "LGD Gaming",
-          "score": "3-0",
-          "won": true,
-          "tournament": "LPL 2026 Grand Finals",
-          "date": "2026-09-08"
-        },
-        {
-          "opponent": "Anyone's Legend",
-          "score": "2-3",
-          "won": false,
-          "tournament": "LPL 2026 Grand Finals",
-          "date": "2026-09-12"
-        },
-        {
-          "opponent": "Top Esports",
-          "score": "1-3",
-          "won": false,
-          "tournament": "LPL 2026 Regional Finals",
-          "date": "2026-09-17"
-        },
-        {
-          "opponent": "JD Gaming",
-          "score": "3-1",
-          "won": true,
-          "tournament": "LPL 2026 Regional Finals",
-          "date": "2026-09-19"
-        }
-      ],
-      "report": null
-    },
-    {
-      "name": "Team Secret Whales",
-      "short": "TSW",
-      "region": "Asia Pacific",
-      "stage": "Main Event",
-      "seed": 1,
-      "pool": 2,
-      "archetype": "Powerhouse",
-      "tags": {
-        "clutch": "Clutch",
-        "bust": false,
-        "underrated": false,
-        "grit": false
-      },
-      "scores": {
-        "game": 0.02,
-        "series": 0.25,
-        "overall": 0.14,
-        "consistency": -1.52
-      },
-      "ranks": {
-        "model": 8,
-        "game": 10,
-        "series": 6,
-        "hype": 5
-      },
-      "game": {
-        "games": 32,
-        "winRate": 59.2,
-        "lead15Raw": 67,
-        "lead15Adjusted": 34,
-        "goldDiff15": 180,
-        "xpDiff15": -112,
-        "conversionRate": 86.7,
-        "chokeRate": 13.3,
-        "comebackRate": 14.1,
-        "ceiling": 10505,
-        "swingSpread": 9961
-      },
-      "series": {
-        "series": 10,
-        "winRate": 63.2,
-        "strength": 0.62,
-        "sweepRate": 66.7,
-        "closeSeriesWinRate": 0,
-        "reverseSweeps": 0
-      },
-      "matches": [
-        {
-          "opponent": "Hanwha Life Esports",
-          "score": "0-3",
-          "won": false,
-          "tournament": "MSI 2026",
-          "date": "2026-07-03"
-        },
-        {
-          "opponent": "Top Esports",
-          "score": "3-1",
-          "won": true,
-          "tournament": "MSI 2026",
-          "date": "2026-07-05"
-        },
-        {
-          "opponent": "LYON (2024 American Team)",
-          "score": "0-3",
-          "won": false,
-          "tournament": "MSI 2026",
-          "date": "2026-07-08"
-        },
-        {
-          "opponent": "Fukuoka SoftBank HAWKS gaming",
-          "score": "2-0",
-          "won": true,
-          "tournament": "LCP 2026 Split 3",
-          "date": "2026-07-25"
-        },
-        {
-          "opponent": "MVK Esports",
-          "score": "2-0",
-          "won": true,
-          "tournament": "LCP 2026 Split 3",
-          "date": "2026-07-31"
-        },
-        {
-          "opponent": "CTBC Flying Oyster",
-          "score": "3-0",
-          "won": true,
-          "tournament": "LCP 2026 Split 3",
-          "date": "2026-08-02"
-        },
-        {
-          "opponent": "CTBC Flying Oyster",
-          "score": "2-3",
-          "won": false,
-          "tournament": "LCP 2026 Split 3",
-          "date": "2026-08-16"
-        },
-        {
-          "opponent": "GAM Esports",
-          "score": "3-1",
-          "won": true,
-          "tournament": "LCP 2026 Split 3",
-          "date": "2026-08-21"
-        },
-        {
-          "opponent": "CTBC Flying Oyster",
-          "score": "3-0",
-          "won": true,
-          "tournament": "LCP 2026 Split 3",
-          "date": "2026-08-23"
-        },
-        {
-          "opponent": "CTBC Flying Oyster",
-          "score": "3-0",
-          "won": true,
-          "tournament": "LCP 2026 Split 3",
-          "date": "2026-08-30"
-        }
-      ],
-      "report": null
-    },
-    {
-      "name": "Team Liquid",
-      "short": "TL",
-      "region": "North America",
-      "stage": "Main Event",
-      "seed": 1,
-      "pool": 1,
-      "archetype": "Scrappy",
-      "tags": {
-        "clutch": null,
-        "bust": true,
-        "underrated": false,
-        "grit": false
-      },
-      "scores": {
-        "game": -0.01,
-        "series": 0.04,
-        "overall": 0.02,
-        "consistency": 1.19
-      },
-      "ranks": {
-        "model": 9,
-        "game": 11,
-        "series": 8,
-        "hype": 1
-      },
-      "game": {
-        "games": 38,
-        "winRate": 66,
-        "lead15Raw": 798,
-        "lead15Adjusted": 789,
-        "goldDiff15": 402,
-        "xpDiff15": 396,
-        "conversionRate": 84.3,
-        "chokeRate": 15.7,
-        "comebackRate": 20,
-        "ceiling": 9398,
-        "swingSpread": 8281
-      },
-      "series": {
-        "series": 14,
-        "winRate": 72.4,
-        "strength": 0.52,
-        "sweepRate": 74.5,
-        "closeSeriesWinRate": 100,
-        "reverseSweeps": 0
-      },
-      "matches": [
-        {
-          "opponent": "T1",
-          "score": "0-3",
-          "won": false,
-          "tournament": "MSI 2026",
-          "date": "2026-06-28"
-        },
-        {
-          "opponent": "Deep Cross Gaming",
-          "score": "3-0",
-          "won": true,
-          "tournament": "MSI 2026",
-          "date": "2026-06-29"
-        },
-        {
-          "opponent": "Karmine Corp",
-          "score": "3-0",
-          "won": true,
-          "tournament": "MSI 2026",
-          "date": "2026-06-30"
-        },
-        {
-          "opponent": "T1",
-          "score": "0-3",
-          "won": false,
-          "tournament": "MSI 2026",
-          "date": "2026-07-01"
-        },
-        {
-          "opponent": "Cloud9",
-          "score": "2-0",
-          "won": true,
-          "tournament": "LCS 2026 Summer",
-          "date": "2026-07-26"
-        },
-        {
-          "opponent": "Sentinels",
-          "score": "2-0",
-          "won": true,
-          "tournament": "LCS 2026 Summer",
-          "date": "2026-08-02"
-        },
-        {
-          "opponent": "FlyQuest",
-          "score": "2-0",
-          "won": true,
-          "tournament": "LCS 2026 Summer",
-          "date": "2026-08-09"
-        },
-        {
-          "opponent": "Disguised",
-          "score": "2-0",
-          "won": true,
-          "tournament": "LCS 2026 Summer",
-          "date": "2026-08-15"
-        },
-        {
-          "opponent": "Shopify Rebellion",
-          "score": "2-1",
-          "won": true,
-          "tournament": "LCS 2026 Summer",
-          "date": "2026-08-29"
-        },
-        {
-          "opponent": "LYON (2024 American Team)",
-          "score": "0-2",
-          "won": false,
-          "tournament": "LCS 2026 Summer",
-          "date": "2026-08-30"
-        },
-        {
-          "opponent": "Dignitas",
-          "score": "2-0",
-          "won": true,
-          "tournament": "LCS 2026 Summer",
-          "date": "2026-09-05"
-        },
-        {
-          "opponent": "FlyQuest",
-          "score": "3-0",
-          "won": true,
-          "tournament": "LCS 2026 Summer Playoffs",
-          "date": "2026-09-20"
-        },
-        {
-          "opponent": "Cloud9",
-          "score": "3-1",
-          "won": true,
-          "tournament": "LCS 2026 Summer Playoffs",
-          "date": "2026-09-27"
-        },
-        {
-          "opponent": "LYON (2024 American Team)",
-          "score": "3-1",
-          "won": true,
-          "tournament": "LCS 2026 Summer Playoffs",
-          "date": "2026-10-04"
-        }
-      ],
-      "report": null
-    },
-    {
-      "name": "LYON (2024 American Team)",
-      "short": "LYON",
-      "region": "North America",
-      "stage": "Main Event",
-      "seed": 2,
-      "pool": 3,
-      "archetype": "Scrappy",
-      "tags": {
-        "clutch": "Clutch",
-        "bust": false,
-        "underrated": false,
-        "grit": false
-      },
-      "scores": {
-        "game": -0.04,
-        "series": 0.06,
-        "overall": 0.01,
-        "consistency": 0.68
-      },
-      "ranks": {
-        "model": 10,
-        "game": 12,
-        "series": 7,
-        "hype": 9
-      },
-      "game": {
-        "games": 51,
-        "winRate": 60.9,
-        "lead15Raw": 465,
-        "lead15Adjusted": 1060,
-        "goldDiff15": 268,
-        "xpDiff15": 198,
-        "conversionRate": 80.9,
-        "chokeRate": 19.1,
-        "comebackRate": 36.8,
-        "ceiling": 9711,
-        "swingSpread": 8596
-      },
-      "series": {
-        "series": 17,
-        "winRate": 61.5,
-        "strength": 0.52,
-        "sweepRate": 84.7,
-        "closeSeriesWinRate": 0,
-        "reverseSweeps": 0
-      },
-      "matches": [
-        {
-          "opponent": "FURIA",
-          "score": "3-0",
-          "won": true,
-          "tournament": "MSI 2026",
-          "date": "2026-07-04"
-        },
-        {
-          "opponent": "Bilibili Gaming",
-          "score": "0-3",
-          "won": false,
-          "tournament": "MSI 2026",
-          "date": "2026-07-06"
-        },
-        {
-          "opponent": "Team Secret Whales",
-          "score": "3-0",
-          "won": true,
-          "tournament": "MSI 2026",
-          "date": "2026-07-08"
-        },
-        {
-          "opponent": "G2 Esports",
-          "score": "3-0",
-          "won": true,
-          "tournament": "MSI 2026",
-          "date": "2026-07-10"
-        },
-        {
-          "opponent": "Hanwha Life Esports",
-          "score": "2-3",
-          "won": false,
-          "tournament": "MSI 2026",
-          "date": "2026-07-11"
-        },
-        {
-          "opponent": "JD Gaming",
-          "score": "0-1",
-          "won": false,
-          "tournament": "Esports World Cup 2026",
-          "date": "2026-07-15"
-        },
-        {
-          "opponent": "MIBR.LOS",
-          "score": "0-2",
-          "won": false,
-          "tournament": "Esports World Cup 2026",
-          "date": "2026-07-15"
-        },
-        {
-          "opponent": "FlyQuest",
-          "score": "2-0",
-          "won": true,
-          "tournament": "LCS 2026 Summer",
-          "date": "2026-07-25"
-        },
-        {
-          "opponent": "Shopify Rebellion",
-          "score": "2-0",
-          "won": true,
-          "tournament": "LCS 2026 Summer",
-          "date": "2026-08-02"
-        },
-        {
-          "opponent": "Dignitas",
-          "score": "2-0",
-          "won": true,
-          "tournament": "LCS 2026 Summer",
-          "date": "2026-08-09"
-        },
-        {
-          "opponent": "Sentinels",
-          "score": "1-2",
-          "won": false,
-          "tournament": "LCS 2026 Summer",
-          "date": "2026-08-16"
-        },
-        {
-          "opponent": "Cloud9",
-          "score": "2-0",
-          "won": true,
-          "tournament": "LCS 2026 Summer",
-          "date": "2026-08-29"
-        },
-        {
-          "opponent": "Team Liquid",
-          "score": "2-0",
-          "won": true,
-          "tournament": "LCS 2026 Summer",
-          "date": "2026-08-30"
-        },
-        {
-          "opponent": "Disguised",
-          "score": "2-0",
-          "won": true,
-          "tournament": "LCS 2026 Summer",
-          "date": "2026-09-06"
-        },
-        {
-          "opponent": "Cloud9",
-          "score": "1-3",
-          "won": false,
-          "tournament": "LCS 2026 Summer Playoffs",
-          "date": "2026-09-19"
-        },
-        {
-          "opponent": "Shopify Rebellion",
-          "score": "3-1",
-          "won": true,
-          "tournament": "LCS 2026 Summer Playoffs",
-          "date": "2026-09-26"
-        },
-        {
-          "opponent": "Cloud9",
-          "score": "3-1",
-          "won": true,
-          "tournament": "LCS 2026 Summer Playoffs",
-          "date": "2026-10-03"
-        },
-        {
-          "opponent": "Team Liquid",
-          "score": "1-3",
-          "won": false,
-          "tournament": "LCS 2026 Summer Playoffs",
-          "date": "2026-10-04"
-        }
-      ],
-      "report": null
-    },
-    {
-      "name": "G2 Esports",
-      "short": "G2",
-      "region": "EMEA",
-      "stage": "Main Event",
-      "seed": 1,
-      "pool": 1,
-      "archetype": "Dark horse",
-      "tags": {
-        "clutch": "Fragile",
-        "bust": true,
-        "underrated": false,
-        "grit": true
-      },
-      "scores": {
-        "game": 0.04,
-        "series": -0.32,
-        "overall": -0.14,
-        "consistency": 0.41
-      },
-      "ranks": {
-        "model": 11,
-        "game": 9,
-        "series": 13,
-        "hype": 1
-      },
-      "game": {
-        "games": 50,
-        "winRate": 54.7,
-        "lead15Raw": -306,
-        "lead15Adjusted": 460,
-        "goldDiff15": -82,
-        "xpDiff15": -224,
-        "conversionRate": 86.4,
-        "chokeRate": 13.6,
-        "comebackRate": 35.8,
-        "ceiling": 9847,
-        "swingSpread": 8768
-      },
-      "series": {
-        "series": 17,
-        "winRate": 60.4,
-        "strength": 0.37,
-        "sweepRate": 52.7,
-        "closeSeriesWinRate": 59.1,
-        "reverseSweeps": 1
-      },
-      "matches": [
-        {
-          "opponent": "Top Esports",
-          "score": "3-2",
-          "won": true,
-          "tournament": "MSI 2026",
-          "date": "2026-07-03"
-        },
-        {
-          "opponent": "Hanwha Life Esports",
-          "score": "0-3",
-          "won": false,
-          "tournament": "MSI 2026",
-          "date": "2026-07-05"
-        },
-        {
-          "opponent": "T1",
-          "score": "3-1",
-          "won": true,
-          "tournament": "MSI 2026",
-          "date": "2026-07-08"
-        },
-        {
-          "opponent": "LYON (2024 American Team)",
-          "score": "0-3",
-          "won": false,
-          "tournament": "MSI 2026",
-          "date": "2026-07-10"
-        },
-        {
-          "opponent": "FURIA",
-          "score": "1-0",
-          "won": true,
-          "tournament": "Esports World Cup 2026",
-          "date": "2026-07-15"
-        },
-        {
-          "opponent": "AG.AL",
-          "score": "0-1",
-          "won": false,
-          "tournament": "Esports World Cup 2026",
-          "date": "2026-07-16"
-        },
-        {
-          "opponent": "Dplus Kia",
-          "score": "0-2",
-          "won": false,
-          "tournament": "Esports World Cup 2026",
-          "date": "2026-07-16"
-        },
-        {
-          "opponent": "Movistar KOI",
-          "score": "2-1",
-          "won": true,
-          "tournament": "LEC 2026 Summer",
-          "date": "2026-07-24"
-        },
-        {
-          "opponent": "Team Vitality",
-          "score": "2-0",
-          "won": true,
-          "tournament": "LEC 2026 Summer",
-          "date": "2026-07-25"
-        },
-        {
-          "opponent": "Karmine Corp",
-          "score": "1-2",
-          "won": false,
-          "tournament": "LEC 2026 Summer",
-          "date": "2026-07-26"
-        },
-        {
-          "opponent": "SK Gaming",
-          "score": "2-0",
-          "won": true,
-          "tournament": "LEC 2026 Summer",
-          "date": "2026-08-02"
-        },
-        {
-          "opponent": "Team Heretics",
-          "score": "2-0",
-          "won": true,
-          "tournament": "LEC 2026 Summer",
-          "date": "2026-08-09"
-        },
-        {
-          "opponent": "Natus Vincere",
-          "score": "2-0",
-          "won": true,
-          "tournament": "LEC 2026 Summer",
-          "date": "2026-08-10"
-        },
-        {
-          "opponent": "Shifters",
-          "score": "2-0",
-          "won": true,
-          "tournament": "LEC 2026 Summer",
-          "date": "2026-08-15"
-        },
-        {
-          "opponent": "Fnatic",
-          "score": "0-2",
-          "won": false,
-          "tournament": "LEC 2026 Summer",
-          "date": "2026-08-16"
-        },
-        {
-          "opponent": "GIANTX",
-          "score": "1-2",
-          "won": false,
-          "tournament": "LEC 2026 Summer",
-          "date": "2026-08-24"
-        },
-        {
-          "opponent": "Team Vitality",
-          "score": "3-0",
-          "won": true,
-          "tournament": "LEC 2026 Summer Playoffs",
-          "date": "2026-09-05"
-        },
-        {
-          "opponent": "Karmine Corp",
-          "score": "3-1",
-          "won": true,
-          "tournament": "LEC 2026 Summer Playoffs",
-          "date": "2026-09-06"
-        },
-        {
-          "opponent": "Movistar KOI",
-          "score": "3-0",
-          "won": true,
-          "tournament": "LEC 2026 Summer Playoffs",
-          "date": "2026-09-20"
-        }
-      ],
-      "report": null
-    },
-    {
-      "name": "Karmine Corp",
-      "short": "KC",
-      "region": "EMEA",
-      "stage": "Play-In",
-      "seed": 3,
-      "pool": null,
-      "archetype": "Bottom of the barrel",
-      "tags": {
-        "clutch": null,
-        "bust": false,
-        "underrated": true,
-        "grit": false
-      },
-      "scores": {
-        "game": -0.21,
-        "series": -0.28,
-        "overall": -0.25,
-        "consistency": -0.85
-      },
-      "ranks": {
-        "model": 12,
-        "game": 14,
-        "series": 12,
-        "hype": 17
-      },
-      "game": {
-        "games": 54,
-        "winRate": 56.5,
-        "lead15Raw": 655,
-        "lead15Adjusted": 980,
-        "goldDiff15": 416,
-        "xpDiff15": 239,
-        "conversionRate": 75.3,
-        "chokeRate": 24.7,
-        "comebackRate": 22.1,
-        "ceiling": 10109,
-        "swingSpread": 9545
-      },
-      "series": {
-        "series": 20,
-        "winRate": 70.3,
-        "strength": 0.39,
-        "sweepRate": 65.4,
-        "closeSeriesWinRate": 100,
-        "reverseSweeps": 0
-      },
-      "matches": [
-        {
-          "opponent": "Deep Cross Gaming",
-          "score": "3-0",
-          "won": true,
-          "tournament": "MSI 2026",
-          "date": "2026-06-28"
-        },
-        {
-          "opponent": "T1",
-          "score": "0-3",
-          "won": false,
-          "tournament": "MSI 2026",
-          "date": "2026-06-29"
-        },
-        {
-          "opponent": "Team Liquid",
-          "score": "0-3",
-          "won": false,
-          "tournament": "MSI 2026",
-          "date": "2026-06-30"
-        },
-        {
-          "opponent": "Gen.G",
-          "score": "0-1",
-          "won": false,
-          "tournament": "Esports World Cup 2026",
-          "date": "2026-07-15"
-        },
-        {
-          "opponent": "Team Secret (Vietnamese Team)",
-          "score": "2-1",
-          "won": true,
-          "tournament": "Esports World Cup 2026",
-          "date": "2026-07-15"
-        },
-        {
-          "opponent": "Sentinels",
-          "score": "2-0",
-          "won": true,
-          "tournament": "Esports World Cup 2026",
-          "date": "2026-07-16"
-        },
-        {
-          "opponent": "AG.AL",
-          "score": "2-0",
-          "won": true,
-          "tournament": "Esports World Cup 2026",
-          "date": "2026-07-17"
-        },
-        {
-          "opponent": "T1",
-          "score": "2-1",
-          "won": true,
-          "tournament": "Esports World Cup 2026",
-          "date": "2026-07-18"
-        },
-        {
-          "opponent": "Dplus Kia",
-          "score": "0-3",
-          "won": false,
-          "tournament": "Esports World Cup 2026",
-          "date": "2026-07-19"
-        },
-        {
-          "opponent": "Team Vitality",
-          "score": "2-0",
-          "won": true,
-          "tournament": "LEC 2026 Summer",
-          "date": "2026-07-24"
-        },
-        {
-          "opponent": "Movistar KOI",
-          "score": "2-0",
-          "won": true,
-          "tournament": "LEC 2026 Summer",
-          "date": "2026-07-25"
-        },
-        {
-          "opponent": "G2 Esports",
-          "score": "2-1",
-          "won": true,
-          "tournament": "LEC 2026 Summer",
-          "date": "2026-07-26"
-        },
-        {
-          "opponent": "Natus Vincere",
-          "score": "2-0",
-          "won": true,
-          "tournament": "LEC 2026 Summer",
-          "date": "2026-08-01"
-        },
-        {
-          "opponent": "Team Heretics",
-          "score": "2-0",
-          "won": true,
-          "tournament": "LEC 2026 Summer",
-          "date": "2026-08-03"
-        },
-        {
-          "opponent": "Fnatic",
-          "score": "2-0",
-          "won": true,
-          "tournament": "LEC 2026 Summer",
-          "date": "2026-08-09"
-        },
-        {
-          "opponent": "GIANTX",
-          "score": "2-0",
-          "won": true,
-          "tournament": "LEC 2026 Summer",
-          "date": "2026-08-17"
-        },
-        {
-          "opponent": "Shifters",
-          "score": "2-1",
-          "won": true,
-          "tournament": "LEC 2026 Summer",
-          "date": "2026-08-23"
-        },
-        {
-          "opponent": "SK Gaming",
-          "score": "2-0",
-          "won": true,
-          "tournament": "LEC 2026 Summer",
-          "date": "2026-08-29"
-        },
-        {
-          "opponent": "GIANTX",
-          "score": "3-1",
-          "won": true,
-          "tournament": "LEC 2026 Summer Playoffs",
-          "date": "2026-09-05"
-        },
-        {
-          "opponent": "G2 Esports",
-          "score": "1-3",
-          "won": false,
-          "tournament": "LEC 2026 Summer Playoffs",
-          "date": "2026-09-06"
-        },
-        {
-          "opponent": "Movistar KOI",
-          "score": "0-3",
-          "won": false,
-          "tournament": "LEC 2026 Summer Playoffs",
-          "date": "2026-09-19"
-        }
-      ],
-      "report": null
-    },
-    {
-      "name": "LØS",
-      "short": "LOS",
-      "region": "Brazil",
-      "stage": "Main Event",
-      "seed": 1,
-      "pool": 2,
-      "archetype": "Bottom of the barrel",
-      "tags": {
-        "clutch": null,
-        "bust": true,
-        "underrated": false,
-        "grit": false
-      },
-      "scores": {
-        "game": -0.13,
-        "series": -0.4,
-        "overall": -0.27,
-        "consistency": 1.05
-      },
-      "ranks": {
-        "model": 13,
-        "game": 13,
-        "series": 14,
-        "hype": 5
-      },
-      "game": {
-        "games": 39,
-        "winRate": 76.6,
-        "lead15Raw": 1895,
-        "lead15Adjusted": 633,
-        "goldDiff15": 1000,
-        "xpDiff15": 896,
-        "conversionRate": 88.6,
-        "chokeRate": 11.4,
-        "comebackRate": 53.8,
-        "ceiling": 6572,
-        "swingSpread": 8371
-      },
-      "series": {
-        "series": 13,
-        "winRate": 92.7,
-        "strength": 0.33,
-        "sweepRate": 56.9,
-        "closeSeriesWinRate": 100,
-        "reverseSweeps": 0
-      },
-      "matches": [
-        {
-          "opponent": "FURIA",
-          "score": "2-0",
-          "won": true,
-          "tournament": "CBLOL 2026 Split 2",
-          "date": "2026-07-25"
-        },
-        {
-          "opponent": "RED Canids",
-          "score": "2-0",
-          "won": true,
-          "tournament": "CBLOL 2026 Split 2",
-          "date": "2026-08-02"
-        },
-        {
-          "opponent": "Leviatan",
-          "score": "2-0",
-          "won": true,
-          "tournament": "CBLOL 2026 Split 2",
-          "date": "2026-08-08"
-        },
-        {
-          "opponent": "paiN Gaming",
-          "score": "2-0",
-          "won": true,
-          "tournament": "CBLOL 2026 Split 2",
-          "date": "2026-08-10"
-        },
-        {
-          "opponent": "Vivo Keyd Stars",
-          "score": "2-0",
-          "won": true,
-          "tournament": "CBLOL 2026 Split 2",
-          "date": "2026-08-15"
-        },
-        {
-          "opponent": "LOUD",
-          "score": "0-2",
-          "won": false,
-          "tournament": "CBLOL 2026 Split 2",
-          "date": "2026-08-23"
-        },
-        {
-          "opponent": "Fluxo W7M",
-          "score": "2-1",
-          "won": true,
-          "tournament": "CBLOL 2026 Split 2",
-          "date": "2026-08-29"
-        },
-        {
-          "opponent": "FURIA",
-          "score": "3-1",
-          "won": true,
-          "tournament": "CBLOL 2026 Split 2 Playoffs",
-          "date": "2026-09-12"
-        },
-        {
-          "opponent": "LOUD",
-          "score": "3-2",
-          "won": true,
-          "tournament": "CBLOL 2026 Split 2 Playoffs",
-          "date": "2026-09-27"
-        },
-        {
-          "opponent": "KaBuM! Ilha das Lendas",
-          "score": "3-0",
-          "won": true,
-          "tournament": "CBLOL 2027 Promotion",
-          "date": "2026-09-30"
-        },
-        {
-          "opponent": "Estral Esports",
-          "score": "3-0",
-          "won": true,
-          "tournament": "CBLOL 2027 Promotion",
-          "date": "2026-10-01"
-        },
-        {
-          "opponent": "FURIA",
-          "score": "3-2",
-          "won": true,
-          "tournament": "CBLOL 2026 Split 2 Playoffs",
-          "date": "2026-10-10"
-        },
-        {
-          "opponent": "KaBuM! Ilha das Lendas",
-          "score": "3-1",
-          "won": true,
-          "tournament": "CBLOL 2027 Promotion",
-          "date": "2026-10-12"
-        }
-      ],
-      "report": null
-    },
-    {
       "name": "Top Esports",
       "short": "TES",
       "region": "China",
@@ -2505,13 +2402,13 @@
         "grit": false
       },
       "scores": {
-        "game": 0.06,
-        "series": -0.79,
-        "overall": -0.36,
-        "consistency": -0.03
+        "game": 0.08,
+        "series": -0.85,
+        "overall": 0.08,
+        "consistency": -0.08
       },
       "ranks": {
-        "model": 14,
+        "model": 8,
         "game": 8,
         "series": 16,
         "hype": 11
@@ -2519,23 +2416,147 @@
       "game": {
         "games": 54,
         "winRate": 49.3,
-        "lead15Raw": -384,
-        "lead15Adjusted": 586,
-        "goldDiff15": -249,
-        "xpDiff15": -135,
+        "lead15Raw": -433,
+        "lead15Adjusted": 710,
+        "goldDiff15": -259,
+        "xpDiff15": -173,
         "conversionRate": 81.4,
         "chokeRate": 18.6,
         "comebackRate": 16.5,
-        "ceiling": 11612,
-        "swingSpread": 9037
+        "ceiling": 11630,
+        "swingSpread": 9027
       },
       "series": {
         "series": 19,
         "winRate": 47.8,
-        "strength": 0.19,
+        "strength": 0.15,
         "sweepRate": 58.1,
         "closeSeriesWinRate": 43.3,
         "reverseSweeps": 0
+      },
+      "playstyle": {
+        "tempo": "Flexible",
+        "tempoScore": -0.31,
+        "avgGameMinutes": 32.9
+      },
+      "draft": {
+        "pool": 77,
+        "top5Share": 16.7,
+        "signature": [
+          {
+            "champion": "Rumble",
+            "games": 10,
+            "wins": 7
+          },
+          {
+            "champion": "Ezreal",
+            "games": 9,
+            "wins": 6
+          },
+          {
+            "champion": "Jarvan IV",
+            "games": 9,
+            "wins": 4
+          },
+          {
+            "champion": "Olaf",
+            "games": 9,
+            "wins": 4
+          },
+          {
+            "champion": "Lee Sin",
+            "games": 8,
+            "wins": 6
+          }
+        ],
+        "topPicks": [
+          {
+            "champion": "Rumble",
+            "games": 10
+          },
+          {
+            "champion": "Ezreal",
+            "games": 9
+          },
+          {
+            "champion": "Jarvan IV",
+            "games": 9
+          },
+          {
+            "champion": "Olaf",
+            "games": 9
+          },
+          {
+            "champion": "Lee Sin",
+            "games": 8
+          },
+          {
+            "champion": "Ryze",
+            "games": 8
+          },
+          {
+            "champion": "Renekton",
+            "games": 7
+          },
+          {
+            "champion": "Pantheon",
+            "games": 7
+          },
+          {
+            "champion": "Seraphine",
+            "games": 7
+          },
+          {
+            "champion": "Vi",
+            "games": 6
+          }
+        ],
+        "bans": [
+          {
+            "champion": "Naafiri",
+            "count": 20
+          },
+          {
+            "champion": "Poppy",
+            "count": 19
+          },
+          {
+            "champion": "Vayne",
+            "count": 17
+          },
+          {
+            "champion": "Orianna",
+            "count": 16
+          },
+          {
+            "champion": "Locke",
+            "count": 12
+          }
+        ],
+        "bannedAgainst": [
+          {
+            "champion": "Cassiopeia",
+            "count": 27
+          },
+          {
+            "champion": "Vi",
+            "count": 23
+          },
+          {
+            "champion": "Orianna",
+            "count": 18
+          },
+          {
+            "champion": "Lucian",
+            "count": 14
+          },
+          {
+            "champion": "Ezreal",
+            "count": 12
+          }
+        ],
+        "tempo": null,
+        "tempoScore": 0.9
       },
       "matches": [
         {
@@ -2675,122 +2696,1730 @@
       "report": null
     },
     {
-      "name": "CTBC Flying Oyster",
-      "short": "CFO",
-      "region": "Asia Pacific",
+      "name": "G2 Esports",
+      "short": "G2",
+      "region": "EMEA",
       "stage": "Main Event",
-      "seed": 2,
-      "pool": 4,
-      "archetype": "Bottom of the barrel",
+      "seed": 1,
+      "pool": 1,
+      "archetype": "Dark horse",
       "tags": {
-        "clutch": "Clutch",
-        "bust": false,
+        "clutch": null,
+        "bust": true,
         "underrated": false,
         "grit": true
       },
       "scores": {
-        "game": -1.05,
-        "series": -0.08,
-        "overall": -0.57,
-        "consistency": -2.3
+        "game": 0.07,
+        "series": -0.18,
+        "overall": 0.07,
+        "consistency": 0.48
       },
       "ranks": {
-        "model": 15,
-        "game": 17,
-        "series": 11,
-        "hype": 13
+        "model": 9,
+        "game": 9,
+        "series": 12,
+        "hype": 1
       },
       "game": {
-        "games": 35,
-        "winRate": 53,
-        "lead15Raw": 317,
-        "lead15Adjusted": -1317,
-        "goldDiff15": 158,
-        "xpDiff15": 159,
-        "conversionRate": 70.5,
-        "chokeRate": 29.5,
-        "comebackRate": 34.8,
-        "ceiling": 6730,
-        "swingSpread": 10443
+        "games": 50,
+        "winRate": 54.7,
+        "lead15Raw": -271,
+        "lead15Adjusted": 523,
+        "goldDiff15": -65,
+        "xpDiff15": -206,
+        "conversionRate": 86.4,
+        "chokeRate": 13.6,
+        "comebackRate": 35.8,
+        "ceiling": 9880,
+        "swingSpread": 8682
       },
       "series": {
-        "series": 10,
-        "winRate": 68.1,
-        "strength": 0.46,
-        "sweepRate": 28.1,
-        "closeSeriesWinRate": 100,
+        "series": 17,
+        "winRate": 60.4,
+        "strength": 0.41,
+        "sweepRate": 52.7,
+        "closeSeriesWinRate": 59.1,
         "reverseSweeps": 1
+      },
+      "playstyle": {
+        "tempo": "Late game",
+        "tempoScore": -0.86,
+        "avgGameMinutes": 33.8
+      },
+      "draft": {
+        "pool": 70,
+        "top5Share": 15.2,
+        "signature": [
+          {
+            "champion": "Jarvan IV",
+            "games": 8,
+            "wins": 5
+          },
+          {
+            "champion": "Syndra",
+            "games": 8,
+            "wins": 4
+          },
+          {
+            "champion": "Lucian",
+            "games": 8,
+            "wins": 4
+          },
+          {
+            "champion": "Xin Zhao",
+            "games": 7,
+            "wins": 5
+          },
+          {
+            "champion": "Leona",
+            "games": 7,
+            "wins": 5
+          }
+        ],
+        "topPicks": [
+          {
+            "champion": "Jarvan IV",
+            "games": 8
+          },
+          {
+            "champion": "Syndra",
+            "games": 8
+          },
+          {
+            "champion": "Lucian",
+            "games": 8
+          },
+          {
+            "champion": "Xin Zhao",
+            "games": 7
+          },
+          {
+            "champion": "Leona",
+            "games": 7
+          },
+          {
+            "champion": "Yunara",
+            "games": 7
+          },
+          {
+            "champion": "Anivia",
+            "games": 7
+          },
+          {
+            "champion": "Kled",
+            "games": 6
+          },
+          {
+            "champion": "Skarner",
+            "games": 6
+          },
+          {
+            "champion": "Viktor",
+            "games": 6
+          }
+        ],
+        "bans": [
+          {
+            "champion": "Nocturne",
+            "count": 22
+          },
+          {
+            "champion": "Jayce",
+            "count": 22
+          },
+          {
+            "champion": "Vi",
+            "count": 18
+          },
+          {
+            "champion": "Cassiopeia",
+            "count": 17
+          },
+          {
+            "champion": "Akali",
+            "count": 15
+          }
+        ],
+        "bannedAgainst": [
+          {
+            "champion": "Poppy",
+            "count": 17
+          },
+          {
+            "champion": "Vi",
+            "count": 13
+          },
+          {
+            "champion": "Anivia",
+            "count": 10
+          },
+          {
+            "champion": "Akali",
+            "count": 10
+          },
+          {
+            "champion": "Cassiopeia",
+            "count": 10
+          }
+        ],
+        "tempo": null,
+        "tempoScore": -0.1
       },
       "matches": [
         {
-          "opponent": "Deep Cross Gaming",
+          "opponent": "Top Esports",
+          "score": "3-2",
+          "won": true,
+          "tournament": "MSI 2026",
+          "date": "2026-07-03"
+        },
+        {
+          "opponent": "Hanwha Life Esports",
+          "score": "0-3",
+          "won": false,
+          "tournament": "MSI 2026",
+          "date": "2026-07-05"
+        },
+        {
+          "opponent": "T1",
+          "score": "3-1",
+          "won": true,
+          "tournament": "MSI 2026",
+          "date": "2026-07-08"
+        },
+        {
+          "opponent": "LYON (2024 American Team)",
+          "score": "0-3",
+          "won": false,
+          "tournament": "MSI 2026",
+          "date": "2026-07-10"
+        },
+        {
+          "opponent": "FURIA",
+          "score": "1-0",
+          "won": true,
+          "tournament": "Esports World Cup 2026",
+          "date": "2026-07-15"
+        },
+        {
+          "opponent": "AG.AL",
+          "score": "0-1",
+          "won": false,
+          "tournament": "Esports World Cup 2026",
+          "date": "2026-07-16"
+        },
+        {
+          "opponent": "Dplus Kia",
+          "score": "0-2",
+          "won": false,
+          "tournament": "Esports World Cup 2026",
+          "date": "2026-07-16"
+        },
+        {
+          "opponent": "Movistar KOI",
+          "score": "2-1",
+          "won": true,
+          "tournament": "LEC 2026 Summer",
+          "date": "2026-07-24"
+        },
+        {
+          "opponent": "Team Vitality",
           "score": "2-0",
           "won": true,
-          "tournament": "LCP 2026 Split 3",
+          "tournament": "LEC 2026 Summer",
+          "date": "2026-07-25"
+        },
+        {
+          "opponent": "Karmine Corp",
+          "score": "1-2",
+          "won": false,
+          "tournament": "LEC 2026 Summer",
           "date": "2026-07-26"
         },
         {
-          "opponent": "GAM Esports",
+          "opponent": "SK Gaming",
+          "score": "2-0",
+          "won": true,
+          "tournament": "LEC 2026 Summer",
+          "date": "2026-08-02"
+        },
+        {
+          "opponent": "Team Heretics",
+          "score": "2-0",
+          "won": true,
+          "tournament": "LEC 2026 Summer",
+          "date": "2026-08-09"
+        },
+        {
+          "opponent": "Natus Vincere",
+          "score": "2-0",
+          "won": true,
+          "tournament": "LEC 2026 Summer",
+          "date": "2026-08-10"
+        },
+        {
+          "opponent": "Shifters",
+          "score": "2-0",
+          "won": true,
+          "tournament": "LEC 2026 Summer",
+          "date": "2026-08-15"
+        },
+        {
+          "opponent": "Fnatic",
+          "score": "0-2",
+          "won": false,
+          "tournament": "LEC 2026 Summer",
+          "date": "2026-08-16"
+        },
+        {
+          "opponent": "GIANTX",
+          "score": "1-2",
+          "won": false,
+          "tournament": "LEC 2026 Summer",
+          "date": "2026-08-24"
+        },
+        {
+          "opponent": "Team Vitality",
+          "score": "3-0",
+          "won": true,
+          "tournament": "LEC 2026 Summer Playoffs",
+          "date": "2026-09-05"
+        },
+        {
+          "opponent": "Karmine Corp",
+          "score": "3-1",
+          "won": true,
+          "tournament": "LEC 2026 Summer Playoffs",
+          "date": "2026-09-06"
+        },
+        {
+          "opponent": "Movistar KOI",
+          "score": "3-0",
+          "won": true,
+          "tournament": "LEC 2026 Summer Playoffs",
+          "date": "2026-09-20"
+        }
+      ],
+      "report": null
+    },
+    {
+      "name": "Team Liquid",
+      "short": "TL",
+      "region": "North America",
+      "stage": "Main Event",
+      "seed": 1,
+      "pool": 1,
+      "archetype": "Powerhouse",
+      "tags": {
+        "clutch": "Clutch",
+        "bust": true,
+        "underrated": false,
+        "grit": false
+      },
+      "scores": {
+        "game": 0.05,
+        "series": 0.11,
+        "overall": 0.05,
+        "consistency": 1.19
+      },
+      "ranks": {
+        "model": 10,
+        "game": 10,
+        "series": 6,
+        "hype": 1
+      },
+      "game": {
+        "games": 38,
+        "winRate": 66,
+        "lead15Raw": 883,
+        "lead15Adjusted": 933,
+        "goldDiff15": 444,
+        "xpDiff15": 439,
+        "conversionRate": 84.3,
+        "chokeRate": 15.7,
+        "comebackRate": 20,
+        "ceiling": 9811,
+        "swingSpread": 8247
+      },
+      "series": {
+        "series": 14,
+        "winRate": 72.4,
+        "strength": 0.53,
+        "sweepRate": 74.5,
+        "closeSeriesWinRate": 100,
+        "reverseSweeps": 0
+      },
+      "playstyle": {
+        "tempo": "Early game",
+        "tempoScore": 0.6,
+        "avgGameMinutes": 31.4
+      },
+      "draft": {
+        "pool": 71,
+        "top5Share": 14.2,
+        "signature": [
+          {
+            "champion": "Lucian",
+            "games": 6,
+            "wins": 6
+          },
+          {
+            "champion": "Pantheon",
+            "games": 6,
+            "wins": 5
+          },
+          {
+            "champion": "Orianna",
+            "games": 5,
+            "wins": 5
+          },
+          {
+            "champion": "Nautilus",
+            "games": 5,
+            "wins": 4
+          },
+          {
+            "champion": "Ezreal",
+            "games": 5,
+            "wins": 4
+          }
+        ],
+        "topPicks": [
+          {
+            "champion": "Lucian",
+            "games": 6
+          },
+          {
+            "champion": "Pantheon",
+            "games": 6
+          },
+          {
+            "champion": "Orianna",
+            "games": 5
+          },
+          {
+            "champion": "Nautilus",
+            "games": 5
+          },
+          {
+            "champion": "Ezreal",
+            "games": 5
+          },
+          {
+            "champion": "Ryze",
+            "games": 5
+          },
+          {
+            "champion": "Rell",
+            "games": 5
+          },
+          {
+            "champion": "Renekton",
+            "games": 5
+          },
+          {
+            "champion": "Gnar",
+            "games": 5
+          },
+          {
+            "champion": "Syndra",
+            "games": 4
+          }
+        ],
+        "bans": [
+          {
+            "champion": "Cassiopeia",
+            "count": 32
+          },
+          {
+            "champion": "Vi",
+            "count": 19
+          },
+          {
+            "champion": "Nocturne",
+            "count": 15
+          },
+          {
+            "champion": "Jayce",
+            "count": 12
+          },
+          {
+            "champion": "Orianna",
+            "count": 7
+          }
+        ],
+        "bannedAgainst": [
+          {
+            "champion": "Lee Sin",
+            "count": 18
+          },
+          {
+            "champion": "Nocturne",
+            "count": 12
+          },
+          {
+            "champion": "Naafiri",
+            "count": 10
+          },
+          {
+            "champion": "Poppy",
+            "count": 10
+          },
+          {
+            "champion": "Akali",
+            "count": 10
+          }
+        ],
+        "tempo": "Scaling drafts",
+        "tempoScore": -1.92
+      },
+      "matches": [
+        {
+          "opponent": "T1",
+          "score": "0-3",
+          "won": false,
+          "tournament": "MSI 2026",
+          "date": "2026-06-28"
+        },
+        {
+          "opponent": "Deep Cross Gaming",
+          "score": "3-0",
+          "won": true,
+          "tournament": "MSI 2026",
+          "date": "2026-06-29"
+        },
+        {
+          "opponent": "Karmine Corp",
+          "score": "3-0",
+          "won": true,
+          "tournament": "MSI 2026",
+          "date": "2026-06-30"
+        },
+        {
+          "opponent": "T1",
+          "score": "0-3",
+          "won": false,
+          "tournament": "MSI 2026",
+          "date": "2026-07-01"
+        },
+        {
+          "opponent": "Cloud9",
+          "score": "2-0",
+          "won": true,
+          "tournament": "LCS 2026 Summer",
+          "date": "2026-07-26"
+        },
+        {
+          "opponent": "Sentinels",
+          "score": "2-0",
+          "won": true,
+          "tournament": "LCS 2026 Summer",
+          "date": "2026-08-02"
+        },
+        {
+          "opponent": "FlyQuest",
+          "score": "2-0",
+          "won": true,
+          "tournament": "LCS 2026 Summer",
+          "date": "2026-08-09"
+        },
+        {
+          "opponent": "Disguised",
+          "score": "2-0",
+          "won": true,
+          "tournament": "LCS 2026 Summer",
+          "date": "2026-08-15"
+        },
+        {
+          "opponent": "Shopify Rebellion",
           "score": "2-1",
+          "won": true,
+          "tournament": "LCS 2026 Summer",
+          "date": "2026-08-29"
+        },
+        {
+          "opponent": "LYON (2024 American Team)",
+          "score": "0-2",
+          "won": false,
+          "tournament": "LCS 2026 Summer",
+          "date": "2026-08-30"
+        },
+        {
+          "opponent": "Dignitas",
+          "score": "2-0",
+          "won": true,
+          "tournament": "LCS 2026 Summer",
+          "date": "2026-09-05"
+        },
+        {
+          "opponent": "FlyQuest",
+          "score": "3-0",
+          "won": true,
+          "tournament": "LCS 2026 Summer Playoffs",
+          "date": "2026-09-20"
+        },
+        {
+          "opponent": "Cloud9",
+          "score": "3-1",
+          "won": true,
+          "tournament": "LCS 2026 Summer Playoffs",
+          "date": "2026-09-27"
+        },
+        {
+          "opponent": "LYON (2024 American Team)",
+          "score": "3-1",
+          "won": true,
+          "tournament": "LCS 2026 Summer Playoffs",
+          "date": "2026-10-04"
+        }
+      ],
+      "report": null
+    },
+    {
+      "name": "LYON (2024 American Team)",
+      "short": "LYON",
+      "region": "North America",
+      "stage": "Main Event",
+      "seed": 2,
+      "pool": 3,
+      "archetype": "Scrappy",
+      "tags": {
+        "clutch": "Clutch",
+        "bust": false,
+        "underrated": false,
+        "grit": false
+      },
+      "scores": {
+        "game": -0.01,
+        "series": 0.06,
+        "overall": -0.01,
+        "consistency": 0.47
+      },
+      "ranks": {
+        "model": 11,
+        "game": 11,
+        "series": 7,
+        "hype": 9
+      },
+      "game": {
+        "games": 51,
+        "winRate": 60.9,
+        "lead15Raw": 589,
+        "lead15Adjusted": 1297,
+        "goldDiff15": 354,
+        "xpDiff15": 234,
+        "conversionRate": 80.9,
+        "chokeRate": 19.1,
+        "comebackRate": 39.4,
+        "ceiling": 9837,
+        "swingSpread": 8691
+      },
+      "series": {
+        "series": 17,
+        "winRate": 61.5,
+        "strength": 0.5,
+        "sweepRate": 84.7,
+        "closeSeriesWinRate": 0,
+        "reverseSweeps": 0
+      },
+      "playstyle": {
+        "tempo": "Flexible",
+        "tempoScore": -0.27,
+        "avgGameMinutes": 33.1
+      },
+      "draft": {
+        "pool": 80,
+        "top5Share": 16.5,
+        "signature": [
+          {
+            "champion": "Gnar",
+            "games": 9,
+            "wins": 6
+          },
+          {
+            "champion": "Viktor",
+            "games": 9,
+            "wins": 5
+          },
+          {
+            "champion": "Jarvan IV",
+            "games": 8,
+            "wins": 6
+          },
+          {
+            "champion": "Xin Zhao",
+            "games": 8,
+            "wins": 6
+          },
+          {
+            "champion": "Alistar",
+            "games": 8,
+            "wins": 5
+          }
+        ],
+        "topPicks": [
+          {
+            "champion": "Gnar",
+            "games": 9
+          },
+          {
+            "champion": "Viktor",
+            "games": 9
+          },
+          {
+            "champion": "Jarvan IV",
+            "games": 8
+          },
+          {
+            "champion": "Xin Zhao",
+            "games": 8
+          },
+          {
+            "champion": "Alistar",
+            "games": 8
+          },
+          {
+            "champion": "Ryze",
+            "games": 8
+          },
+          {
+            "champion": "Ezreal",
+            "games": 7
+          },
+          {
+            "champion": "Lucian",
+            "games": 7
+          },
+          {
+            "champion": "Milio",
+            "games": 7
+          },
+          {
+            "champion": "Jayce",
+            "games": 7
+          }
+        ],
+        "bans": [
+          {
+            "champion": "Vi",
+            "count": 28
+          },
+          {
+            "champion": "Poppy",
+            "count": 14
+          },
+          {
+            "champion": "Cassiopeia",
+            "count": 11
+          },
+          {
+            "champion": "Olaf",
+            "count": 11
+          },
+          {
+            "champion": "Lee Sin",
+            "count": 10
+          }
+        ],
+        "bannedAgainst": [
+          {
+            "champion": "Nocturne",
+            "count": 26
+          },
+          {
+            "champion": "Cassiopeia",
+            "count": 22
+          },
+          {
+            "champion": "Akali",
+            "count": 17
+          },
+          {
+            "champion": "Olaf",
+            "count": 13
+          },
+          {
+            "champion": "Ezreal",
+            "count": 10
+          }
+        ],
+        "tempo": null,
+        "tempoScore": -0.48
+      },
+      "matches": [
+        {
+          "opponent": "FURIA",
+          "score": "3-0",
+          "won": true,
+          "tournament": "MSI 2026",
+          "date": "2026-07-04"
+        },
+        {
+          "opponent": "Bilibili Gaming",
+          "score": "0-3",
+          "won": false,
+          "tournament": "MSI 2026",
+          "date": "2026-07-06"
+        },
+        {
+          "opponent": "Team Secret Whales",
+          "score": "3-0",
+          "won": true,
+          "tournament": "MSI 2026",
+          "date": "2026-07-08"
+        },
+        {
+          "opponent": "G2 Esports",
+          "score": "3-0",
+          "won": true,
+          "tournament": "MSI 2026",
+          "date": "2026-07-10"
+        },
+        {
+          "opponent": "Hanwha Life Esports",
+          "score": "2-3",
+          "won": false,
+          "tournament": "MSI 2026",
+          "date": "2026-07-11"
+        },
+        {
+          "opponent": "JD Gaming",
+          "score": "0-1",
+          "won": false,
+          "tournament": "Esports World Cup 2026",
+          "date": "2026-07-15"
+        },
+        {
+          "opponent": "MIBR.LOS",
+          "score": "0-2",
+          "won": false,
+          "tournament": "Esports World Cup 2026",
+          "date": "2026-07-15"
+        },
+        {
+          "opponent": "FlyQuest",
+          "score": "2-0",
+          "won": true,
+          "tournament": "LCS 2026 Summer",
+          "date": "2026-07-25"
+        },
+        {
+          "opponent": "Shopify Rebellion",
+          "score": "2-0",
+          "won": true,
+          "tournament": "LCS 2026 Summer",
+          "date": "2026-08-02"
+        },
+        {
+          "opponent": "Dignitas",
+          "score": "2-0",
+          "won": true,
+          "tournament": "LCS 2026 Summer",
+          "date": "2026-08-09"
+        },
+        {
+          "opponent": "Sentinels",
+          "score": "1-2",
+          "won": false,
+          "tournament": "LCS 2026 Summer",
+          "date": "2026-08-16"
+        },
+        {
+          "opponent": "Cloud9",
+          "score": "2-0",
+          "won": true,
+          "tournament": "LCS 2026 Summer",
+          "date": "2026-08-29"
+        },
+        {
+          "opponent": "Team Liquid",
+          "score": "2-0",
+          "won": true,
+          "tournament": "LCS 2026 Summer",
+          "date": "2026-08-30"
+        },
+        {
+          "opponent": "Disguised",
+          "score": "2-0",
+          "won": true,
+          "tournament": "LCS 2026 Summer",
+          "date": "2026-09-06"
+        },
+        {
+          "opponent": "Cloud9",
+          "score": "1-3",
+          "won": false,
+          "tournament": "LCS 2026 Summer Playoffs",
+          "date": "2026-09-19"
+        },
+        {
+          "opponent": "Shopify Rebellion",
+          "score": "3-1",
+          "won": true,
+          "tournament": "LCS 2026 Summer Playoffs",
+          "date": "2026-09-26"
+        },
+        {
+          "opponent": "Cloud9",
+          "score": "3-1",
+          "won": true,
+          "tournament": "LCS 2026 Summer Playoffs",
+          "date": "2026-10-03"
+        },
+        {
+          "opponent": "Team Liquid",
+          "score": "1-3",
+          "won": false,
+          "tournament": "LCS 2026 Summer Playoffs",
+          "date": "2026-10-04"
+        }
+      ],
+      "report": null
+    },
+    {
+      "name": "LØS",
+      "short": "LOS",
+      "region": "Brazil",
+      "stage": "Main Event",
+      "seed": 1,
+      "pool": 2,
+      "archetype": "Bottom of the barrel",
+      "tags": {
+        "clutch": null,
+        "bust": false,
+        "underrated": false,
+        "grit": false
+      },
+      "scores": {
+        "game": -0.02,
+        "series": -0.34,
+        "overall": -0.02,
+        "consistency": 1
+      },
+      "ranks": {
+        "model": 12,
+        "game": 12,
+        "series": 13,
+        "hype": 5
+      },
+      "game": {
+        "games": 39,
+        "winRate": 76.6,
+        "lead15Raw": 1988,
+        "lead15Adjusted": 1080,
+        "goldDiff15": 1063,
+        "xpDiff15": 924,
+        "conversionRate": 88.1,
+        "chokeRate": 11.9,
+        "comebackRate": 53.8,
+        "ceiling": 7048,
+        "swingSpread": 8365
+      },
+      "series": {
+        "series": 13,
+        "winRate": 92.7,
+        "strength": 0.34,
+        "sweepRate": 56.9,
+        "closeSeriesWinRate": 100,
+        "reverseSweeps": 0
+      },
+      "playstyle": {
+        "tempo": "Flexible",
+        "tempoScore": 0.12,
+        "avgGameMinutes": 32.3
+      },
+      "draft": {
+        "pool": 69,
+        "top5Share": 19,
+        "signature": [
+          {
+            "champion": "Orianna",
+            "games": 8,
+            "wins": 8
+          },
+          {
+            "champion": "Ryze",
+            "games": 8,
+            "wins": 6
+          },
+          {
+            "champion": "Jayce",
+            "games": 7,
+            "wins": 6
+          },
+          {
+            "champion": "Viktor",
+            "games": 7,
+            "wins": 5
+          },
+          {
+            "champion": "Pantheon",
+            "games": 7,
+            "wins": 5
+          }
+        ],
+        "topPicks": [
+          {
+            "champion": "Orianna",
+            "games": 8
+          },
+          {
+            "champion": "Ryze",
+            "games": 8
+          },
+          {
+            "champion": "Jayce",
+            "games": 7
+          },
+          {
+            "champion": "Viktor",
+            "games": 7
+          },
+          {
+            "champion": "Pantheon",
+            "games": 7
+          },
+          {
+            "champion": "Wukong",
+            "games": 7
+          },
+          {
+            "champion": "Vi",
+            "games": 5
+          },
+          {
+            "champion": "Taliyah",
+            "games": 5
+          },
+          {
+            "champion": "Akali",
+            "games": 5
+          },
+          {
+            "champion": "Alistar",
+            "games": 5
+          }
+        ],
+        "bans": [
+          {
+            "champion": "Olaf",
+            "count": 23
+          },
+          {
+            "champion": "Cassiopeia",
+            "count": 23
+          },
+          {
+            "champion": "Jarvan IV",
+            "count": 14
+          },
+          {
+            "champion": "Locke",
+            "count": 11
+          },
+          {
+            "champion": "Poppy",
+            "count": 8
+          }
+        ],
+        "bannedAgainst": [
+          {
+            "champion": "Nocturne",
+            "count": 20
+          },
+          {
+            "champion": "Syndra",
+            "count": 14
+          },
+          {
+            "champion": "Naafiri",
+            "count": 13
+          },
+          {
+            "champion": "Cassiopeia",
+            "count": 11
+          },
+          {
+            "champion": "Camille",
+            "count": 10
+          }
+        ],
+        "tempo": null,
+        "tempoScore": -0.47
+      },
+      "matches": [
+        {
+          "opponent": "FURIA",
+          "score": "2-0",
+          "won": true,
+          "tournament": "CBLOL 2026 Split 2",
+          "date": "2026-07-25"
+        },
+        {
+          "opponent": "RED Canids",
+          "score": "2-0",
+          "won": true,
+          "tournament": "CBLOL 2026 Split 2",
+          "date": "2026-08-02"
+        },
+        {
+          "opponent": "Leviatan",
+          "score": "2-0",
+          "won": true,
+          "tournament": "CBLOL 2026 Split 2",
+          "date": "2026-08-08"
+        },
+        {
+          "opponent": "paiN Gaming",
+          "score": "2-0",
+          "won": true,
+          "tournament": "CBLOL 2026 Split 2",
+          "date": "2026-08-10"
+        },
+        {
+          "opponent": "Vivo Keyd Stars",
+          "score": "2-0",
+          "won": true,
+          "tournament": "CBLOL 2026 Split 2",
+          "date": "2026-08-15"
+        },
+        {
+          "opponent": "LOUD",
+          "score": "0-2",
+          "won": false,
+          "tournament": "CBLOL 2026 Split 2",
+          "date": "2026-08-23"
+        },
+        {
+          "opponent": "Fluxo W7M",
+          "score": "2-1",
+          "won": true,
+          "tournament": "CBLOL 2026 Split 2",
+          "date": "2026-08-29"
+        },
+        {
+          "opponent": "FURIA",
+          "score": "3-1",
+          "won": true,
+          "tournament": "CBLOL 2026 Split 2 Playoffs",
+          "date": "2026-09-12"
+        },
+        {
+          "opponent": "LOUD",
+          "score": "3-2",
+          "won": true,
+          "tournament": "CBLOL 2026 Split 2 Playoffs",
+          "date": "2026-09-27"
+        },
+        {
+          "opponent": "KaBuM! Ilha das Lendas",
+          "score": "3-0",
+          "won": true,
+          "tournament": "CBLOL 2027 Promotion",
+          "date": "2026-09-30"
+        },
+        {
+          "opponent": "Estral Esports",
+          "score": "3-0",
+          "won": true,
+          "tournament": "CBLOL 2027 Promotion",
+          "date": "2026-10-01"
+        },
+        {
+          "opponent": "FURIA",
+          "score": "3-2",
+          "won": true,
+          "tournament": "CBLOL 2026 Split 2 Playoffs",
+          "date": "2026-10-10"
+        },
+        {
+          "opponent": "KaBuM! Ilha das Lendas",
+          "score": "3-1",
+          "won": true,
+          "tournament": "CBLOL 2027 Promotion",
+          "date": "2026-10-12"
+        }
+      ],
+      "report": null
+    },
+    {
+      "name": "Team Secret Whales",
+      "short": "TSW",
+      "region": "Asia Pacific",
+      "stage": "Main Event",
+      "seed": 1,
+      "pool": 2,
+      "archetype": "Bottom of the barrel",
+      "tags": {
+        "clutch": null,
+        "bust": false,
+        "underrated": false,
+        "grit": false
+      },
+      "scores": {
+        "game": -0.05,
+        "series": -0.15,
+        "overall": -0.05,
+        "consistency": -1.3
+      },
+      "ranks": {
+        "model": 13,
+        "game": 13,
+        "series": 11,
+        "hype": 5
+      },
+      "game": {
+        "games": 36,
+        "winRate": 54.7,
+        "lead15Raw": 180,
+        "lead15Adjusted": -172,
+        "goldDiff15": 284,
+        "xpDiff15": -104,
+        "conversionRate": 86.7,
+        "chokeRate": 13.3,
+        "comebackRate": 25.3,
+        "ceiling": 9803,
+        "swingSpread": 9772
+      },
+      "series": {
+        "series": 11,
+        "winRate": 56.3,
+        "strength": 0.42,
+        "sweepRate": 66.7,
+        "closeSeriesWinRate": 0,
+        "reverseSweeps": 0
+      },
+      "playstyle": {
+        "tempo": "Flexible",
+        "tempoScore": 0.47,
+        "avgGameMinutes": 31.2
+      },
+      "draft": {
+        "pool": 67,
+        "top5Share": 18.9,
+        "signature": [
+          {
+            "champion": "Nautilus",
+            "games": 8,
+            "wins": 6
+          },
+          {
+            "champion": "Lee Sin",
+            "games": 7,
+            "wins": 5
+          },
+          {
+            "champion": "Caitlyn",
+            "games": 7,
+            "wins": 3
+          },
+          {
+            "champion": "Ezreal",
+            "games": 6,
+            "wins": 4
+          },
+          {
+            "champion": "Jarvan IV",
+            "games": 6,
+            "wins": 3
+          }
+        ],
+        "topPicks": [
+          {
+            "champion": "Nautilus",
+            "games": 8
+          },
+          {
+            "champion": "Lee Sin",
+            "games": 7
+          },
+          {
+            "champion": "Caitlyn",
+            "games": 7
+          },
+          {
+            "champion": "Ezreal",
+            "games": 6
+          },
+          {
+            "champion": "Jarvan IV",
+            "games": 6
+          },
+          {
+            "champion": "Viktor",
+            "games": 5
+          },
+          {
+            "champion": "Olaf",
+            "games": 5
+          },
+          {
+            "champion": "Qiyana",
+            "games": 5
+          },
+          {
+            "champion": "Ryze",
+            "games": 5
+          },
+          {
+            "champion": "Elise",
+            "games": 5
+          }
+        ],
+        "bans": [
+          {
+            "champion": "Cassiopeia",
+            "count": 20
+          },
+          {
+            "champion": "Rumble",
+            "count": 17
+          },
+          {
+            "champion": "Camille",
+            "count": 12
+          },
+          {
+            "champion": "Ryze",
+            "count": 10
+          },
+          {
+            "champion": "Poppy",
+            "count": 9
+          }
+        ],
+        "bannedAgainst": [
+          {
+            "champion": "Poppy",
+            "count": 13
+          },
+          {
+            "champion": "Locke",
+            "count": 11
+          },
+          {
+            "champion": "Akali",
+            "count": 10
+          },
+          {
+            "champion": "Lee Sin",
+            "count": 10
+          },
+          {
+            "champion": "Ezreal",
+            "count": 9
+          }
+        ],
+        "tempo": null,
+        "tempoScore": 0.15
+      },
+      "matches": [
+        {
+          "opponent": "Hanwha Life Esports",
+          "score": "0-3",
+          "won": false,
+          "tournament": "MSI 2026",
+          "date": "2026-07-03"
+        },
+        {
+          "opponent": "Top Esports",
+          "score": "3-1",
+          "won": true,
+          "tournament": "MSI 2026",
+          "date": "2026-07-05"
+        },
+        {
+          "opponent": "LYON (2024 American Team)",
+          "score": "0-3",
+          "won": false,
+          "tournament": "MSI 2026",
+          "date": "2026-07-08"
+        },
+        {
+          "opponent": "Sentinels",
+          "score": "0-1",
+          "won": false,
+          "tournament": "Esports World Cup 2026",
+          "date": "2026-07-15"
+        },
+        {
+          "opponent": "Karmine Corp",
+          "score": "1-2",
+          "won": false,
+          "tournament": "Esports World Cup 2026",
+          "date": "2026-07-15"
+        },
+        {
+          "opponent": "Fukuoka SoftBank HAWKS gaming",
+          "score": "2-0",
+          "won": true,
+          "tournament": "LCP 2026 Split 3",
+          "date": "2026-07-25"
+        },
+        {
+          "opponent": "MVK Esports",
+          "score": "2-0",
           "won": true,
           "tournament": "LCP 2026 Split 3",
           "date": "2026-07-31"
         },
         {
-          "opponent": "Team Secret Whales",
-          "score": "0-3",
-          "won": false,
+          "opponent": "CTBC Flying Oyster",
+          "score": "3-0",
+          "won": true,
           "tournament": "LCP 2026 Split 3",
           "date": "2026-08-02"
         },
         {
-          "opponent": "Ground Zero Gaming",
-          "score": "3-1",
-          "won": true,
-          "tournament": "LCP 2026 Split 3",
-          "date": "2026-08-09"
-        },
-        {
-          "opponent": "MVK Esports",
-          "score": "3-2",
-          "won": true,
-          "tournament": "LCP 2026 Split 3",
-          "date": "2026-08-14"
-        },
-        {
-          "opponent": "Team Secret Whales",
-          "score": "3-2",
-          "won": true,
+          "opponent": "CTBC Flying Oyster",
+          "score": "2-3",
+          "won": false,
           "tournament": "LCP 2026 Split 3",
           "date": "2026-08-16"
         },
         {
-          "opponent": "MVK Esports",
-          "score": "3-0",
+          "opponent": "GAM Esports",
+          "score": "3-1",
           "won": true,
           "tournament": "LCP 2026 Split 3",
-          "date": "2026-08-20"
+          "date": "2026-08-21"
         },
         {
-          "opponent": "Team Secret Whales",
-          "score": "0-3",
-          "won": false,
+          "opponent": "CTBC Flying Oyster",
+          "score": "3-0",
+          "won": true,
           "tournament": "LCP 2026 Split 3",
           "date": "2026-08-23"
         },
         {
-          "opponent": "MVK Esports",
-          "score": "3-1",
+          "opponent": "CTBC Flying Oyster",
+          "score": "3-0",
           "won": true,
           "tournament": "LCP 2026 Split 3",
-          "date": "2026-08-29"
+          "date": "2026-08-30"
+        }
+      ],
+      "report": null
+    },
+    {
+      "name": "Karmine Corp",
+      "short": "KC",
+      "region": "EMEA",
+      "stage": "Play-In",
+      "seed": 3,
+      "pool": null,
+      "archetype": "Scrappy",
+      "tags": {
+        "clutch": "Clutch",
+        "bust": false,
+        "underrated": false,
+        "grit": false
+      },
+      "scores": {
+        "game": -0.3,
+        "series": 0.03,
+        "overall": -0.3,
+        "consistency": -1.04
+      },
+      "ranks": {
+        "model": 14,
+        "game": 14,
+        "series": 8,
+        "hype": 17
+      },
+      "game": {
+        "games": 54,
+        "winRate": 56.5,
+        "lead15Raw": 599,
+        "lead15Adjusted": 878,
+        "goldDiff15": 444,
+        "xpDiff15": 155,
+        "conversionRate": 73.8,
+        "chokeRate": 26.2,
+        "comebackRate": 18.5,
+        "ceiling": 10201,
+        "swingSpread": 9611
+      },
+      "series": {
+        "series": 20,
+        "winRate": 70.3,
+        "strength": 0.49,
+        "sweepRate": 65.4,
+        "closeSeriesWinRate": 100,
+        "reverseSweeps": 0
+      },
+      "playstyle": {
+        "tempo": "Flexible",
+        "tempoScore": -0.36,
+        "avgGameMinutes": 33.1
+      },
+      "draft": {
+        "pool": 70,
+        "top5Share": 18.9,
+        "signature": [
+          {
+            "champion": "Rumble",
+            "games": 13,
+            "wins": 10
+          },
+          {
+            "champion": "Ezreal",
+            "games": 11,
+            "wins": 5
+          },
+          {
+            "champion": "Viktor",
+            "games": 10,
+            "wins": 8
+          },
+          {
+            "champion": "Gnar",
+            "games": 9,
+            "wins": 5
+          },
+          {
+            "champion": "Caitlyn",
+            "games": 8,
+            "wins": 6
+          }
+        ],
+        "topPicks": [
+          {
+            "champion": "Rumble",
+            "games": 13
+          },
+          {
+            "champion": "Ezreal",
+            "games": 11
+          },
+          {
+            "champion": "Viktor",
+            "games": 10
+          },
+          {
+            "champion": "Gnar",
+            "games": 9
+          },
+          {
+            "champion": "Caitlyn",
+            "games": 8
+          },
+          {
+            "champion": "Vi",
+            "games": 8
+          },
+          {
+            "champion": "Wukong",
+            "games": 8
+          },
+          {
+            "champion": "Qiyana",
+            "games": 8
+          },
+          {
+            "champion": "Syndra",
+            "games": 7
+          },
+          {
+            "champion": "Anivia",
+            "games": 7
+          }
+        ],
+        "bans": [
+          {
+            "champion": "Nocturne",
+            "count": 27
+          },
+          {
+            "champion": "Akali",
+            "count": 19
+          },
+          {
+            "champion": "Vi",
+            "count": 18
+          },
+          {
+            "champion": "Poppy",
+            "count": 17
+          },
+          {
+            "champion": "Orianna",
+            "count": 13
+          }
+        ],
+        "bannedAgainst": [
+          {
+            "champion": "Jayce",
+            "count": 23
+          },
+          {
+            "champion": "Poppy",
+            "count": 18
+          },
+          {
+            "champion": "Vi",
+            "count": 17
+          },
+          {
+            "champion": "Orianna",
+            "count": 14
+          },
+          {
+            "champion": "Rumble",
+            "count": 12
+          }
+        ],
+        "tempo": "Early-game drafts",
+        "tempoScore": 1.34
+      },
+      "matches": [
+        {
+          "opponent": "Deep Cross Gaming",
+          "score": "3-0",
+          "won": true,
+          "tournament": "MSI 2026",
+          "date": "2026-06-28"
+        },
+        {
+          "opponent": "T1",
+          "score": "0-3",
+          "won": false,
+          "tournament": "MSI 2026",
+          "date": "2026-06-29"
+        },
+        {
+          "opponent": "Team Liquid",
+          "score": "0-3",
+          "won": false,
+          "tournament": "MSI 2026",
+          "date": "2026-06-30"
+        },
+        {
+          "opponent": "Gen.G",
+          "score": "0-1",
+          "won": false,
+          "tournament": "Esports World Cup 2026",
+          "date": "2026-07-15"
         },
         {
           "opponent": "Team Secret Whales",
+          "score": "2-1",
+          "won": true,
+          "tournament": "Esports World Cup 2026",
+          "date": "2026-07-15"
+        },
+        {
+          "opponent": "Sentinels",
+          "score": "2-0",
+          "won": true,
+          "tournament": "Esports World Cup 2026",
+          "date": "2026-07-16"
+        },
+        {
+          "opponent": "AG.AL",
+          "score": "2-0",
+          "won": true,
+          "tournament": "Esports World Cup 2026",
+          "date": "2026-07-17"
+        },
+        {
+          "opponent": "T1",
+          "score": "2-1",
+          "won": true,
+          "tournament": "Esports World Cup 2026",
+          "date": "2026-07-18"
+        },
+        {
+          "opponent": "Dplus Kia",
           "score": "0-3",
           "won": false,
-          "tournament": "LCP 2026 Split 3",
-          "date": "2026-08-30"
+          "tournament": "Esports World Cup 2026",
+          "date": "2026-07-19"
+        },
+        {
+          "opponent": "Team Vitality",
+          "score": "2-0",
+          "won": true,
+          "tournament": "LEC 2026 Summer",
+          "date": "2026-07-24"
+        },
+        {
+          "opponent": "Movistar KOI",
+          "score": "2-0",
+          "won": true,
+          "tournament": "LEC 2026 Summer",
+          "date": "2026-07-25"
+        },
+        {
+          "opponent": "G2 Esports",
+          "score": "2-1",
+          "won": true,
+          "tournament": "LEC 2026 Summer",
+          "date": "2026-07-26"
+        },
+        {
+          "opponent": "Natus Vincere",
+          "score": "2-0",
+          "won": true,
+          "tournament": "LEC 2026 Summer",
+          "date": "2026-08-01"
+        },
+        {
+          "opponent": "Team Heretics",
+          "score": "2-0",
+          "won": true,
+          "tournament": "LEC 2026 Summer",
+          "date": "2026-08-03"
+        },
+        {
+          "opponent": "Fnatic",
+          "score": "2-0",
+          "won": true,
+          "tournament": "LEC 2026 Summer",
+          "date": "2026-08-09"
+        },
+        {
+          "opponent": "GIANTX",
+          "score": "2-0",
+          "won": true,
+          "tournament": "LEC 2026 Summer",
+          "date": "2026-08-17"
+        },
+        {
+          "opponent": "Shifters",
+          "score": "2-1",
+          "won": true,
+          "tournament": "LEC 2026 Summer",
+          "date": "2026-08-23"
+        },
+        {
+          "opponent": "SK Gaming",
+          "score": "2-0",
+          "won": true,
+          "tournament": "LEC 2026 Summer",
+          "date": "2026-08-29"
+        },
+        {
+          "opponent": "GIANTX",
+          "score": "3-1",
+          "won": true,
+          "tournament": "LEC 2026 Summer Playoffs",
+          "date": "2026-09-05"
+        },
+        {
+          "opponent": "G2 Esports",
+          "score": "1-3",
+          "won": false,
+          "tournament": "LEC 2026 Summer Playoffs",
+          "date": "2026-09-06"
+        },
+        {
+          "opponent": "Movistar KOI",
+          "score": "0-3",
+          "won": false,
+          "tournament": "LEC 2026 Summer Playoffs",
+          "date": "2026-09-19"
         }
       ],
       "report": null
@@ -2810,13 +4439,13 @@
         "grit": false
       },
       "scores": {
-        "game": -0.5,
-        "series": -0.68,
-        "overall": -0.59,
-        "consistency": 1.15
+        "game": -0.42,
+        "series": -0.64,
+        "overall": -0.42,
+        "consistency": 1.16
       },
       "ranks": {
-        "model": 16,
+        "model": 15,
         "game": 15,
         "series": 15,
         "hype": 17
@@ -2824,15 +4453,15 @@
       "game": {
         "games": 32,
         "winRate": 53.5,
-        "lead15Raw": 657,
-        "lead15Adjusted": 89,
-        "goldDiff15": 522,
-        "xpDiff15": 135,
+        "lead15Raw": 769,
+        "lead15Adjusted": 386,
+        "goldDiff15": 524,
+        "xpDiff15": 245,
         "conversionRate": 77.1,
         "chokeRate": 22.9,
         "comebackRate": 20.9,
-        "ceiling": 7682,
-        "swingSpread": 8305
+        "ceiling": 8011,
+        "swingSpread": 8270
       },
       "series": {
         "series": 11,
@@ -2841,6 +4470,130 @@
         "sweepRate": 41.4,
         "closeSeriesWinRate": 100,
         "reverseSweeps": 0
+      },
+      "playstyle": {
+        "tempo": "Late game",
+        "tempoScore": -1.28,
+        "avgGameMinutes": 34.6
+      },
+      "draft": {
+        "pool": 60,
+        "top5Share": 18.8,
+        "signature": [
+          {
+            "champion": "Ezreal",
+            "games": 9,
+            "wins": 6
+          },
+          {
+            "champion": "Orianna",
+            "games": 6,
+            "wins": 4
+          },
+          {
+            "champion": "Rumble",
+            "games": 6,
+            "wins": 3
+          },
+          {
+            "champion": "Vi",
+            "games": 5,
+            "wins": 3
+          },
+          {
+            "champion": "Sylas",
+            "games": 4,
+            "wins": 4
+          }
+        ],
+        "topPicks": [
+          {
+            "champion": "Ezreal",
+            "games": 9
+          },
+          {
+            "champion": "Orianna",
+            "games": 6
+          },
+          {
+            "champion": "Rumble",
+            "games": 6
+          },
+          {
+            "champion": "Vi",
+            "games": 5
+          },
+          {
+            "champion": "Sylas",
+            "games": 4
+          },
+          {
+            "champion": "Kalista",
+            "games": 4
+          },
+          {
+            "champion": "Renata Glasc",
+            "games": 4
+          },
+          {
+            "champion": "Karma",
+            "games": 4
+          },
+          {
+            "champion": "Jarvan IV",
+            "games": 4
+          },
+          {
+            "champion": "K'Sante",
+            "games": 4
+          }
+        ],
+        "bans": [
+          {
+            "champion": "Olaf",
+            "count": 13
+          },
+          {
+            "champion": "Nocturne",
+            "count": 12
+          },
+          {
+            "champion": "Cassiopeia",
+            "count": 10
+          },
+          {
+            "champion": "Lee Sin",
+            "count": 8
+          },
+          {
+            "champion": "Jayce",
+            "count": 8
+          }
+        ],
+        "bannedAgainst": [
+          {
+            "champion": "Cassiopeia",
+            "count": 14
+          },
+          {
+            "champion": "Nocturne",
+            "count": 11
+          },
+          {
+            "champion": "Vi",
+            "count": 10
+          },
+          {
+            "champion": "Akali",
+            "count": 9
+          },
+          {
+            "champion": "Poppy",
+            "count": 8
+          }
+        ],
+        "tempo": null,
+        "tempoScore": -0.47
       },
       "matches": [
         {
@@ -2938,13 +4691,13 @@
         "grit": false
       },
       "scores": {
-        "game": -0.81,
-        "series": -1.63,
-        "overall": -1.22,
-        "consistency": -1.33
+        "game": -0.69,
+        "series": -1.56,
+        "overall": -0.69,
+        "consistency": -1.42
       },
       "ranks": {
-        "model": 17,
+        "model": 16,
         "game": 16,
         "series": 18,
         "hype": 14
@@ -2952,23 +4705,147 @@
       "game": {
         "games": 44,
         "winRate": 41.4,
-        "lead15Raw": -1214,
-        "lead15Adjusted": -1115,
-        "goldDiff15": -541,
-        "xpDiff15": -674,
+        "lead15Raw": -1271,
+        "lead15Adjusted": -875,
+        "goldDiff15": -561,
+        "xpDiff15": -711,
         "conversionRate": 85.7,
         "chokeRate": 14.3,
         "comebackRate": 18.9,
-        "ceiling": 4410,
-        "swingSpread": 9846
+        "ceiling": 4599,
+        "swingSpread": 9842
       },
       "series": {
         "series": 15,
         "winRate": 43.2,
-        "strength": -0.17,
+        "strength": -0.16,
         "sweepRate": 75,
         "closeSeriesWinRate": 61.5,
         "reverseSweeps": 0
+      },
+      "playstyle": {
+        "tempo": "Flexible",
+        "tempoScore": -0.42,
+        "avgGameMinutes": 32.4
+      },
+      "draft": {
+        "pool": 73,
+        "top5Share": 18.6,
+        "signature": [
+          {
+            "champion": "Ezreal",
+            "games": 11,
+            "wins": 6
+          },
+          {
+            "champion": "Ryze",
+            "games": 9,
+            "wins": 6
+          },
+          {
+            "champion": "Karma",
+            "games": 8,
+            "wins": 5
+          },
+          {
+            "champion": "Ambessa",
+            "games": 7,
+            "wins": 3
+          },
+          {
+            "champion": "Camille",
+            "games": 6,
+            "wins": 3
+          }
+        ],
+        "topPicks": [
+          {
+            "champion": "Ezreal",
+            "games": 11
+          },
+          {
+            "champion": "Ryze",
+            "games": 9
+          },
+          {
+            "champion": "Karma",
+            "games": 8
+          },
+          {
+            "champion": "Ambessa",
+            "games": 7
+          },
+          {
+            "champion": "Camille",
+            "games": 6
+          },
+          {
+            "champion": "Syndra",
+            "games": 6
+          },
+          {
+            "champion": "Galio",
+            "games": 6
+          },
+          {
+            "champion": "Olaf",
+            "games": 6
+          },
+          {
+            "champion": "Xin Zhao",
+            "games": 5
+          },
+          {
+            "champion": "Bard",
+            "games": 5
+          }
+        ],
+        "bans": [
+          {
+            "champion": "Nocturne",
+            "count": 28
+          },
+          {
+            "champion": "Cassiopeia",
+            "count": 14
+          },
+          {
+            "champion": "Jarvan IV",
+            "count": 14
+          },
+          {
+            "champion": "Naafiri",
+            "count": 11
+          },
+          {
+            "champion": "Vi",
+            "count": 11
+          }
+        ],
+        "bannedAgainst": [
+          {
+            "champion": "Akali",
+            "count": 13
+          },
+          {
+            "champion": "Cassiopeia",
+            "count": 13
+          },
+          {
+            "champion": "Poppy",
+            "count": 12
+          },
+          {
+            "champion": "Olaf",
+            "count": 12
+          },
+          {
+            "champion": "Nasus",
+            "count": 11
+          }
+        ],
+        "tempo": "Scaling drafts",
+        "tempoScore": -1.03
       },
       "matches": [
         {
@@ -3087,113 +4964,6 @@
       "report": null
     },
     {
-      "name": "MVK Esports",
-      "short": "MVK",
-      "region": "Asia Pacific",
-      "stage": "Play-In",
-      "seed": 3,
-      "pool": null,
-      "archetype": "Bottom of the barrel",
-      "tags": {
-        "clutch": null,
-        "bust": false,
-        "underrated": false,
-        "grit": false
-      },
-      "scores": {
-        "game": -1.75,
-        "series": -1.08,
-        "overall": -1.42,
-        "consistency": -1.04
-      },
-      "ranks": {
-        "model": 18,
-        "game": 19,
-        "series": 17,
-        "hype": 17
-      },
-      "game": {
-        "games": 28,
-        "winRate": 43.7,
-        "lead15Raw": -586,
-        "lead15Adjusted": -2411,
-        "goldDiff15": -488,
-        "xpDiff15": -98,
-        "conversionRate": 57.9,
-        "chokeRate": 42.1,
-        "comebackRate": 30,
-        "ceiling": 3875,
-        "swingSpread": 9667
-      },
-      "series": {
-        "series": 8,
-        "winRate": 44.4,
-        "strength": -0.05,
-        "sweepRate": 50,
-        "closeSeriesWinRate": 61.5,
-        "reverseSweeps": 0
-      },
-      "matches": [
-        {
-          "opponent": "Ground Zero Gaming",
-          "score": "2-0",
-          "won": true,
-          "tournament": "LCP 2026 Split 3",
-          "date": "2026-07-25"
-        },
-        {
-          "opponent": "Team Secret Whales",
-          "score": "0-2",
-          "won": false,
-          "tournament": "LCP 2026 Split 3",
-          "date": "2026-07-31"
-        },
-        {
-          "opponent": "GAM Esports",
-          "score": "2-0",
-          "won": true,
-          "tournament": "LCP 2026 Split 3",
-          "date": "2026-08-01"
-        },
-        {
-          "opponent": "Deep Cross Gaming",
-          "score": "3-2",
-          "won": true,
-          "tournament": "LCP 2026 Split 3",
-          "date": "2026-08-08"
-        },
-        {
-          "opponent": "CTBC Flying Oyster",
-          "score": "2-3",
-          "won": false,
-          "tournament": "LCP 2026 Split 3",
-          "date": "2026-08-14"
-        },
-        {
-          "opponent": "CTBC Flying Oyster",
-          "score": "0-3",
-          "won": false,
-          "tournament": "LCP 2026 Split 3",
-          "date": "2026-08-20"
-        },
-        {
-          "opponent": "GAM Esports",
-          "score": "3-2",
-          "won": true,
-          "tournament": "LCP 2026 Split 3",
-          "date": "2026-08-22"
-        },
-        {
-          "opponent": "CTBC Flying Oyster",
-          "score": "1-3",
-          "won": false,
-          "tournament": "LCP 2026 Split 3",
-          "date": "2026-08-29"
-        }
-      ],
-      "report": null
-    },
-    {
       "name": "Movistar KOI",
       "short": "MKOI",
       "region": "EMEA",
@@ -3208,37 +4978,161 @@
         "grit": false
       },
       "scores": {
-        "game": -1.35,
-        "series": -1.87,
-        "overall": -1.61,
-        "consistency": -0.45
+        "game": -1.19,
+        "series": -1.71,
+        "overall": -1.19,
+        "consistency": -0.4
       },
       "ranks": {
-        "model": 19,
-        "game": 18,
+        "model": 17,
+        "game": 17,
         "series": 19,
         "hype": 9
       },
       "game": {
         "games": 41,
         "winRate": 46.5,
-        "lead15Raw": 555,
-        "lead15Adjusted": -14,
-        "goldDiff15": 346,
-        "xpDiff15": 210,
-        "conversionRate": 52.9,
-        "chokeRate": 47.1,
-        "comebackRate": 35.4,
-        "ceiling": 7397,
-        "swingSpread": 9300
+        "lead15Raw": 687,
+        "lead15Adjusted": -232,
+        "goldDiff15": 397,
+        "xpDiff15": 291,
+        "conversionRate": 59.6,
+        "chokeRate": 40.4,
+        "comebackRate": 23.3,
+        "ceiling": 7506,
+        "swingSpread": 9221
       },
       "series": {
         "series": 14,
         "winRate": 46,
-        "strength": -0.29,
+        "strength": -0.24,
         "sweepRate": 44.8,
         "closeSeriesWinRate": 42.9,
         "reverseSweeps": 0
+      },
+      "playstyle": {
+        "tempo": "Flexible",
+        "tempoScore": -0.47,
+        "avgGameMinutes": 32.8
+      },
+      "draft": {
+        "pool": 69,
+        "top5Share": 22,
+        "signature": [
+          {
+            "champion": "Ezreal",
+            "games": 10,
+            "wins": 5
+          },
+          {
+            "champion": "Lee Sin",
+            "games": 9,
+            "wins": 6
+          },
+          {
+            "champion": "Galio",
+            "games": 9,
+            "wins": 6
+          },
+          {
+            "champion": "Ambessa",
+            "games": 9,
+            "wins": 5
+          },
+          {
+            "champion": "Ryze",
+            "games": 8,
+            "wins": 3
+          }
+        ],
+        "topPicks": [
+          {
+            "champion": "Ezreal",
+            "games": 10
+          },
+          {
+            "champion": "Lee Sin",
+            "games": 9
+          },
+          {
+            "champion": "Galio",
+            "games": 9
+          },
+          {
+            "champion": "Ambessa",
+            "games": 9
+          },
+          {
+            "champion": "Ryze",
+            "games": 8
+          },
+          {
+            "champion": "Jayce",
+            "games": 6
+          },
+          {
+            "champion": "Anivia",
+            "games": 5
+          },
+          {
+            "champion": "Vi",
+            "games": 5
+          },
+          {
+            "champion": "Bard",
+            "games": 5
+          },
+          {
+            "champion": "Shen",
+            "games": 5
+          }
+        ],
+        "bans": [
+          {
+            "champion": "Jayce",
+            "count": 15
+          },
+          {
+            "champion": "Cassiopeia",
+            "count": 13
+          },
+          {
+            "champion": "Orianna",
+            "count": 12
+          },
+          {
+            "champion": "Olaf",
+            "count": 11
+          },
+          {
+            "champion": "Nocturne",
+            "count": 10
+          }
+        ],
+        "bannedAgainst": [
+          {
+            "champion": "Akali",
+            "count": 19
+          },
+          {
+            "champion": "Nocturne",
+            "count": 17
+          },
+          {
+            "champion": "Cassiopeia",
+            "count": 13
+          },
+          {
+            "champion": "Vi",
+            "count": 11
+          },
+          {
+            "champion": "Poppy",
+            "count": 10
+          }
+        ],
+        "tempo": null,
+        "tempoScore": 0.09
       },
       "matches": [
         {
@@ -3345,6 +5239,482 @@
           "won": false,
           "tournament": "LEC 2026 Summer Playoffs",
           "date": "2026-09-20"
+        }
+      ],
+      "report": null
+    },
+    {
+      "name": "CTBC Flying Oyster",
+      "short": "CFO",
+      "region": "Asia Pacific",
+      "stage": "Main Event",
+      "seed": 2,
+      "pool": 4,
+      "archetype": "Bottom of the barrel",
+      "tags": {
+        "clutch": "Clutch",
+        "bust": true,
+        "underrated": false,
+        "grit": true
+      },
+      "scores": {
+        "game": -1.35,
+        "series": -0.34,
+        "overall": -1.35,
+        "consistency": -2.31
+      },
+      "ranks": {
+        "model": 18,
+        "game": 18,
+        "series": 14,
+        "hype": 13
+      },
+      "game": {
+        "games": 35,
+        "winRate": 53,
+        "lead15Raw": 222,
+        "lead15Adjusted": -2134,
+        "goldDiff15": 110,
+        "xpDiff15": 112,
+        "conversionRate": 66.3,
+        "chokeRate": 33.7,
+        "comebackRate": 34.8,
+        "ceiling": 5991,
+        "swingSpread": 10387
+      },
+      "series": {
+        "series": 10,
+        "winRate": 68.1,
+        "strength": 0.32,
+        "sweepRate": 28.1,
+        "closeSeriesWinRate": 100,
+        "reverseSweeps": 1
+      },
+      "playstyle": {
+        "tempo": "Flexible",
+        "tempoScore": -0.19,
+        "avgGameMinutes": 31.6
+      },
+      "draft": {
+        "pool": 72,
+        "top5Share": 18.9,
+        "signature": [
+          {
+            "champion": "Akali",
+            "games": 8,
+            "wins": 5
+          },
+          {
+            "champion": "Lucian",
+            "games": 7,
+            "wins": 5
+          },
+          {
+            "champion": "Milio",
+            "games": 6,
+            "wins": 4
+          },
+          {
+            "champion": "Naafiri",
+            "games": 6,
+            "wins": 3
+          },
+          {
+            "champion": "Rumble",
+            "games": 6,
+            "wins": 2
+          }
+        ],
+        "topPicks": [
+          {
+            "champion": "Akali",
+            "games": 8
+          },
+          {
+            "champion": "Lucian",
+            "games": 7
+          },
+          {
+            "champion": "Milio",
+            "games": 6
+          },
+          {
+            "champion": "Naafiri",
+            "games": 6
+          },
+          {
+            "champion": "Rumble",
+            "games": 6
+          },
+          {
+            "champion": "Syndra",
+            "games": 6
+          },
+          {
+            "champion": "Camille",
+            "games": 5
+          },
+          {
+            "champion": "Nautilus",
+            "games": 5
+          },
+          {
+            "champion": "Orianna",
+            "games": 5
+          },
+          {
+            "champion": "Jayce",
+            "games": 5
+          }
+        ],
+        "bans": [
+          {
+            "champion": "Locke",
+            "count": 15
+          },
+          {
+            "champion": "Ezreal",
+            "count": 13
+          },
+          {
+            "champion": "Lee Sin",
+            "count": 11
+          },
+          {
+            "champion": "Shen",
+            "count": 10
+          },
+          {
+            "champion": "Pyke",
+            "count": 10
+          }
+        ],
+        "bannedAgainst": [
+          {
+            "champion": "Cassiopeia",
+            "count": 15
+          },
+          {
+            "champion": "Poppy",
+            "count": 13
+          },
+          {
+            "champion": "Ezreal",
+            "count": 10
+          },
+          {
+            "champion": "Pantheon",
+            "count": 9
+          },
+          {
+            "champion": "Nautilus",
+            "count": 9
+          }
+        ],
+        "tempo": null,
+        "tempoScore": -0.04
+      },
+      "matches": [
+        {
+          "opponent": "Deep Cross Gaming",
+          "score": "2-0",
+          "won": true,
+          "tournament": "LCP 2026 Split 3",
+          "date": "2026-07-26"
+        },
+        {
+          "opponent": "GAM Esports",
+          "score": "2-1",
+          "won": true,
+          "tournament": "LCP 2026 Split 3",
+          "date": "2026-07-31"
+        },
+        {
+          "opponent": "Team Secret Whales",
+          "score": "0-3",
+          "won": false,
+          "tournament": "LCP 2026 Split 3",
+          "date": "2026-08-02"
+        },
+        {
+          "opponent": "Ground Zero Gaming",
+          "score": "3-1",
+          "won": true,
+          "tournament": "LCP 2026 Split 3",
+          "date": "2026-08-09"
+        },
+        {
+          "opponent": "MVK Esports",
+          "score": "3-2",
+          "won": true,
+          "tournament": "LCP 2026 Split 3",
+          "date": "2026-08-14"
+        },
+        {
+          "opponent": "Team Secret Whales",
+          "score": "3-2",
+          "won": true,
+          "tournament": "LCP 2026 Split 3",
+          "date": "2026-08-16"
+        },
+        {
+          "opponent": "MVK Esports",
+          "score": "3-0",
+          "won": true,
+          "tournament": "LCP 2026 Split 3",
+          "date": "2026-08-20"
+        },
+        {
+          "opponent": "Team Secret Whales",
+          "score": "0-3",
+          "won": false,
+          "tournament": "LCP 2026 Split 3",
+          "date": "2026-08-23"
+        },
+        {
+          "opponent": "MVK Esports",
+          "score": "3-1",
+          "won": true,
+          "tournament": "LCP 2026 Split 3",
+          "date": "2026-08-29"
+        },
+        {
+          "opponent": "Team Secret Whales",
+          "score": "0-3",
+          "won": false,
+          "tournament": "LCP 2026 Split 3",
+          "date": "2026-08-30"
+        }
+      ],
+      "report": null
+    },
+    {
+      "name": "MVK Esports",
+      "short": "MVK",
+      "region": "Asia Pacific",
+      "stage": "Play-In",
+      "seed": 3,
+      "pool": null,
+      "archetype": "Bottom of the barrel",
+      "tags": {
+        "clutch": null,
+        "bust": false,
+        "underrated": false,
+        "grit": false
+      },
+      "scores": {
+        "game": -1.94,
+        "series": -1.27,
+        "overall": -1.94,
+        "consistency": -0.93
+      },
+      "ranks": {
+        "model": 19,
+        "game": 19,
+        "series": 17,
+        "hype": 17
+      },
+      "game": {
+        "games": 28,
+        "winRate": 43.7,
+        "lead15Raw": -835,
+        "lead15Adjusted": -3545,
+        "goldDiff15": -627,
+        "xpDiff15": -207,
+        "conversionRate": 57.9,
+        "chokeRate": 42.1,
+        "comebackRate": 30,
+        "ceiling": 3043,
+        "swingSpread": 9543
+      },
+      "series": {
+        "series": 8,
+        "winRate": 44.4,
+        "strength": -0.17,
+        "sweepRate": 50,
+        "closeSeriesWinRate": 61.5,
+        "reverseSweeps": 0
+      },
+      "playstyle": {
+        "tempo": "Late game",
+        "tempoScore": -1.02,
+        "avgGameMinutes": 32.6
+      },
+      "draft": {
+        "pool": 64,
+        "top5Share": 17.1,
+        "signature": [
+          {
+            "champion": "Gnar",
+            "games": 6,
+            "wins": 1
+          },
+          {
+            "champion": "Ryze",
+            "games": 5,
+            "wins": 3
+          },
+          {
+            "champion": "Seraphine",
+            "games": 5,
+            "wins": 2
+          },
+          {
+            "champion": "Ambessa",
+            "games": 4,
+            "wins": 3
+          },
+          {
+            "champion": "Ezreal",
+            "games": 4,
+            "wins": 2
+          }
+        ],
+        "topPicks": [
+          {
+            "champion": "Gnar",
+            "games": 6
+          },
+          {
+            "champion": "Ryze",
+            "games": 5
+          },
+          {
+            "champion": "Seraphine",
+            "games": 5
+          },
+          {
+            "champion": "Ambessa",
+            "games": 4
+          },
+          {
+            "champion": "Ezreal",
+            "games": 4
+          },
+          {
+            "champion": "Lee Sin",
+            "games": 4
+          },
+          {
+            "champion": "Vi",
+            "games": 4
+          },
+          {
+            "champion": "Olaf",
+            "games": 4
+          },
+          {
+            "champion": "Ashe",
+            "games": 4
+          },
+          {
+            "champion": "Locke",
+            "games": 4
+          }
+        ],
+        "bans": [
+          {
+            "champion": "Nautilus",
+            "count": 15
+          },
+          {
+            "champion": "Nocturne",
+            "count": 14
+          },
+          {
+            "champion": "Orianna",
+            "count": 9
+          },
+          {
+            "champion": "Poppy",
+            "count": 8
+          },
+          {
+            "champion": "Vayne",
+            "count": 8
+          }
+        ],
+        "bannedAgainst": [
+          {
+            "champion": "Pyke",
+            "count": 13
+          },
+          {
+            "champion": "Ezreal",
+            "count": 12
+          },
+          {
+            "champion": "Syndra",
+            "count": 11
+          },
+          {
+            "champion": "Cassiopeia",
+            "count": 10
+          },
+          {
+            "champion": "Jayce",
+            "count": 8
+          }
+        ],
+        "tempo": "Early-game drafts",
+        "tempoScore": 1.49
+      },
+      "matches": [
+        {
+          "opponent": "Ground Zero Gaming",
+          "score": "2-0",
+          "won": true,
+          "tournament": "LCP 2026 Split 3",
+          "date": "2026-07-25"
+        },
+        {
+          "opponent": "Team Secret Whales",
+          "score": "0-2",
+          "won": false,
+          "tournament": "LCP 2026 Split 3",
+          "date": "2026-07-31"
+        },
+        {
+          "opponent": "GAM Esports",
+          "score": "2-0",
+          "won": true,
+          "tournament": "LCP 2026 Split 3",
+          "date": "2026-08-01"
+        },
+        {
+          "opponent": "Deep Cross Gaming",
+          "score": "3-2",
+          "won": true,
+          "tournament": "LCP 2026 Split 3",
+          "date": "2026-08-08"
+        },
+        {
+          "opponent": "CTBC Flying Oyster",
+          "score": "2-3",
+          "won": false,
+          "tournament": "LCP 2026 Split 3",
+          "date": "2026-08-14"
+        },
+        {
+          "opponent": "CTBC Flying Oyster",
+          "score": "0-3",
+          "won": false,
+          "tournament": "LCP 2026 Split 3",
+          "date": "2026-08-20"
+        },
+        {
+          "opponent": "GAM Esports",
+          "score": "3-2",
+          "won": true,
+          "tournament": "LCP 2026 Split 3",
+          "date": "2026-08-22"
+        },
+        {
+          "opponent": "CTBC Flying Oyster",
+          "score": "1-3",
+          "won": false,
+          "tournament": "LCP 2026 Split 3",
+          "date": "2026-08-29"
         }
       ],
       "report": null

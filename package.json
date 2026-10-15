@@ -9,7 +9,10 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "fetch": "node --env-file=.env scripts/fetch.mjs",
-    "process": "node scripts/process.mjs"
+    "process": "node scripts/process.mjs",
+    "reports": "node --env-file=.env scripts/reports.mjs",
+    "matchups": "node --env-file=.env scripts/matchups.mjs",
+    "fetch:backtest": "node --env-file=.env scripts/fetch-backtest.mjs"
   },
   "dependencies": {
     "react": "^19.2.8",

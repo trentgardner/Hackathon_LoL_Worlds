@@ -1,0 +1,113 @@
+{
+  "generatedAt": "2026-10-15T15:35:46.558Z",
+  "reports": {
+    "Gen.G": {
+      "text": "Gen.G is a Powerhouse, posting above‑average game stats and series results. Their win condition is an early surge: adjusted lead at 15 minutes of +3,651 (gold + XP, adjusted for opponent strength, 4th of 19) and an 85.7% win rate when ahead (6th of 19). Their ceiling, the average of their best 25% of games (adjusted), is +15,434.  \n\nThey are vulnerable when the edge evaporates: raw lead at 15 is only +42 (gold +22, XP +20), volatility is 9,037 (spread of gold swing from 15 minutes to game end), and comeback win rate is 38.9% (better than field average of 29.5%, 4th of 19). At Worlds, watch whether they can preserve the lead against teams that push them into the volatile mid‑game.",
+      "hash": "9944c6b531f8",
+      "flagged": null,
+      "model": "openai/gpt-oss-120b"
+    },
+    "Hanwha Life Esports": {
+      "text": "Hanwha Life Esports fits the Powerhouse archetype—above‑average game stats and series results. They win by building the largest early advantage: Lead at 15 minutes, gold + XP, adjusted for opponent strength is +4,344 (better than the field average of +1,197; 1st of 19). Their lead conversion is 79.7% when ahead at 15 (about level with the field average of 78.9%). Their ceiling, the average of the best 25 % of games (adjusted), is +15,701 (better than the field average of +10,439; 1st of 19).\n\nTheir comeback rate is 20.1% (worse than the field average of 29.5%; 15th of 19) and series win rate is 57.3% (worse than the field average of 61.9%; 13th of 19). Watch bans on Jayce to force deficits at Worlds.",
+      "hash": "fe0494f0c490",
+      "flagged": null,
+      "model": "openai/gpt-oss-120b"
+    },
+    "Bilibili Gaming": {
+      "text": "BLG fits the Powerhouse archetype, with a model rating of 1.37, the highest of the field. Their win condition is securing a dominant early advantage: adjusted lead at 15 min, adjusted for opponent strength, is +3,792, third‑best, and they convert that lead 92.6% of the time, first in the field. Their overall game win rate sits at 66.4%, second overall.  \n\nWhen trailing at 15 min they win only 28.0%, about level with the field, and they have no reverse sweeps, indicating vulnerability in comeback scenarios. Watch whether their early‑game draft focus can consistently generate the +3,792 lead against teams that frequently ban their key early picks such as Orianna and Poppy.",
+      "hash": "e33351d5c03c",
+      "flagged": null,
+      "model": "openai/gpt-oss-120b"
+    },
+    "Anyone's Legend": {
+      "text": "Anyone's Legend is a dark‑horse, fragile side with a model rating of 0.84 (4th) but about level with the field in series results (series score about level with the field average). Their win condition is an early advantage: they average a +2,699 gold‑XP lead at 15 minutes adjusted for opponent strength (6th), convert that lead 89.7% of the time (2nd), and have a ceiling of +12,742 (6th).  \n\nThey struggle when trailing, posting a 25.7% comeback win rate (worse than the field average) and a raw series win rate of 64.6%, reflecting the fragile tag. At Worlds watch if their shallow champion pool—66 champions total, top five picks only 16.5% of selections—lets them secure the early leads they need against opponents.",
+      "hash": "1f0cf3e42eda",
+      "flagged": null,
+      "model": "openai/gpt-oss-120b"
+    },
+    "Team Secret Whales": {
+      "text": "Team Secret Whales are a bottom‑of‑the‑barrel side, below average in both game stats and series results. Their win condition is converting early leads: they win 86.7% of games when ahead at 15 minutes, the fourth‑best rate, and they favor short, flexible games with an average length of 31.2 minutes, the best in the field.  \n\nThey fall apart when trailing early, with an adjusted lead at 15 minutes of –172 (adjusted for opponent strength), far below the field average of +1,197, and they win only 25.3% of games when behind, worse than the 29.5% average. Their volatility is high at 9,772, the 17th worst, and their overall win rate sits at 54.7%, below the 56.5% field average. Watch whether they can overcome the early deficit at Worlds.",
+      "hash": "18b3a84bef9d",
+      "flagged": null,
+      "model": "openai/gpt-oss-120b"
+    },
+    "Team Liquid": {
+      "text": "Team Liquid is a Powerhouse – above‑average game stats and series results, a real contender. They win by building early leads: average game length 31.4 min (shorter than the field average of 32.6 min), win rate when ahead at 15 min 84.3% (better than the field average of 78.9%), volatility 8,247 (lower = steadier, better than the field average of 8,976).  \n\nTheir flaw is late‑game recovery: win rate when behind at 15 min 20.0% (worse than the field average of 29.5%, comebacks) and adjusted lead at 15 min +933 (lead at 15 min, gold + XP, adjusted for opponent strength, about average). At Worlds watch whether their scaling draft can survive when opponents deny early leads.",
+      "hash": "c543307924b5",
+      "flagged": null,
+      "model": "openai/gpt-oss-120b"
+    },
+    "LYON (2024 American Team)": {
+      "text": "LYON play a scrappy style: game stats below average but series results above, earning a Clutch tag. They win 60.9% of games, better than the field average of 56.5%, and convert a 15‑minute lead at 80.9%, above the field average of 78.9%. When trailing at 15 they win 39.4%, well above the field average of 29.5%.\n\nTheir weakness appears in longer series: they are 0.0% in series that go the distance and rely on clean sweeps (84.7%). Their ceiling (+9,837) is about level with the field average of +10,439, giving limited upside. Watch how their deep 80‑champion pool and lack of a clear draft lean meet opponent bans, especially the frequent Nocturne ban against them.",
+      "hash": "ed3d06ccf964",
+      "flagged": null,
+      "model": "openai/gpt-oss-120b"
+    },
+    "G2 Esports": {
+      "text": "G2 are a Dark horse: above‑average game metrics but below‑average series results. They win by converting 86.4% of games when ahead at 15 minutes (field 78.9%) and by pulling off 35.8% comebacks when behind at 15 (field 29.5%).  \n\nTheir flaw is failing to build early advantage: raw lead at 15 is –271 (gold –65, XP –206) and adjusted lead is +523, far below the field average of +1,197 (13th of 19). Overall game win rate sits at 54.7%, below the field 56.5%. Watch whether they can overcome that early deficit at Worlds.",
+      "hash": "b34af652ad37",
+      "flagged": null,
+      "model": "openai/gpt-oss-120b"
+    },
+    "Karmine Corp": {
+      "text": "Karmine Corp fits the Scrappy archetype: game stats sit below average while series results sit above, earning a Clutch tag. Their win condition is series consistency; a series score of 0.03 puts them about level with the field and a raw series win rate of 70.3% ranks them 5th, letting them win despite a model rating of -0.30 (worse than average).  \n\nThey unravel when trailing: win rate when behind at 15 minutes is 18.5%, far below the 29.5% field average, and volatility of 9,611 indicates a less steady game flow. Watch whether their early‑game draft lean can generate a 15‑minute lead, because without that lead their comeback odds are minimal.",
+      "hash": "ef30d611c40a",
+      "flagged": null,
+      "model": "openai/gpt-oss-120b"
+    },
+    "Top Esports": {
+      "text": "Top Esports are a dark horse: game metrics above average but series results below. Model rating is +0.08, about level with the field, and they post an adjusted +710 lead at 15 minutes, worse than the average +1,197. When ahead they convert at 81.4%, above the field 78.9%, and their ceiling reaches +11,630, better than the average +10,439. Their flexible style extends games to an average 32.9 minutes.  \n\nThey are fragile: series score -0.85, raw 15‑minute lead -433, and comeback win rate 16.5%, the worst of all teams. Overall series win rate is 47.8%, also below average. Watch if TES can protect early leads at Worlds, because any 15‑minute deficit likely ends their chances.",
+      "hash": "cc2cce844478",
+      "flagged": null,
+      "model": "openai/gpt-oss-120b"
+    },
+    "Cloud9": {
+      "text": "C9 fits the Bottom of the barrel archetype—below average in both game stats and series results. Their win condition is to take a lead by 15 minutes and convert it, as they win 77.1% of games when ahead, while their late‑game playstyle extends games (average 34.6 min).  \n\nThey fall apart without a solid early advantage: adjusted lead at 15 (adjusted for opponent strength) is only +386, far worse than the field average of +1,197, and they win just 20.9% of games when behind, well below the 29.5% average. Their ceiling of +8,011 also trails the +10,439 average. At Worlds watch whether they can improve their 15‑minute lead and hold it, because early swing will dictate their chances.",
+      "hash": "054a493d2f0e",
+      "flagged": null,
+      "model": "openai/gpt-oss-120b"
+    },
+    "FURIA": {
+      "text": "FURIA fit the bottom‑of‑the‑barrel archetype, below average in both game stats and series results. Their win condition is to secure a 15‑minute lead and convert it, as they win 85.7% of games when ahead at 15 minutes (better than the field average of 78.9%) and their flexible playstyle produces slightly shorter games (32.4 min).  \n\nThey collapse when behind, with only an 18.9% comeback rate versus the field average of 29.5%, a raw 15‑minute lead of –1,271 gold/X‑P, and a game win rate of 41.4% (worst). Their adjusted 15‑minute lead is –875, ceiling +4,599 and volatility 9,842, all near the bottom. Watch whether their scaling draft picks can survive early pressure at Worlds.",
+      "hash": "0454cf456ee3",
+      "flagged": null,
+      "model": "openai/gpt-oss-120b"
+    },
+    "Movistar KOI": {
+      "text": "Movistar KOI is a Bottom of the barrel team, below average in both game stats and series results. Their win condition hinges on taking an early gold/XP advantage and converting it, as shown by a win rate when ahead at 15 minutes of 59.6% (worse than the field average of 78.9%). Their flexible playstyle yields an average game length of 32.8 min, slightly longer than the field average.  \n\nThey fall apart when they cannot secure an early lead: adjusted lead at 15 minutes is –232 (worse than the field average of +1,197) and their comeback win rate is 23.3% (worse than the field average of 29.5%). Watch how their draft flexibility translates into early‑game picks at Worlds, especially whether they can avoid the negative early‑lead trend.",
+      "hash": "3e64a39963a6",
+      "flagged": null,
+      "model": "openai/gpt-oss-120b"
+    },
+    "Dplus Kia": {
+      "text": "Dplus Kia is a Powerhouse, meaning above‑average game stats and series results. Model rating 0.49 (better than the field average of 0.00) shows they outperform a typical Worlds team. Their win condition is securing a large early lead – lead at 15 minutes, gold + XP, adjusted +3,803 (better than the field average of +1,197) – and then converting it, though their win rate when ahead at 15 is 71.0% (worse than the field average of 78.9%).  \n\nThey fall apart when that lead shrinks; conversion is 71.0% (15th of 19) and comeback rate is 28.8% (about level with the field). At Worlds watch if their early‑game draft lean can keep the +3,803 lead long enough to offset the below‑average conversion.",
+      "hash": "9b141a97aa79",
+      "flagged": null,
+      "model": "openai/gpt-oss-120b"
+    },
+    "MVK Esports": {
+      "text": "MVK Esports is a Bottom of the barrel team, below average in game stats and series results. They win by converting a 15‑minute lead, doing so 57.9% of the time (field average 78.9%). Their playstyle is late game, average length 32.6 min (about level with the field).\n\nThey fall apart early, with an adjusted 15‑minute lead of -3,545 (field average +1,197) and volatility, spread of the gold swing from 15 to game end, of 9,543 (field average 8,976). Overall win rate is 43.7% (field average 56.5%). At Worlds watch if their early‑game draft lean can produce a positive lead, as their success depends on turning that advantage into a win.",
+      "hash": "91afba6c8348",
+      "flagged": null,
+      "model": "openai/gpt-oss-120b"
+    },
+    "Invictus Gaming": {
+      "text": "Invictus Gaming fit the Dark horse archetype: above‑average game stats but a series score of -0.09, about level with field. They win by building early leads – an adjusted 15‑minute gold + XP lead of +2,267, seventh‑best – and converting those leads at an 82.9% win rate, ninth‑best. Their game win rate of 61.3% is better than the field average of 56.5%, and they are second‑best in comebacks with a 46.3% win rate when behind at 15 minutes.  \n\nThe series score of -0.09 shows they drop series they could win. Volatility of 8,905 is about level with the average, offering no steadier play. At Worlds watch if their early‑game advantage can be sustained in best‑of‑five series, especially against teams that push longer games.",
+      "hash": "3dd0fe388903",
+      "flagged": null,
+      "model": "openai/gpt-oss-120b"
+    },
+    "T1": {
+      "text": "T1 play as a Powerhouse: they generate above‑average early advantages and have a high ceiling. Their adjusted lead at 15 minutes (+3,347, adjusted for opponent strength) is 5th and their ceiling averages +15,305 (3rd), which drives most of their wins. They win by building a large gold/XP lead and converting it into a decisive endgame advantage.  \n\nTheir weakness is converting that lead: win rate when ahead at 15 minutes is 70.1% (16th) and raw series win rate is 50.7% (15th). They also lack a clear draft lean despite a deep pool. Watch how they respond when opponents stay even at 15 minutes, as early‑game pressure will be a key test at Worlds.",
+      "hash": "ea446e48e1d2",
+      "flagged": null,
+      "model": "openai/gpt-oss-120b"
+    },
+    "LØS": {
+      "text": "LØS operates as a flexible, high-conversion team that wins by maintaining leads. Their opponent-adjusted lead at 15 minutes is +1,080, about level with the field average, but their lead conversion stands at 88.1%, third in the world. They average 32.3 minutes per game, shorter than the 32.6 minute field average, indicating they close out matches efficiently rather than relying on extended scaling.\n\nTheir primary weakness is a low ceiling, averaging +7,048 in their best 25% of games, which is worse than the field average of +10,439. Despite a 53.8% comeback rate, their series score of -0.34 suggests they struggle when series extend beyond their comfort zone. Watch their draft depth; with 69 champions played and no clear lean, they will likely adapt to opponent bans rather than forcing a specific meta.",
+      "hash": "d073c8321c23",
+      "flagged": null,
+      "model": "qwen/qwen3.8-27b"
+    }
+  }
+}

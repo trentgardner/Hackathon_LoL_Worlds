@@ -19,8 +19,8 @@ export default defineConfig([
     },
   },
   {
-    // Fetch/process scripts run in Node, not the browser
-    files: ['scripts/**/*.{js,mjs}'],
+    // Scripts and shared helpers run in Node
+    files: ['scripts/**/*.{js,mjs}', 'shared/**/*.js'],
     extends: [js.configs.recommended],
     languageOptions: {
       globals: globals.node,

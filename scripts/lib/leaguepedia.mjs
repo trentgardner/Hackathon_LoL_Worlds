@@ -120,6 +120,72 @@ export async function getWorldsTeams() {
 }
 
 /**
+ * Old names of the Worlds teams (Leaguepedia's Teams.RenamedTo), following chains of renames.
+ * Returns { oldName: { current, short } }. E.g. "Team Secret (Vietnamese Team)" -> Team Secret Whales.
+ * Games played under an old name belong to the current team.
+ */
+export async function getTeamAliases(teamNames) {
+  const aliases = {};
+  let targets = teamNames;
+  for (let depth = 0; depth < 4 && targets.length; depth++) {
+    const rows = await cargoQuery({
+      tables: 'Teams',
+      fields: 'OverviewPage=old,RenamedTo=renamedTo,Short=short',
+      where: `Teams.RenamedTo IN (${targets.map(quote).join(',')})`,
+    });
+    const found = [];
+    for (const r of rows) {
+      if (aliases[r.old] || teamNames.includes(r.old)) continue;
+      // A chain (A -> B -> C) points straight at the current Worlds name
+      const current = aliases[r.renamedTo]?.current ?? r.renamedTo;
+      aliases[r.old] = { current, short: r.short };
+      found.push(r.old);
+    }
+    targets = found;
+  }
+  return aliases;
+}
+
+/**
+ * Every series since WINDOW_START involving these teams, from the schedule tables.
+ * The schedule records each game's winner even when a game has no scoreboard,
+ * so series results come from here, not from the scoreboards.
+ * Returns { [matchId]: { team1, team2, date, overviewPage, bestOf, games: [{ n, winner }] } }
+ */
+export async function getSeriesResults(teamNames) {
+  const list = teamNames.map(quote).join(',');
+  const rows = await cargoQuery({
+    tables: 'MatchScheduleGame=MSG,MatchSchedule=MS',
+    joinOn: 'MSG.MatchId=MS.MatchId',
+    fields: [
+      'MS.MatchId=matchId', 'MS.DateTime_UTC=date', 'MS.Team1=team1', 'MS.Team2=team2', 'MS.BestOf=bestOf',
+      'MS.OverviewPage=overviewPage', 'MSG.N_GameInMatch=n', 'MSG.Blue=blue', 'MSG.Red=red',
+      'MSG.Winner=winner', 'MSG.IsRemake=isRemake',
+    ].join(','),
+    where: `MS.DateTime_UTC >= ${quote(WINDOW_START)} AND (MS.Team1 IN (${list}) OR MS.Team2 IN (${list}))`,
+    orderBy: 'MS.DateTime_UTC',
+  });
+
+  const series = {};
+  for (const r of rows) {
+    // Winner is 1 (blue) or 2 (red); skip remakes, games with no result yet, and showmatches
+    if (r.isRemake === '1' || (r.winner !== '1' && r.winner !== '2')) continue;
+    if (/showmatch/i.test(r.overviewPage)) continue;
+    const s = (series[r.matchId] ??= {
+      team1: r.team1,
+      team2: r.team2,
+      date: r.date,
+      overviewPage: r.overviewPage,
+      bestOf: Number(r.bestOf) || null,
+      games: [],
+    });
+    s.games.push({ n: Number(r.n), winner: r.winner === '1' ? r.blue : r.red });
+  }
+  for (const s of Object.values(series)) s.games.sort((a, b) => a.n - b.n);
+  return series;
+}
+
+/**
  * Get every game since WINDOW_START that a Worlds team played in.
  * One row per game: teams, result, series info, end-of-game team stats, picks/bans.
  */

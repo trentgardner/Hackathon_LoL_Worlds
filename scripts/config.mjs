@@ -1,7 +1,8 @@
 // Shared settings for the fetch + process scripts.
 
 // Data window: MSI 2026 start date through now
-export const WINDOW_START = '2026-06-28';
+export const WINDOW_START = process.env.WINDOW_START ?? '2026-06-28';
+// (WINDOW_START / CACHE_PATH can be overridden for backtests, e.g. fetching the spring split into a separate file)
 
 // Leaguepedia page for the Worlds field (TournamentRosters.OverviewPage starts with this)
 export const WORLDS_OVERVIEW = '2026 Season World Championship';
@@ -11,6 +12,12 @@ export const WORLDS_OVERVIEW = '2026 Season World Championship';
 // Demacia Cup dropped: no Worlds team played in it.
 export const EVENTS = {
   msi: 'MSI 2026',
+  ewc: 'Esports World Cup 2026',
+};
+
+// Leaguepedia event pages for the same events (used for series that have no scoreboard games)
+export const EVENT_PAGES = {
+  msi: '2026 Mid-Season Invitational',
   ewc: 'Esports World Cup 2026',
 };
 
@@ -72,7 +79,7 @@ export const LEAGUE_SLUGS = [
 ];
 
 // Single cache file for everything fetched. Delete it to wipe all downloaded data.
-export const CACHE_PATH = 'data/cache.json';
+export const CACHE_PATH = process.env.CACHE_PATH ?? 'data/cache.json';
 
 // Delay between API calls so we stay under rate limits
 export const REQUEST_DELAY_MS = 1500;
@@ -92,3 +99,17 @@ export const TAG_GAP = 4;
 
 // Where the processed team table goes (the app reads this)
 export const OUTPUT_PATH = 'src/data/teams.json';
+
+// Playstyle + draft tags. Scores are in standard steps from the Worlds-field average.
+export const STYLE = {
+  TEMPO_TAG: 0.6, // tempo (early lead + short games) beyond this = Early game / Late game, else Flexible
+  DRAFT_TAG: 1.0, // draft tempo is a softer signal, so only clear outliers get a tag
+  MIN_CHAMP_GAMES: 8, // a champion needs this many games (from other teams) to count toward draft tempo
+};
+
+// Overall rating (ranking + predictions) = this much game score + the rest series score.
+// Backtest (Oct 14): teams rated on games before Aug 1 / 10 / 15 / 20, scored on ~145 later series and
+// ~500 later games between Worlds teams. Game score alone predicted best (69.7% of series, log-loss 0.629);
+// adding any series score made predictions worse. Series score still drives the map's Y axis, archetypes
+// and clutch/fragile tags, it just doesn't drive predictions.
+export const OVERALL_GAME_WEIGHT = 1.0;

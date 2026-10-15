@@ -4,11 +4,15 @@
 
 import { WINDOW_START, REQUEST_DELAY_MS, LEAGUE_SLUGS } from './config.mjs';
 import { loadCache, saveCache } from './lib/cache.mjs';
-import { login, getWorldsTeams, getGames, getPlayerStats } from './lib/leaguepedia.mjs';
-import { getLeagues, getCompletedMatches, getMatchGames, getSnapshot15 } from './lib/lolesports.mjs';
+import { login, getWorldsTeams, getGames, getPlayerStats, getTeamAliases, getSeriesResults } from './lib/leaguepedia.mjs';
+import {
+  getLeagues, getCompletedMatches, getMatchGames, getSnapshot15, snapshotLooksEarly,
+  getGameChampions, championOverlap, championKey, CLOCK_VERSION,
+} from './lib/lolesports.mjs';
 
 const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
 const MATCH_WINDOW_MS = 12 * 60 * 60 * 1000; // lolesports match start must be within 12h of the game
+const MIN_CHAMPION_MATCH = 8; // of 10 champions, to accept that two games are the same game
 
 const slugFor = (tournament) => LEAGUE_SLUGS.find(([prefix]) => tournament.startsWith(prefix))?.[1];
 // Leaguepedia dates are UTC without a zone marker
@@ -26,8 +30,31 @@ async function main() {
   const codesOf = Object.fromEntries(teams.map((t) => [t.name, t.codes]));
   console.log(`Worlds teams: ${teams.length}`);
 
-  const games = await getGames(teamNames);
-  const players = await getPlayerStats(teamNames);
+  // Old names (e.g. "Team Secret (Vietnamese Team)" -> Team Secret Whales): search them too,
+  // then file everything under the current name
+  const aliases = await getTeamAliases(teamNames);
+  const rename = (name) => aliases[name]?.current ?? name;
+  for (const { current, short } of Object.values(aliases)) {
+    if (short && !codesOf[current].includes(short.toLowerCase())) codesOf[current].push(short.toLowerCase());
+  }
+  const searchNames = [...teamNames, ...Object.keys(aliases)];
+  console.log(`Old team names searched too: ${Object.keys(aliases).length}`);
+
+  const games = (await getGames(searchNames)).map((g) => ({
+    ...g, team1: rename(g.team1), team2: rename(g.team2), winner: rename(g.winner),
+  }));
+  const players = await getPlayerStats(searchNames);
+  for (const list of Object.values(players)) for (const p of list) p.team = rename(p.team);
+
+  // Series results from the schedule (covers games that have no scoreboard)
+  const seriesResults = await getSeriesResults(searchNames);
+  for (const sr of Object.values(seriesResults)) {
+    sr.team1 = rename(sr.team1);
+    sr.team2 = rename(sr.team2);
+    for (const gm of sr.games) gm.winner = rename(gm.winner);
+  }
+  console.log(`Series from the schedule: ${Object.keys(seriesResults).length}`);
+
   for (const g of games) {
     const old = cache.games[g.gameId] ?? {};
     // Keep anything already fetched from lolesports
@@ -36,10 +63,31 @@ async function main() {
       endPlayers: players[g.gameId] ?? [],
       lolesportsGameId: old.lolesportsGameId ?? null,
       snap15: old.snap15 ?? null,
+      clockCorrectedBy: old.clockCorrectedBy ?? null,
+      clockVersion: old.clockVersion ?? null,
+      noReliableSnapshot: old.noReliableSnapshot && old.clockVersion === CLOCK_VERSION,
     };
   }
+  // Tournament name for each series, from its scoreboard games (falls back to the event page)
+  const tournamentOf = {};
+  for (const g of games) tournamentOf[g.matchId] ??= g.tournament;
+  for (const [id, sr] of Object.entries(seriesResults)) sr.tournament = tournamentOf[id] ?? null;
+  cache.series = seriesResults;
+
   saveCache(cache);
   console.log(`Games since ${WINDOW_START}: ${games.length}`);
+
+  // Re-check every saved snapshot: its champions must match Leaguepedia's picks, or it's the wrong game
+  let mismatched = 0;
+  for (const g of Object.values(cache.games)) {
+    if (!g.snap15) continue;
+    const [a, b] = g.snap15.map((side) => side.players.map((p) => championKey(p.champion)));
+    if (championOverlap(g.picks, a, b) < MIN_CHAMPION_MATCH) {
+      Object.assign(g, { lolesportsGameId: null, snap15: null, clockCorrectedBy: null });
+      mismatched++;
+    }
+  }
+  if (mismatched) console.log(`Cleared ${mismatched} snapshot(s) whose champions didn't match (wrong game)`);
 
   // 2. Match each Leaguepedia series to a lolesports match
   const leagueIds = await getLeagues();
@@ -48,8 +96,9 @@ async function main() {
   for (const g of Object.values(cache.games)) (series[g.matchId] ??= []).push(g);
 
   const unmatched = [];
+  const usedGameIds = new Set(Object.values(cache.games).map((g) => g.lolesportsGameId).filter(Boolean));
   for (const seriesGames of Object.values(series)) {
-    if (seriesGames.every((g) => g.snap15)) continue;
+    if (seriesGames.every((g) => g.snap15 && !snapshotLooksEarly(g))) continue;
 
     const first = seriesGames[0];
     const slug = slugFor(first.tournament);
@@ -72,7 +121,24 @@ async function main() {
       continue;
     }
 
-    const match = await getMatchGames(candidates[0].matchId);
+    // Take the closest candidate whose game has the same champions (two series on one day can fool time alone)
+    let match = null;
+    const ownIds = new Set(seriesGames.map((g) => g.lolesportsGameId)); // this series' own games aren't "taken"
+    for (const candidate of candidates) {
+      const m = await getMatchGames(candidate.matchId);
+      const lg = m.games.find((x) => x.number === first.gameInMatch);
+      if (!lg || (usedGameIds.has(lg.gameId) && !ownIds.has(lg.gameId))) continue;
+      const champs = await getGameChampions(lg.gameId);
+      if (champs && championOverlap(first.picks, champs.blue, champs.red) >= MIN_CHAMPION_MATCH) {
+        match = m;
+        break;
+      }
+    }
+    if (!match) {
+      unmatched.push(`${first.matchId} (${first.team1} vs ${first.team2}: no lolesports game with the same champions)`);
+      continue;
+    }
+
     for (const g of seriesGames) {
       const lg = match.games.find((x) => x.number === g.gameInMatch);
       if (!lg) {
@@ -80,28 +146,31 @@ async function main() {
         continue;
       }
       g.lolesportsGameId = lg.gameId;
-      g.lolesportsTeams = match.teams; // teamId -> code, used to line up sides below
+      usedGameIds.add(lg.gameId);
     }
     await sleep(REQUEST_DELAY_MS / 3);
   }
   saveCache(cache);
 
-  // 3. ~15-min snapshot for each matched game
-  const todo = Object.values(cache.games).filter((g) => g.lolesportsGameId && !g.snap15);
+  // 3. ~15-min snapshot for each matched game (plus re-takes of old snapshots that landed before 15:00)
+  const todo = Object.values(cache.games).filter((g) => g.lolesportsGameId && !g.noReliableSnapshot && (!g.snap15 || snapshotLooksEarly(g)));
   console.log(`Fetching 15-min snapshots: ${todo.length} games`);
   const noFeed = [];
 
   for (const [i, g] of todo.entries()) {
-    const snap = await getSnapshot15(g.lolesportsGameId);
+    const snap = await getSnapshot15(g.lolesportsGameId, g.minutes);
     if (!snap) {
+      // No trustworthy 15:00 frame: drop any old snapshot rather than keep a bad one
+      Object.assign(g, { snap15: null, clockCorrectedBy: null, clockVersion: null, noReliableSnapshot: true });
       noFeed.push(g.gameId);
     } else {
-      // Line up blue/red with Leaguepedia's team1/team2 using a Worlds team's code
-      const worldsTeam = codesOf[g.team1] ? g.team1 : g.team2;
-      const blueCode = g.lolesportsTeams[snap.blueTeamId]?.toLowerCase();
-      const worldsIsBlue = codesOf[worldsTeam].includes(blueCode);
-      const team1IsBlue = worldsTeam === g.team1 ? worldsIsBlue : !worldsIsBlue;
+      // Line up blue/red with Leaguepedia's team1/team2 by champions (team1's picks are on one side)
+      const keys = (side) => side.players.map((p) => championKey(p.champion));
+      const [t1] = g.picks.map((side) => side.map(championKey));
+      const team1IsBlue = keys(snap.blue).filter((c) => t1.includes(c)).length >= keys(snap.red).filter((c) => t1.includes(c)).length;
       g.snap15 = team1IsBlue ? [snap.blue, snap.red] : [snap.red, snap.blue];
+      g.clockCorrectedBy = snap.clockCorrectedBy;
+      g.clockVersion = snap.clockVersion;
     }
     if ((i + 1) % 25 === 0) {
       saveCache(cache);
