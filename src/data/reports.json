@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-15T15:35:46.558Z",
+  "generatedAt": "2026-10-15T15:46:55.915Z",
   "reports": {
     "Gen.G": {
       "text": "Gen.G is a Powerhouse, posting above‑average game stats and series results. Their win condition is an early surge: adjusted lead at 15 minutes of +3,651 (gold + XP, adjusted for opponent strength, 4th of 19) and an 85.7% win rate when ahead (6th of 19). Their ceiling, the average of their best 25% of games (adjusted), is +15,434.  \n\nThey are vulnerable when the edge evaporates: raw lead at 15 is only +42 (gold +22, XP +20), volatility is 9,037 (spread of gold swing from 15 minutes to game end), and comeback win rate is 38.9% (better than field average of 29.5%, 4th of 19). At Worlds, watch whether they can preserve the lead against teams that push them into the volatile mid‑game.",
@@ -104,8 +104,14 @@
       "model": "openai/gpt-oss-120b"
     },
     "LØS": {
-      "text": "LØS operates as a flexible, high-conversion team that wins by maintaining leads. Their opponent-adjusted lead at 15 minutes is +1,080, about level with the field average, but their lead conversion stands at 88.1%, third in the world. They average 32.3 minutes per game, shorter than the 32.6 minute field average, indicating they close out matches efficiently rather than relying on extended scaling.\n\nTheir primary weakness is a low ceiling, averaging +7,048 in their best 25% of games, which is worse than the field average of +10,439. Despite a 53.8% comeback rate, their series score of -0.34 suggests they struggle when series extend beyond their comfort zone. Watch their draft depth; with 69 champions played and no clear lean, they will likely adapt to opponent bans rather than forcing a specific meta.",
+      "text": "LOS is a Bottom of the barrel team, below average in game stats and series results. They win by converting early leads and grinding comebacks: 88.1% win rate when ahead at 15 minutes (lead conversion), 53.8% when behind at 15 (comebacks), and a 76.6% game win rate (best of the field). Their playstyle yields an average game length of 32.3 min, shorter than the field.  \n\nThey falter in ceiling games, ceiling +7,048 (worse than field average +10,439, 16th) and series score -0.34 (worse than field average -0.00). Adjusted lead at 15 minutes is +1,080 (about level with average +1,197), so an early swing is critical. Watch their shallow draft—69 champions total, top‑5 picks 19%—to see if they can create that swing at Worlds.",
       "hash": "d073c8321c23",
+      "flagged": null,
+      "model": "openai/gpt-oss-120b"
+    },
+    "CTBC Flying Oyster": {
+      "text": "CFO plays a flexible, short-game style, averaging 31.6 minutes per match. Their win condition relies on grit rather than early dominance, as they sit 18th of 19 with an adjusted 15-minute lead of -2,134. Despite this deficit, they convert leads at 66.3% and rank 7th in comeback rate at 34.8%. Their series results outperform their game stats, winning 100.0% of close series and securing a reverse sweep, which masks underlying fragility.\n\nThey fall apart in consistency, posting the worst volatility in the field at 10,387 and a ceiling of +5,991, ranking 17th. Their raw series win rate of 68.1% contradicts their 18th-place model rank, creating significant bust risk. Watch their draft depth, featuring 72 champions, to see if they can stabilize their volatile gold swings against elite opponents at Worlds.",
+      "hash": "81de900ba6ac",
       "flagged": null,
       "model": "qwen/qwen3.8-27b"
     }
